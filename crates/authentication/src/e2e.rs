@@ -329,19 +329,40 @@ pub(super) fn e_prove(
         let mut plans = vida_plans(w, c, &q, b, mode);
         let binding_ms = db_ms(t);
         let t = Instant::now();
-        let points = plans
-            .par_iter()
-            .map(|p| fair_commitment(c, &p.alpha))
-            .collect::<Result<Vec<_>>>()?;
-        let msm_ms = db_ms(t);
+        let (witnesses, points, witness_ms, msm_ms) = match mode {
+            VidaMode::SharedQuery => {
+                anyhow::ensure!(c.h == 1, "VIDA row commitments require height one");
+                let witnesses = vida_per_token_witnesses(
+                    &w.documents,
+                    &c.blocks,
+                    usize::from(q.source.dimension),
+                    &plans,
+                );
+                let witness_ms = db_ms(t);
+                let t = Instant::now();
+                // Com(sum_i alpha_i a_i) uses only the dimension-many public generators.
+                let points = witnesses
+                    .par_iter()
+                    .map(|a| gem_matrix_proof::commit_scalars_v1(a))
+                    .collect::<Result<Vec<_>>>()?;
+                (witnesses, points, witness_ms, db_ms(t))
+            }
+            VidaMode::QueryBatched => {
+                let points = plans
+                    .par_iter()
+                    .map(|p| fair_commitment(c, &p.alpha))
+                    .collect::<Result<Vec<_>>>()?;
+                let msm_ms = db_ms(t);
+                let t = Instant::now();
+                let witnesses = plans
+                    .par_iter()
+                    .map(|p| power_witness(w, c, &p.alpha, PowerKernel::Radix))
+                    .collect();
+                (witnesses, points, db_ms(t), msm_ms)
+            }
+        };
         let t = Instant::now();
-        let a = plans
-            .par_iter()
-            .map(|p| power_witness(w, c, &p.alpha, PowerKernel::Radix))
-            .collect();
-        let witness_ms = db_ms(t);
-        let t = Instant::now();
-        let bundle = vida_proofs(&mut plans, &points, a)?;
+        let bundle = vida_proofs(&mut plans, &points, witnesses)?;
         vo.arguments = bundle.arguments;
         vo.claims = bundle.claims;
         return Ok(

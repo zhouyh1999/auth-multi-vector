@@ -115,10 +115,10 @@
    "destination": "crates/authentication/src/e2e.rs",
    "source": "hkbu-csr35:/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/e2e.rs",
    "source_sha256": "fd174a6fd95ac445deb4e397cee74ed8f6aaa1536a2ef76440cb913707e7d691",
-   "delivered_sha256": "ac86de1b8e374302bcf7a1e4c7eece37b8f15d2e38a235e395f9dee49ffbe48a",
+   "delivered_sha256": "00f686142540df6b201aa52643f92734c6e256e0c7d5098469293817b83536b2",
    "origin_kind": "experiment",
    "role": "authentication",
-   "change": "Kept the stage envelopes, signed material verification and four measured stage branches. Removed unused benchmark entry points."
+   "change": "Kept the stage envelopes and signed material verification. The SharedQuery prover computes each aggregate commitment directly from its witness."
   },
   {
    "destination": "crates/authentication/src/fair_endpoints.rs",
@@ -259,10 +259,10 @@
    "destination": "crates/authentication/src/vida_baselines.rs",
    "source": "hkbu-csr35:/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/vida_baselines.rs",
    "source_sha256": "88ff6d5ad4114b0435edebcb0c3f186bc1cf47095d88a820032954d20cc91ff2",
-   "delivered_sha256": "9a3c1ba7e91de490a569d2b788c1be27777efc2790182e8e15b96e533bbf2ceb",
+   "delivered_sha256": "592eb786ce041b9396fb61d45e4988fbeb96ed854a9df0a9598390f6a8cd9cc3",
    "origin_kind": "experiment",
    "role": "authentication",
-   "change": "Kept the two measured VIDA paths with per-token and batched proof construction and verification."
+   "change": "Retained per-token and query-batched proof semantics. The per-token prover groups coordinate reads across four independent witnesses."
   },
   {
    "destination": "crates/authentication/src/wire.rs",

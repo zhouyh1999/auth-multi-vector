@@ -95,6 +95,58 @@ pub(super) fn vida_plans(
         })
         .collect()
 }
+/// Each token retains its own row weights. Four tokens share reads of each coordinate row.
+pub(super) fn vida_per_token_witnesses(
+    documents: &[Vec<Coordinate>],
+    rows: &[PilotBlock],
+    dimension: usize,
+    plans: &[VidaPlan],
+) -> Vec<Vec<Scalar>> {
+    const TOKENS_PER_GROUP: usize = 4;
+    const ROWS_PER_TILE: usize = 2048;
+    let weights: Vec<_> = plans
+        .par_iter()
+        .map(|p| narrow_digits::<8>(&p.alpha))
+        .collect();
+    let groups = plans.len().div_ceil(TOKENS_PER_GROUP);
+    let jobs = rows.len().div_ceil(ROWS_PER_TILE) * groups;
+    let partials: Vec<_> = (0..jobs)
+        .into_par_iter()
+        .map(|job| {
+            let start_row = (job / groups) * ROWS_PER_TILE;
+            let first_token = (job % groups) * TOKENS_PER_GROUP;
+            let tokens = TOKENS_PER_GROUP.min(plans.len() - first_token);
+            // Each i64 accumulates at most 2048 products of a signed i16 and a u32.
+            let mut sums = vec![[0_i64; 8]; tokens * dimension];
+            for (offset, row) in rows[start_row..].iter().take(ROWS_PER_TILE).enumerate() {
+                let start = row.offset * dimension;
+                let coordinates = &documents[row.doc][start..start + dimension];
+                for (token, output) in sums.chunks_exact_mut(dimension).enumerate() {
+                    let digits = &weights[first_token + token][start_row + offset];
+                    for (acc, &value) in output.iter_mut().zip(coordinates) {
+                        for (limb, &digit) in acc.iter_mut().zip(digits) {
+                            *limb += i64::from(value) * i64::from(digit);
+                        }
+                    }
+                }
+            }
+            (first_token, sums)
+        })
+        .collect();
+    let mut witnesses = vec![vec![Scalar::ZERO; dimension]; plans.len()];
+    for (first_token, sums) in partials {
+        for (witness, partial) in witnesses[first_token..]
+            .iter_mut()
+            .zip(sums.chunks_exact(dimension))
+        {
+            for (coordinate, digits) in witness.iter_mut().zip(partial) {
+                *coordinate += reduce_signed_digits(digits);
+            }
+        }
+    }
+    witnesses
+}
+
 // A VIDA opening has exactly one genuine row per commitment. The authenticated
 // catalog enumerates the documents and offsets in the same order as the received table.
 pub(super) fn vida_fast_table_claim(w: &FairWork, plan: &VidaPlan) -> Scalar {
@@ -206,4 +258,53 @@ pub(super) fn vida_verify_proofs(
                 .map_err(|e| anyhow::anyhow!("VIDA verify: {e:?}"))?;
             Ok(())
         })
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn per_token_witness_matches_field_sum_across_group_and_tile_tails() {
+        let lengths = [1027, 1022];
+        let mut documents = Vec::new();
+        let mut rows = Vec::new();
+        for (doc, &len) in lengths.iter().enumerate() {
+            let mut coords = Vec::new();
+            for offset in 0..len {
+                coords.extend([i16::MIN, (doc * len + offset) as i16, i16::MAX]);
+                rows.push(PilotBlock {
+                    doc,
+                    id: doc as u32,
+                    offset,
+                    len: 1,
+                });
+            }
+            documents.push(coords);
+        }
+        let plans: Vec<_> = (0..5)
+            .map(|token| VidaPlan {
+                alpha: vida_powers(-Scalar::from(token as u64 + 2), rows.len()),
+                transcript: merlin::Transcript::new(b"test"),
+                beta: vec![],
+                coefficients: vec![],
+                token,
+            })
+            .collect();
+        let witnesses = vida_per_token_witnesses(&documents, &rows, 3, &plans);
+        assert_eq!(witnesses.len(), plans.len());
+        for (plan, witness) in plans.iter().zip(witnesses) {
+            let mut expected = [Scalar::ZERO; 3];
+            for (row, weight) in rows.iter().zip(&plan.alpha) {
+                let start = row.offset * 3;
+                for (sum, &value) in expected
+                    .iter_mut()
+                    .zip(&documents[row.doc][start..start + 3])
+                {
+                    *sum += weight * scalar_coordinate(value);
+                }
+            }
+            assert_eq!(witness, expected);
+        }
+    }
 }
