@@ -1,0 +1,10 @@
+{
+  "binary": "3d4ceebbd332440fb2859b7ef4bbf9868d5939a28cfd86dff6506e0f639409d3",
+  "plan": "0f6347464eced63e9d000430b350e1b5839a2ded60aff7c89391f09f9900589f",
+  "queries": 1,
+  "requests": 16,
+  "full": 4,
+  "warmup": 0,
+  "formal": 16,
+  "matched_receipts": 16
+}

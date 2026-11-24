@@ -1,0 +1,256 @@
+{
+  "source": "/home/comp/csyhzhou/workspace/test_rag/gem_auth/vendor/ipa",
+  "files": [
+    {
+      "path": ".github/workflows/check-develop.yml",
+      "sha256": "5b330f33789e45b4be5d8cf898fcc5cbf78e8e59d65dc5a757b2488cc2fbdf6c",
+      "bytes": 1021
+    },
+    {
+      "path": ".github/workflows/check-main.yml",
+      "sha256": "aa6abddd8729f8aab37aef610cc98e917c837b2ae985c549b8d90b6388cb882b",
+      "bytes": 1015
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "3c190dc8bc9f793ca5c8d1e5f01b329ea63b2853bc9e8a3e18da63f7fb10c5b5",
+      "bytes": 31
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "e78271c5f76a94e4ae4edac1d45cd8fd71a179b89b982b302d4cbef30e730811",
+      "bytes": 1997
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "01f09b16143b0ff1ba7067935636e55daf5b68452d4b9afdf9e27b2c37346b1e",
+      "bytes": 1375
+    },
+    {
+      "path": "Cargo.lock",
+      "sha256": "aadf555578f6b86b40f467ca01b1f03e502d8f9ef5a48452899371cde1f6b079",
+      "bytes": 24756
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "65d35683eea5d26c86803f77ac3879c6c0f81fc06b8a657d0a0de2cc6d02bd57",
+      "bytes": 2263
+    },
+    {
+      "path": "LICENSE.txt",
+      "sha256": "c11b881a42d112b7fb0ba3b4731c76d2a0c1f90e9fa62612b83f435ff38d76f7",
+      "bytes": 1068
+    },
+    {
+      "path": "Makefile",
+      "sha256": "2a77bbbe4443fc4f181687112d8319f2302cb45ebe80180a6ae0709469bcf6e6",
+      "bytes": 292
+    },
+    {
+      "path": "README.md",
+      "sha256": "83827ac83ab979d188305913ce46cf53e66c5840a6b47f21f0e99db15f190c69",
+      "bytes": 8307
+    },
+    {
+      "path": "benches/generators.rs",
+      "sha256": "64feb80a80e2a5385271701470c30bd2ec290798770f73532a857fb80f481f58",
+      "bytes": 513
+    },
+    {
+      "path": "benches/linear_proof.rs",
+      "sha256": "bd7c9aabcae22ab0f05ab0e886fec7c6113d4dddcf204f32d7c3a9e054061a1e",
+      "bytes": 5926
+    },
+    {
+      "path": "benches/r1cs.rs",
+      "sha256": "9b82615e137184b52a6d38296df0f0f7e2c3e37b8636f547e8fc6160bbaa07f8",
+      "bytes": 8724
+    },
+    {
+      "path": "benches/range_proof.rs",
+      "sha256": "ec97a29f491d5f45c410fc3707227a80c8a3c63b17e8a29022e754be8acecb52",
+      "bytes": 4148
+    },
+    {
+      "path": "benches/spring_vs_padding.rs",
+      "sha256": "98f587e4d8bc391305c333b1b3273593c263329da1f9b797d89f3f5f6a358e8b",
+      "bytes": 7195
+    },
+    {
+      "path": "docs/aggregation-api.md",
+      "sha256": "17add7d18c976824e88a8635582b256672e5d299eabef7d18179b62d2d5db059",
+      "bytes": 139941
+    },
+    {
+      "path": "docs/assets/aggregated-range-proof.sketch",
+      "sha256": "99307e538f81e96fcc626d2836337fc182ace80f1adb3fe443f241968144d97f",
+      "bytes": 280584
+    },
+    {
+      "path": "docs/assets/bulletproofs-diagram.png",
+      "sha256": "fc22e0b698518f72543a6ff80646d8e03683df77f57de6a0031cb66f7947a39c",
+      "bytes": 716858
+    },
+    {
+      "path": "docs/cs-proof.md",
+      "sha256": "6bebd24f42cea86015c019ed73e68dc17043cdf7ff88f5e2efc1ef668a2023f1",
+      "bytes": 16588
+    },
+    {
+      "path": "docs/inner-product-protocol.md",
+      "sha256": "ced99838782058424e78e7ef8a04c89a0a6e3a5f205520149cf3453defe26ad2",
+      "bytes": 6662
+    },
+    {
+      "path": "docs/notes-intro.md",
+      "sha256": "2295beb6a2dd8e3d2a74eb3dd52a614815517a734b3126b6ac93b38ee46ad280",
+      "bytes": 4531
+    },
+    {
+      "path": "docs/notes-ipp.md",
+      "sha256": "9ca1815405b49627558a89585ccdd676eb34a31bd60085d98fac696cf0947e14",
+      "bytes": 9396
+    },
+    {
+      "path": "docs/notes-r1cs.md",
+      "sha256": "ca92d802540e9c01d4be6ef4e13eb0f7f21040dd2bd3085e462ec2a5a5e86d0e",
+      "bytes": 59285
+    },
+    {
+      "path": "docs/notes-rp.md",
+      "sha256": "4166eb4923aac54781a6a4d0aaccdce47484e0bc8983f0795e7854baf4134d86",
+      "bytes": 37244
+    },
+    {
+      "path": "docs/r1cs-docs-example.md",
+      "sha256": "9b1711c7dc3c346d7069273636f20d7e7c69427c73c7f505c120ef41e285e3eb",
+      "bytes": 22053
+    },
+    {
+      "path": "docs/range-proof-protocol.md",
+      "sha256": "5d141b6ae87b3534249125956df5cd595de8ff9cf2b0964f265325e28128c39e",
+      "bytes": 18060
+    },
+    {
+      "path": "examples/bench_print.rs",
+      "sha256": "68e03479dbb46efdaf41586de3ea9c53ddb0f83f90edc10b5b2e1deb4d41baea",
+      "bytes": 5032
+    },
+    {
+      "path": "examples/ipa_compare.rs",
+      "sha256": "1566f91f680a5d88518544bf6230f0abc3017f0064b71b967b2790128827641b",
+      "bytes": 4313
+    },
+    {
+      "path": "src/errors.rs",
+      "sha256": "bd1d665d8dbf5c50c6e28ca9ecbb2be3cac82153d51220fd95e56536df039f86",
+      "bytes": 6798
+    },
+    {
+      "path": "src/generators.rs",
+      "sha256": "9bc4efb9c059385dddbb9442650dfb5717d460c773dd9a628954e63b6fd29a73",
+      "bytes": 12617
+    },
+    {
+      "path": "src/inner_product_proof.rs",
+      "sha256": "d28ecc3ca6364edfe1a8e3abeaa4cfc28afb15ef1ac89af6449f477a00c3428e",
+      "bytes": 18676
+    },
+    {
+      "path": "src/lib.rs",
+      "sha256": "8beb0d6f15afc90e448fc9e4b20bc66309c067624b93785bf69021305ac765a6",
+      "bytes": 1673
+    },
+    {
+      "path": "src/linear_proof.rs",
+      "sha256": "695d98cf2d712785bb58d2eab7d1d1acc4b612e31de1bc529d588658d05d8578",
+      "bytes": 17685
+    },
+    {
+      "path": "src/r1cs/constraint_system.rs",
+      "sha256": "002fca10eefaa29c615fbc65807f4416b1586d9a67fd1b28b18575bf0f86a779",
+      "bytes": 5506
+    },
+    {
+      "path": "src/r1cs/linear_combination.rs",
+      "sha256": "42e597aaee86952d1d2fdd6c419557d8af0b01abd99022f1f2a1dbe58db976a3",
+      "bytes": 4924
+    },
+    {
+      "path": "src/r1cs/metrics.rs",
+      "sha256": "c6819746a72c79cb5193724f15e431e3d036c6dd7de0a504a9bfcadfd1c7eda9",
+      "bytes": 601
+    },
+    {
+      "path": "src/r1cs/mod.rs",
+      "sha256": "62db8270277922a9d742886885570d3e1dec78455da63291c5689783a4e53f05",
+      "bytes": 611
+    },
+    {
+      "path": "src/r1cs/proof.rs",
+      "sha256": "28a11faaa9efcbef6225d62612552f80de32f12557c5c454a0a318db3d94ba2e",
+      "bytes": 9675
+    },
+    {
+      "path": "src/r1cs/prover.rs",
+      "sha256": "d4a2e9d333ca39999b625340224d1cab969a319849abb18c8acf55d4d427b239",
+      "bytes": 27161
+    },
+    {
+      "path": "src/r1cs/verifier.rs",
+      "sha256": "bd07ee4bed98e0e1ddce7314e2da77fd8a0e43c1ded552c25acc77c696878396",
+      "bytes": 19469
+    },
+    {
+      "path": "src/range_proof/dealer.rs",
+      "sha256": "97b120ad77e2f90d2ce0db889f21422d95c456e6e1b389ed42a8728b599843c6",
+      "bytes": 13265
+    },
+    {
+      "path": "src/range_proof/messages.rs",
+      "sha256": "8ede8a072bdaecc0e34701ac8055a3b475889cd660c4e29ef3086fd70e3cb4b8",
+      "bytes": 5557
+    },
+    {
+      "path": "src/range_proof/mod.rs",
+      "sha256": "45d317f4fbb194cebbe811445a804f75f64b4aa563b740bafc364fe61287b22f",
+      "bytes": 30007
+    },
+    {
+      "path": "src/range_proof/party.rs",
+      "sha256": "173d240a915ee6bc47669234c436f0f2f9ec39f179f3310eada30546fa1ea71c",
+      "bytes": 10480
+    },
+    {
+      "path": "src/spring_linear_proof.rs",
+      "sha256": "4faefdcaf0ed5efb397d6a86b43d02329990bed95a61cf1635cf14fbaa0f3b95",
+      "bytes": 63504
+    },
+    {
+      "path": "src/transcript.rs",
+      "sha256": "95e3313038e591405381f6aed8d3c6a1532271a33fd90b3cc8af7a1a59a3ae6d",
+      "bytes": 3038
+    },
+    {
+      "path": "src/util.rs",
+      "sha256": "b85df1621bf88c34a2c385658a5c003c0d1f46fcddb9382d7ad1f1462bd5f0d4",
+      "bytes": 11279
+    },
+    {
+      "path": "tests/r1cs.rs",
+      "sha256": "e5d9d1dd00673af3700160c717364a479ea5d6f4aee3ea7cd98fb492178271fe",
+      "bytes": 12819
+    },
+    {
+      "path": "tests/range_proof.rs",
+      "sha256": "d87b7cde288d25212c3cf24957ea100adf04914be6011ca7e2ecc1e9870b29a8",
+      "bytes": 25961
+    }
+  ],
+  "source_tree_sha256": "de7e0afba75555cee574af0cd3883c861e5e5bf54ee92e065f28c7b6484ae417",
+  "license": "MIT",
+  "changes": "Parallel verifier field/group sums; large MSM chunks align to pools of at least 24 workers. Original transcript, equations, generators and proof encoding remain unchanged.",
+  "upstream_source_tree_sha256": "cbd423d591cbec0f821ccd81f3c6184023ba0e1adc4985eb5acf05c3c859ae72",
+  "protocol_reference_source_tree_sha256": "404322911ead3b7b0aee331f9ee3eb45d4c4bbc25d21db00a0a111b08f5c88d1",
+  "optimization": "Execution-only parallelization and measured MSM chunk tuning; retains exact protocol reference and all previous signed implementation hashes."
+}

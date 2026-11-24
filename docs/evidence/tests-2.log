@@ -1,0 +1,192 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+warning: unused import: `decode_frame_v3`
+ --> crates/gem-cli/src/raw_auth.rs:7:48
+  |
+7 | use gem_core::{INDEX_MAGIC_V3, SearchParamsV3, decode_frame_v3, hash_bytes, sha256_file};
+  |                                                ^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: `gem-cli` (lib) generated 1 warning (run `cargo fix --lib -p gem-cli` to apply 1 suggestion)
+   Compiling gem-auth-scheme-block-multi-bench v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/authentication)
+warning: `gem-cli` (lib test) generated 1 warning (1 duplicate)
+   Compiling gem-lotte-auth-pilot v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/e2e-benchmark)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 6.17s
+     Running unittests src/lib.rs (artifacts/acceptance/target/debug/deps/gem_auth_scheme_block_multi_bench-69df62ca4fd7d213)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (artifacts/acceptance/target/debug/deps/gem_auth_scheme_v3-cf6a270d341af49f)
+
+running 40 tests
+test compact::protocol::optimization_tests::batched_witness_matches_scalar_reference_and_preserves_padding ... ignored, batched million-coordinate witness: run explicitly with --release --ignored
+test compact::protocol::optimization_tests::tiled_aggregations_match_independent_scalar_loops ... ok
+test compact::protocol::optimization_tests::i16_windows_cover_every_signed_coordinate ... ok
+test compact::tests::bounded_parser_truncation_trailing_enums_lengths_and_public ... ok
+test compact::protocol::optimization_tests::valid_speculative_reranking_still_requires_exact_replay_disclosures ... ok
+test compact::tests::explicit_centroid_preprocessing_preserves_self_contained_vo ... ok
+test compact::tests::implicit_candidate_boundaries_require_exact_replay_disclosures ... ok
+test compact::tests::large_norms_with_representable_dots_are_authenticated ... ok
+test compact::tests::stored_raw_and_matrix_trees_are_both_validated ... ok
+test compact::tests::nonwinner_token_deletion_and_commitment_tampering ... ok
+test compact::tests::every_request_reauthenticates_complete_public_payload ... ok
+test compact::wire::optimization_tests::fixed_arrays_omit_lengths_and_preserve_values_and_accounting ... ok
+test compact::wire::optimization_tests::implicit_code_length_preserves_values_and_checks_bytes_before_allocation ... ok
+test protocol::optimization_tests::batched_witness_matches_scalar_reference_and_preserves_padding ... ignored, batched million-coordinate witness: run explicitly with --release --ignored
+test compact::tests::external_trust_vo_preserves_results_and_local_matrix_request_binding ... ok
+test compact::tests::raw_expansion_and_padding_corruption_rejected ... ok
+test protocol::optimization_tests::tiled_aggregations_match_independent_scalar_loops ... ok
+test protocol::optimization_tests::i16_windows_cover_every_signed_coordinate ... ok
+test compact::tests::separate_five_component_trees_and_backend_specific_wire ... ok
+test tests::bounded_parser_truncation_trailing_enums_lengths_and_public ... ok
+test compact::tests::valid_unused_commitment_and_no_entry_payload_are_rejected ... ok
+test protocol::optimization_tests::valid_speculative_reranking_still_requires_exact_replay_disclosures ... ok
+test compact::tests::table_y_commitment_boundaries_and_proof_attacks ... ok
+test tests::explicit_centroid_preprocessing_preserves_self_contained_vo ... ok
+test compact::tests::directed_serialized_attack_runner_checks_each_backend ... ok
+test tests::implicit_candidate_boundaries_require_exact_replay_disclosures ... ok
+test tests::every_request_reauthenticates_complete_public_payload ... ok
+test tests::external_trust_vo_preserves_results_and_local_matrix_request_binding ... ok
+test tests::nonwinner_token_deletion_and_commitment_tampering ... ok
+test tests::stored_raw_and_matrix_trees_are_both_validated ... ok
+test tests::large_norms_with_representable_dots_are_authenticated ... ok
+test wire::optimization_tests::fixed_arrays_omit_lengths_and_preserve_values_and_accounting ... ok
+test wire::optimization_tests::implicit_code_length_preserves_values_and_checks_bytes_before_allocation ... ok
+test tests::raw_expansion_and_padding_corruption_rejected ... ok
+test tests::separate_five_component_trees_and_backend_specific_wire ... ok
+test tests::directed_serialized_attack_runner_checks_each_backend ... ok
+test tests::valid_unused_commitment_and_no_entry_payload_are_rejected ... ok
+test compact::tests::all_backends_modes_threads_and_empty_entries ... ok
+test tests::table_y_commitment_boundaries_and_proof_attacks ... ok
+test tests::all_backends_modes_threads_and_empty_entries ... ok
+
+test result: ok. 38 passed; 0 failed; 2 ignored; 0 measured; 0 filtered out; finished in 22.11s
+
+     Running unittests src/lib.rs (artifacts/acceptance/target/debug/deps/gem_auth_v3-0885dc4bbb57943a)
+
+running 19 tests
+test tests::audit::real_lotte10k_independent_membership_and_all_query_search_oracle ... ignored, requires GEM_RAW_AUTH_AUDIT_ARTIFACT_ROOT and GEM_RAW_AUTH_AUDIT_OUTPUT
+test tests::fp16_all_finite_patterns_and_illegal_fp32 ... ok
+test tests::audit::strict_unreachable_index_authenticates_without_graph_or_candidate_repair ... ok
+test tests::leaf_count_is_bound_even_with_hidden_padding_subtree ... ok
+test tests::hand_checked_queue_pruning_early_stop_and_selective_openings ... ok
+test tests::multiproof_exhaustive_shapes_and_strictness ... ok
+test tests::external_trust_vo_keeps_results_and_authenticates_the_selected_root ... ok
+test tests::negative_near_tie_signed_zero_and_finite_overflow ... ok
+test tests::source_id_mapping_is_offline_and_not_in_document_leaves ... ok
+test tests::every_request_reauthenticates_complete_public_data ... ok
+test wire::implicit_code_tests::codes_omit_only_the_length_and_reject_truncation ... ok
+test wire::implicit_code_tests::raw_arrays_have_no_length_and_reject_truncation_before_allocation ... ok
+test tests::audit::every_subset_of_small_merkle_trees_has_a_strict_canonical_proof ... ok
+test tests::audit::freshly_built_graphs_authenticate_and_match_independent_models ... ok
+test tests::trust_request_public_snapshot_and_bounded_wire_attacks ... ok
+test tests::valid_unused_openings_missing_pruning_and_component_attacks ... ok
+test tests::audit::independent_state_machine_matches_256_complete_traces_and_exact_results ... ok
+test tests::audit::complete_verifier_rejects_wire_mutations_and_truncations_without_panic ... ok
+test tests::randomized_256_sparse_dense_wire_threads_and_oracles has been running for over 60 seconds
+test tests::randomized_256_sparse_dense_wire_threads_and_oracles ... ok
+
+test result: ok. 18 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 64.87s
+
+     Running unittests src/lib.rs (artifacts/acceptance/target/debug/deps/gem_cli-17908c6a4b920788)
+
+running 4 tests
+test native::build::tests::probe_and_benchmark_report_disconnection_without_rejecting_it ... ok
+test native::evidence::tests::validation_content_evidence_has_no_path_field ... ok
+test fixed_reference::conversion_tests::independent_ieee_rounding_matches_contract_on_all_half_patterns ... ok
+test compact_cli::fixed_reference::conversion_tests::independent_ieee_rounding_matches_contract_on_all_half_patterns ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+     Running unittests src/bin/gem_csr38_full_test.rs (artifacts/acceptance/target/debug/deps/gem_csr38_full_test-69b8b4b571b22430)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/gem_native_v3.rs (artifacts/acceptance/target/debug/deps/gem_native_v3-39e363decdaefefb)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/gem_raw_auth_v3.rs (artifacts/acceptance/target/debug/deps/gem_raw_auth_v3-7fe8b69e0ce6f75c)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/gem_scheme_auth_v3.rs (artifacts/acceptance/target/debug/deps/gem_scheme_auth_v3-0bb6d695c7c6947a)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/finalize_v3.rs (artifacts/acceptance/target/debug/deps/finalize_v3-132f64e2d79d5482)
+
+running 1 test
+test finalize_preserves_complete_graph_and_accepts_disconnection_but_rejects_invalid_sources ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 14.58s
+
+     Running tests/native_query.rs (artifacts/acceptance/target/debug/deps/native_query-83c32c4d4e9be349)
+
+running 2 tests
+test shard_discovery_and_compact_import_reject_gaps_without_a_preflight ... ok
+test query_batch_handles_empty_buckets_and_determinism_checks_raw_count ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 5.39s
+
+     Running tests/published_full_compatibility.rs (artifacts/acceptance/target/debug/deps/published_full_compatibility-c7161690eaf152c3)
+
+running 4 tests
+test full_fine_codebook_dimension_is_supported_without_weakening_the_allocation_bound ... ok
+test streamed_legacy_offline_reader_preserves_frames_and_rejects_lengths ... ok
+test streamed_hash_is_exactly_the_previous_canonical_hash ... ok
+test published_graph_preserves_25_memberships_order_and_original_entry_in_both_wire_codecs ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.52s
+
+     Running tests/raw_auth_v3.rs (artifacts/acceptance/target/debug/deps/raw_auth_v3-7b33df86c83c0a97)
+
+running 2 tests
+test removed_public_cache_cli_is_rejected ... ok
+test isolated_process_client_and_persistence ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.25s
+
+     Running tests/scheme_auth_v3.rs (artifacts/acceptance/target/debug/deps/scheme_auth_v3-a458d1edb4b64391)
+
+running 4 tests
+test cases::removed_public_cache_cli_is_rejected ... ok
+test compact::cases::removed_public_cache_cli_is_rejected ... ok
+test cases::isolated_process_client_and_persistence ... FAILED
+test compact::cases::isolated_process_client_and_persistence ... FAILED
+
+failures:
+
+---- cases::isolated_process_client_and_persistence stdout ----
+
+thread 'cases::isolated_process_client_and_persistence' (340901) panicked at crates/gem-cli/tests/support/scheme_auth_cases.rs:165:5:
+Error: thread count must be between 1 and 8 available logical CPUs
+
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- compact::cases::isolated_process_client_and_persistence stdout ----
+
+thread 'compact::cases::isolated_process_client_and_persistence' (340903) panicked at crates/gem-cli/tests/support/scheme_auth_cases.rs:165:5:
+Error: thread count must be between 1 and 8 available logical CPUs
+
+
+
+failures:
+    cases::isolated_process_client_and_persistence
+    compact::cases::isolated_process_client_and_persistence
+
+test result: FAILED. 2 passed; 2 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.12s
+
+error: test failed, to rerun pass `-p gem-cli --test scheme_auth_v3`

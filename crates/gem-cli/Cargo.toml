@@ -1,0 +1,40 @@
+[package]
+name = "gem-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+ctrlc.workspace = true
+gem-core = { path = "../gem-core" }
+gem-search = { path = "../gem-search" }
+gem-auth-v3 = { path = "../gem-auth-v3" }
+gem-auth-scheme-v3 = { path = "../gem-auth-scheme-v3" }
+gem-matrix-proof = { path = "../gem-matrix-proof" }
+half.workspace = true
+curve25519-dalek.workspace = true
+bulletproofs = { package = "ipa", path = "../../third_party/ipa" }
+ed25519-dalek.workspace = true
+rand.workspace = true
+bincode.workspace = true
+hex.workspace = true
+rayon.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+walkdir.workspace = true
+
+[[bin]]
+name = "gem-native-v3"
+path = "src/bin/gem_native_v3.rs"
+
+[[bin]]
+name = "gem-raw-auth-v3"
+path = "src/bin/gem_raw_auth_v3.rs"
+
+[[bin]]
+name = "gem-scheme-auth-v3"
+path = "src/bin/gem_scheme_auth_v3.rs"
+

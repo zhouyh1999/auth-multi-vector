@@ -1,0 +1,36 @@
+{
+  "methods": {
+    "block_fast": {
+      "index": "40481b90b3c6023ba73cbbf6ab65b16671620155a90982a33cf175b77a943b23",
+      "stages": [
+        "c9ae541cdb13f77d323e8476d45948535667d349d3ee07b713222572b3297aa1",
+        "2016ee66e9d888ade3279d6fd11ae8a90b8f4a9bb7a7aadad058715bcabf9b04",
+        "86c034be9fd7fa4f69dfa6cb355fb891f8f74f1a7c3c4afb1823190172dd64d0"
+      ]
+    },
+    "raw": {
+      "index": "40481b90b3c6023ba73cbbf6ab65b16671620155a90982a33cf175b77a943b23",
+      "stages": [
+        "1d032f1c814755137d5698a0ed33fb33f5705988409acc0b824a6fe79ede789d",
+        "48f4efa8526a5a35c6df2d847de23f921aef2df0df59f33048c9d705fe660ff2",
+        "e499975b7ae6a6b88dda3925fa2f874b6aad644c02ae07798fcec7f3d46da61a"
+      ]
+    },
+    "vida_batched": {
+      "index": "40481b90b3c6023ba73cbbf6ab65b16671620155a90982a33cf175b77a943b23",
+      "stages": [
+        "266dee2d75febc909226ffacf07f9a2e09e8da76fca4c50938ddb752e72770c3",
+        "148532be1999bd0a518496119e3887a340a1a76b39044d4b1b05e304703db880",
+        "c7fb8d2632e592e437e2855a62e218dccdd21afe456fc558813e3315351c77e3"
+      ]
+    },
+    "vida_per_token": {
+      "index": "40481b90b3c6023ba73cbbf6ab65b16671620155a90982a33cf175b77a943b23",
+      "stages": [
+        "266dee2d75febc909226ffacf07f9a2e09e8da76fca4c50938ddb752e72770c3",
+        "148532be1999bd0a518496119e3887a340a1a76b39044d4b1b05e304703db880",
+        "c7fb8d2632e592e437e2855a62e218dccdd21afe456fc558813e3315351c77e3"
+      ]
+    }
+  }
+}

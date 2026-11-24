@@ -1,0 +1,21 @@
+import shard 1/1 documents=4
+loaded raw shard 1/1 documents=4
+raw components shard 1/1
+loaded raw shard 1/1 documents=4
+compact commitments shard 1/1 elapsed=0.1s
+deep compact shard 1/1
+block 1/1 documents=4 seconds=0.11
+complete block
+row 1/1 documents=4 seconds=0.05
+complete row
+import shard 1/1 documents=4
+loaded raw shard 1/1 documents=4
+raw components shard 1/1
+loaded raw shard 1/1 documents=4
+compact commitments shard 1/1 elapsed=0.1s
+deep compact shard 1/1
+block 1/1 documents=4 seconds=0.14
+complete block
+row 1/1 documents=4 seconds=0.06
+complete row
+all 45 files match

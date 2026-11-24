@@ -1,0 +1,12 @@
+5588 distinct delivered files match their SHA-256 digests
+source_and_dependency_files=5588; checked_EL8_files= 115 Cargo_packages= 117
+old_tree_visible=False; cargo_home_contains_registry=False
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+Linux 5.4.17-2136.361.4.el8uek.x86_64 x86_64 GNU/Linux
+NAME="Oracle Linux Server"
+VERSION="8.10"
+ID="ol"
+ID_LIKE="fedora"
+VARIANT="Server"
+bubblewrap 0.4.0
+exit=0

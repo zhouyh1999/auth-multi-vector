@@ -1,0 +1,656 @@
+gem-auth-scheme-block-multi-bench v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/authentication)
+├── anyhow feature "default"
+│   ├── anyhow v1.0.104
+│   └── anyhow feature "std"
+│       └── anyhow v1.0.104
+├── bincode feature "default"
+│   └── bincode v1.3.3
+│       └── serde feature "default"
+│           ├── serde v1.0.229
+│           │   ├── serde_core feature "result"
+│           │   │   └── serde_core v1.0.229
+│           │   └── serde_derive feature "default"
+│           │       └── serde_derive v1.0.229 (proc-macro)
+│           │           ├── proc-macro2 feature "proc-macro"
+│           │           │   └── proc-macro2 v1.0.107
+│           │           │       └── unicode-ident feature "default"
+│           │           │           └── unicode-ident v1.0.24
+│           │           ├── quote feature "proc-macro"
+│           │           │   ├── quote v1.0.47
+│           │           │   │   └── proc-macro2 v1.0.107 (*)
+│           │           │   └── proc-macro2 feature "proc-macro" (*)
+│           │           ├── syn feature "clone-impls"
+│           │           │   └── syn v3.0.3
+│           │           │       ├── proc-macro2 v1.0.107 (*)
+│           │           │       ├── quote v1.0.47 (*)
+│           │           │       └── unicode-ident feature "default" (*)
+│           │           ├── syn feature "derive"
+│           │           │   └── syn v3.0.3 (*)
+│           │           ├── syn feature "parsing"
+│           │           │   └── syn v3.0.3 (*)
+│           │           ├── syn feature "printing"
+│           │           │   └── syn v3.0.3 (*)
+│           │           └── syn feature "proc-macro"
+│           │               ├── syn v3.0.3 (*)
+│           │               ├── proc-macro2 feature "proc-macro" (*)
+│           │               └── quote feature "proc-macro" (*)
+│           └── serde feature "std"
+│               ├── serde v1.0.229 (*)
+│               └── serde_core feature "std"
+│                   └── serde_core v1.0.229
+├── serde feature "default" (*)
+├── serde feature "derive"
+│   ├── serde v1.0.229 (*)
+│   └── serde feature "serde_derive"
+│       └── serde v1.0.229 (*)
+├── clap feature "default"
+│   ├── clap v4.6.6
+│   │   ├── clap_builder v4.6.6
+│   │   │   ├── anstream feature "default"
+│   │   │   │   ├── anstream v1.0.0
+│   │   │   │   │   ├── anstyle feature "default"
+│   │   │   │   │   │   ├── anstyle v1.0.14
+│   │   │   │   │   │   └── anstyle feature "std"
+│   │   │   │   │   │       └── anstyle v1.0.14
+│   │   │   │   │   ├── anstyle-parse feature "default"
+│   │   │   │   │   │   ├── anstyle-parse v1.0.0
+│   │   │   │   │   │   │   └── utf8parse feature "default"
+│   │   │   │   │   │   │       └── utf8parse v0.2.2
+│   │   │   │   │   │   └── anstyle-parse feature "utf8"
+│   │   │   │   │   │       └── anstyle-parse v1.0.0 (*)
+│   │   │   │   │   ├── utf8parse feature "default" (*)
+│   │   │   │   │   ├── anstyle-query feature "default"
+│   │   │   │   │   │   └── anstyle-query v1.1.5
+│   │   │   │   │   ├── colorchoice feature "default"
+│   │   │   │   │   │   └── colorchoice v1.0.5
+│   │   │   │   │   └── is_terminal_polyfill feature "default"
+│   │   │   │   │       └── is_terminal_polyfill v1.70.2
+│   │   │   │   ├── anstream feature "auto"
+│   │   │   │   │   └── anstream v1.0.0 (*)
+│   │   │   │   └── anstream feature "wincon"
+│   │   │   │       └── anstream v1.0.0 (*)
+│   │   │   ├── anstyle feature "default" (*)
+│   │   │   ├── clap_lex feature "default"
+│   │   │   │   └── clap_lex v1.1.0
+│   │   │   └── strsim feature "default"
+│   │   │       └── strsim v0.11.1
+│   │   └── clap_derive feature "default"
+│   │       └── clap_derive v4.6.4 (proc-macro)
+│   │           ├── proc-macro2 feature "default"
+│   │           │   ├── proc-macro2 v1.0.107 (*)
+│   │           │   └── proc-macro2 feature "proc-macro" (*)
+│   │           ├── quote feature "default"
+│   │           │   ├── quote v1.0.47 (*)
+│   │           │   └── quote feature "proc-macro" (*)
+│   │           ├── syn feature "default"
+│   │           │   ├── syn v3.0.3 (*)
+│   │           │   ├── syn feature "clone-impls" (*)
+│   │           │   ├── syn feature "derive" (*)
+│   │           │   ├── syn feature "parsing" (*)
+│   │           │   ├── syn feature "printing" (*)
+│   │           │   └── syn feature "proc-macro" (*)
+│   │           ├── syn feature "full"
+│   │           │   └── syn v3.0.3 (*)
+│   │           └── heck feature "default"
+│   │               └── heck v0.5.0
+│   ├── clap feature "color"
+│   │   ├── clap v4.6.6 (*)
+│   │   └── clap_builder feature "color"
+│   │       └── clap_builder v4.6.6 (*)
+│   ├── clap feature "error-context"
+│   │   ├── clap v4.6.6 (*)
+│   │   └── clap_builder feature "error-context"
+│   │       └── clap_builder v4.6.6 (*)
+│   ├── clap feature "help"
+│   │   ├── clap v4.6.6 (*)
+│   │   └── clap_builder feature "help"
+│   │       └── clap_builder v4.6.6 (*)
+│   ├── clap feature "std"
+│   │   ├── clap v4.6.6 (*)
+│   │   └── clap_builder feature "std"
+│   │       ├── clap_builder v4.6.6 (*)
+│   │       └── anstyle feature "std" (*)
+│   ├── clap feature "suggestions"
+│   │   ├── clap v4.6.6 (*)
+│   │   └── clap_builder feature "suggestions"
+│   │       ├── clap_builder v4.6.6 (*)
+│   │       └── clap_builder feature "error-context" (*)
+│   └── clap feature "usage"
+│       ├── clap v4.6.6 (*)
+│       └── clap_builder feature "usage"
+│           └── clap_builder v4.6.6 (*)
+├── clap feature "derive"
+│   └── clap v4.6.6 (*)
+├── ctrlc feature "default"
+│   └── ctrlc v3.5.2
+│       └── nix feature "signal"
+│           ├── nix v0.31.3
+│           │   ├── bitflags feature "default"
+│           │   │   └── bitflags v2.13.1
+│           │   ├── cfg-if feature "default"
+│           │   │   └── cfg-if v1.0.4
+│           │   ├── libc feature "default"
+│           │   │   ├── libc v0.2.189
+│           │   │   └── libc feature "std"
+│           │   │       └── libc v0.2.189
+│           │   └── libc feature "extra_traits"
+│           │       └── libc v0.2.189
+│           │   [build-dependencies]
+│           │   └── cfg_aliases feature "default"
+│           │       └── cfg_aliases v0.2.2
+│           └── nix feature "process"
+│               └── nix v0.31.3 (*)
+├── ctrlc feature "termination"
+│   └── ctrlc v3.5.2 (*)
+├── curve25519-dalek feature "default"
+│   ├── curve25519-dalek v4.1.3
+│   │   ├── digest v0.10.7
+│   │   │   ├── block-buffer feature "default"
+│   │   │   │   └── block-buffer v0.10.4
+│   │   │   │       └── generic-array feature "default"
+│   │   │   │           └── generic-array v0.14.7
+│   │   │   │               └── typenum feature "default"
+│   │   │   │                   └── typenum v1.20.1
+│   │   │   │               [build-dependencies]
+│   │   │   │               └── version_check feature "default"
+│   │   │   │                   └── version_check v0.9.5
+│   │   │   └── crypto-common feature "default"
+│   │   │       └── crypto-common v0.1.7
+│   │   │           ├── generic-array feature "default" (*)
+│   │   │           ├── generic-array feature "more_lengths"
+│   │   │           │   └── generic-array v0.14.7 (*)
+│   │   │           └── typenum feature "default" (*)
+│   │   ├── group v0.13.0
+│   │   │   ├── ff v0.13.1
+│   │   │   │   ├── rand_core v0.6.4
+│   │   │   │   │   └── getrandom feature "default"
+│   │   │   │   │       └── getrandom v0.2.17
+│   │   │   │   │           ├── libc v0.2.189
+│   │   │   │   │           └── cfg-if feature "default" (*)
+│   │   │   │   └── subtle feature "i128"
+│   │   │   │       └── subtle v2.6.1
+│   │   │   ├── rand_core v0.6.4 (*)
+│   │   │   └── subtle v2.6.1
+│   │   ├── rand_core v0.6.4 (*)
+│   │   ├── subtle v2.6.1
+│   │   ├── zeroize v1.9.0
+│   │   │   └── zeroize_derive feature "default"
+│   │   │       └── zeroize_derive v1.5.0 (proc-macro)
+│   │   │           ├── proc-macro2 feature "default" (*)
+│   │   │           ├── quote feature "default" (*)
+│   │   │           ├── syn feature "default"
+│   │   │           │   ├── syn v2.0.119
+│   │   │           │   │   ├── proc-macro2 v1.0.107 (*)
+│   │   │           │   │   ├── quote v1.0.47 (*)
+│   │   │           │   │   └── unicode-ident feature "default" (*)
+│   │   │           │   ├── syn feature "clone-impls"
+│   │   │           │   │   └── syn v2.0.119 (*)
+│   │   │           │   ├── syn feature "derive"
+│   │   │           │   │   └── syn v2.0.119 (*)
+│   │   │           │   ├── syn feature "parsing"
+│   │   │           │   │   └── syn v2.0.119 (*)
+│   │   │           │   ├── syn feature "printing"
+│   │   │           │   │   └── syn v2.0.119 (*)
+│   │   │           │   └── syn feature "proc-macro"
+│   │   │           │       ├── syn v2.0.119 (*)
+│   │   │           │       ├── proc-macro2 feature "proc-macro" (*)
+│   │   │           │       └── quote feature "proc-macro" (*)
+│   │   │           ├── syn feature "extra-traits"
+│   │   │           │   └── syn v2.0.119 (*)
+│   │   │           ├── syn feature "full"
+│   │   │           │   └── syn v2.0.119 (*)
+│   │   │           └── syn feature "visit"
+│   │   │               └── syn v2.0.119 (*)
+│   │   ├── serde feature "derive" (*)
+│   │   ├── cfg-if feature "default" (*)
+│   │   ├── cpufeatures feature "default"
+│   │   │   └── cpufeatures v0.2.17
+│   │   └── curve25519-dalek-derive feature "default"
+│   │       └── curve25519-dalek-derive v0.1.1 (proc-macro)
+│   │           ├── proc-macro2 feature "default" (*)
+│   │           ├── quote feature "default" (*)
+│   │           ├── syn feature "default" (*)
+│   │           └── syn feature "full" (*)
+│   │   [build-dependencies]
+│   │   └── rustc_version feature "default"
+│   │       └── rustc_version v0.4.1
+│   │           └── semver feature "default"
+│   │               ├── semver v1.0.28
+│   │               └── semver feature "std"
+│   │                   └── semver v1.0.28
+│   ├── curve25519-dalek feature "alloc"
+│   │   ├── curve25519-dalek v4.1.3 (*)
+│   │   └── zeroize feature "alloc"
+│   │       └── zeroize v1.9.0 (*)
+│   ├── curve25519-dalek feature "precomputed-tables"
+│   │   └── curve25519-dalek v4.1.3 (*)
+│   └── curve25519-dalek feature "zeroize"
+│       └── curve25519-dalek v4.1.3 (*)
+├── curve25519-dalek feature "digest"
+│   └── curve25519-dalek v4.1.3 (*)
+├── curve25519-dalek feature "group"
+│   ├── curve25519-dalek v4.1.3 (*)
+│   └── curve25519-dalek feature "rand_core"
+│       └── curve25519-dalek v4.1.3 (*)
+├── curve25519-dalek feature "rand_core" (*)
+├── curve25519-dalek feature "serde"
+│   └── curve25519-dalek v4.1.3 (*)
+├── ed25519-dalek feature "default"
+│   ├── ed25519-dalek v2.2.0
+│   │   ├── ed25519 v2.2.3
+│   │   │   └── signature v2.2.0
+│   │   ├── rand_core v0.6.4 (*)
+│   │   ├── sha2 v0.10.9
+│   │   │   ├── cfg-if feature "default" (*)
+│   │   │   ├── cpufeatures feature "default" (*)
+│   │   │   └── digest feature "default"
+│   │   │       ├── digest v0.10.7 (*)
+│   │   │       └── digest feature "core-api"
+│   │   │           ├── digest v0.10.7 (*)
+│   │   │           └── digest feature "block-buffer"
+│   │   │               └── digest v0.10.7 (*)
+│   │   ├── subtle v2.6.1
+│   │   ├── zeroize v1.9.0 (*)
+│   │   └── curve25519-dalek feature "digest" (*)
+│   ├── ed25519-dalek feature "fast"
+│   │   ├── ed25519-dalek v2.2.0 (*)
+│   │   └── curve25519-dalek feature "precomputed-tables" (*)
+│   ├── ed25519-dalek feature "std"
+│   │   ├── ed25519-dalek v2.2.0 (*)
+│   │   ├── ed25519-dalek feature "alloc"
+│   │   │   ├── ed25519-dalek v2.2.0 (*)
+│   │   │   ├── curve25519-dalek feature "alloc" (*)
+│   │   │   ├── zeroize feature "alloc" (*)
+│   │   │   ├── ed25519-dalek feature "zeroize"
+│   │   │   │   └── ed25519-dalek v2.2.0 (*)
+│   │   │   └── ed25519 feature "alloc"
+│   │   │       └── ed25519 v2.2.3 (*)
+│   │   ├── ed25519 feature "std"
+│   │   │   ├── ed25519 v2.2.3 (*)
+│   │   │   └── signature feature "std"
+│   │   │       ├── signature v2.2.0
+│   │   │       └── signature feature "alloc"
+│   │   │           └── signature v2.2.0
+│   │   └── sha2 feature "std"
+│   │       ├── sha2 v0.10.9 (*)
+│   │       └── digest feature "std"
+│   │           ├── digest v0.10.7 (*)
+│   │           ├── digest feature "alloc"
+│   │           │   └── digest v0.10.7 (*)
+│   │           └── crypto-common feature "std"
+│   │               └── crypto-common v0.1.7 (*)
+│   └── ed25519-dalek feature "zeroize" (*)
+├── ed25519-dalek feature "rand_core"
+│   └── ed25519-dalek v2.2.0 (*)
+├── gem-auth-scheme-v3 feature "default" (command-line)
+│   └── gem-auth-scheme-v3 v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-auth-scheme-v3)
+│       ├── bincode feature "default" (*)
+│       ├── serde feature "default" (*)
+│       ├── serde feature "derive" (*)
+│       ├── curve25519-dalek feature "default" (*)
+│       ├── curve25519-dalek feature "digest" (*)
+│       ├── curve25519-dalek feature "group" (*)
+│       ├── curve25519-dalek feature "rand_core" (*)
+│       ├── curve25519-dalek feature "serde" (*)
+│       ├── ed25519-dalek feature "default" (*)
+│       ├── ed25519-dalek feature "rand_core" (*)
+│       ├── gem-auth-v3 feature "default" (command-line)
+│       │   └── gem-auth-v3 v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-auth-v3)
+│       │       ├── bincode feature "default" (*)
+│       │       ├── serde feature "default" (*)
+│       │       ├── serde feature "derive" (*)
+│       │       ├── ed25519-dalek feature "default" (*)
+│       │       ├── ed25519-dalek feature "rand_core" (*)
+│       │       ├── sha2 feature "default"
+│       │       │   ├── sha2 v0.10.9 (*)
+│       │       │   └── sha2 feature "std" (*)
+│       │       ├── gem-core feature "default" (command-line)
+│       │       │   └── gem-core v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-core)
+│       │       │       ├── bincode feature "default" (*)
+│       │       │       ├── serde feature "default" (*)
+│       │       │       ├── serde feature "derive" (*)
+│       │       │       ├── sha2 feature "default" (*)
+│       │       │       ├── half feature "default"
+│       │       │       │   ├── half v2.7.1
+│       │       │       │   │   ├── serde feature "derive" (*)
+│       │       │       │   │   ├── cfg-if feature "default" (*)
+│       │       │       │   │   ├── zerocopy feature "derive"
+│       │       │       │   │   │   ├── zerocopy v0.8.56
+│       │       │       │   │   │   │   └── zerocopy-derive feature "default"
+│       │       │       │   │   │   │       └── zerocopy-derive v0.8.56 (proc-macro)
+│       │       │       │   │   │   │           ├── proc-macro2 feature "default" (*)
+│       │       │       │   │   │   │           ├── quote feature "default" (*)
+│       │       │       │   │   │   │           ├── syn feature "default" (*)
+│       │       │       │   │   │   │           └── syn feature "full" (*)
+│       │       │       │   │   │   └── zerocopy feature "zerocopy-derive"
+│       │       │       │   │   │       └── zerocopy v0.8.56 (*)
+│       │       │       │   │   └── zerocopy feature "simd"
+│       │       │       │   │       └── zerocopy v0.8.56 (*)
+│       │       │       │   └── half feature "std"
+│       │       │       │       ├── half v2.7.1 (*)
+│       │       │       │       └── half feature "alloc"
+│       │       │       │           └── half v2.7.1 (*)
+│       │       │       ├── half feature "serde"
+│       │       │       │   └── half v2.7.1 (*)
+│       │       │       └── thiserror feature "default"
+│       │       │           ├── thiserror v2.0.20
+│       │       │           │   └── thiserror-impl feature "default"
+│       │       │           │       └── thiserror-impl v2.0.20 (proc-macro)
+│       │       │           │           ├── proc-macro2 feature "default" (*)
+│       │       │           │           ├── quote feature "default" (*)
+│       │       │           │           └── syn feature "default" (*)
+│       │       │           └── thiserror feature "std"
+│       │       │               └── thiserror v2.0.20 (*)
+│       │       │       [dev-dependencies]
+│       │       │       └── serde_json feature "default"
+│       │       │           ├── serde_json v1.0.151
+│       │       │           │   ├── memchr v2.8.3
+│       │       │           │   ├── serde_core v1.0.229
+│       │       │           │   ├── itoa feature "default"
+│       │       │           │   │   └── itoa v1.0.18
+│       │       │           │   └── zmij feature "default"
+│       │       │           │       └── zmij v1.0.23
+│       │       │           └── serde_json feature "std"
+│       │       │               ├── serde_json v1.0.151 (*)
+│       │       │               ├── serde_core feature "std" (*)
+│       │       │               └── memchr feature "std"
+│       │       │                   ├── memchr v2.8.3
+│       │       │                   └── memchr feature "alloc"
+│       │       │                       └── memchr v2.8.3
+│       │       ├── half feature "default" (*)
+│       │       ├── half feature "serde" (*)
+│       │       ├── serde_json feature "default" (*)
+│       │       ├── gem-search feature "default" (command-line)
+│       │       │   ├── gem-search v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-search)
+│       │       │   │   ├── serde feature "default" (*)
+│       │       │   │   ├── serde feature "derive" (*)
+│       │       │   │   ├── gem-core feature "default" (command-line) (*)
+│       │       │   │   ├── thiserror feature "default" (*)
+│       │       │   │   ├── gem-qemd-lemon feature "default" (command-line)
+│       │       │   │   │   └── gem-qemd-lemon v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-qemd-lemon)
+│       │       │   │   │       [build-dependencies]
+│       │       │   │   │       └── cc feature "default"
+│       │       │   │   │           └── cc v1.4.4
+│       │       │   │   │               ├── find-msvc-tools feature "default"
+│       │       │   │   │               │   └── find-msvc-tools v0.1.11
+│       │       │   │   │               └── shlex feature "default"
+│       │       │   │   │                   ├── shlex v2.0.1
+│       │       │   │   │                   └── shlex feature "std"
+│       │       │   │   │                       └── shlex v2.0.1
+│       │       │   │   └── rayon feature "default"
+│       │       │   │       └── rayon v1.12.0
+│       │       │   │           ├── either v1.18.0
+│       │       │   │           └── rayon-core feature "default"
+│       │       │   │               └── rayon-core v1.13.0
+│       │       │   │                   ├── crossbeam-deque feature "default"
+│       │       │   │                   │   ├── crossbeam-deque v0.8.7
+│       │       │   │                   │   │   ├── crossbeam-epoch v0.9.20
+│       │       │   │                   │   │   │   └── crossbeam-utils v0.8.22
+│       │       │   │                   │   │   └── crossbeam-utils v0.8.22
+│       │       │   │                   │   └── crossbeam-deque feature "std"
+│       │       │   │                   │       ├── crossbeam-deque v0.8.7 (*)
+│       │       │   │                   │       ├── crossbeam-epoch feature "std"
+│       │       │   │                   │       │   ├── crossbeam-epoch v0.9.20 (*)
+│       │       │   │                   │       │   ├── crossbeam-epoch feature "alloc"
+│       │       │   │                   │       │   │   └── crossbeam-epoch v0.9.20 (*)
+│       │       │   │                   │       │   └── crossbeam-utils feature "std"
+│       │       │   │                   │       │       └── crossbeam-utils v0.8.22
+│       │       │   │                   │       └── crossbeam-utils feature "std" (*)
+│       │       │   │                   └── crossbeam-utils feature "default"
+│       │       │   │                       ├── crossbeam-utils v0.8.22
+│       │       │   │                       └── crossbeam-utils feature "std" (*)
+│       │       │   │   [dev-dependencies]
+│       │       │   │   ├── half feature "default" (*)
+│       │       │   │   ├── half feature "serde" (*)
+│       │       │   │   └── serde_json feature "default" (*)
+│       │       │   └── gem-search feature "lemon-qemd"
+│       │       │       └── gem-search v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-search) (*)
+│       │       ├── rayon feature "default" (*)
+│       │       └── rand feature "default"
+│       │           ├── rand v0.8.8
+│       │           │   ├── libc v0.2.189
+│       │           │   ├── rand_chacha v0.3.1
+│       │           │   │   ├── rand_core feature "default"
+│       │           │   │   │   └── rand_core v0.6.4 (*)
+│       │           │   │   └── ppv-lite86 feature "simd"
+│       │           │   │       └── ppv-lite86 v0.2.21
+│       │           │   │           ├── zerocopy feature "default"
+│       │           │   │           │   └── zerocopy v0.8.56 (*)
+│       │           │   │           └── zerocopy feature "simd" (*)
+│       │           │   └── rand_core feature "default" (*)
+│       │           ├── rand feature "std"
+│       │           │   ├── rand v0.8.8 (*)
+│       │           │   ├── rand_core feature "std"
+│       │           │   │   ├── rand_core v0.6.4 (*)
+│       │           │   │   ├── rand_core feature "alloc"
+│       │           │   │   │   └── rand_core v0.6.4 (*)
+│       │           │   │   ├── rand_core feature "getrandom"
+│       │           │   │   │   └── rand_core v0.6.4 (*)
+│       │           │   │   └── getrandom feature "std"
+│       │           │   │       └── getrandom v0.2.17 (*)
+│       │           │   ├── rand feature "alloc"
+│       │           │   │   ├── rand v0.8.8 (*)
+│       │           │   │   └── rand_core feature "alloc" (*)
+│       │           │   ├── rand feature "getrandom"
+│       │           │   │   ├── rand v0.8.8 (*)
+│       │           │   │   └── rand_core feature "getrandom" (*)
+│       │           │   ├── rand feature "libc"
+│       │           │   │   └── rand v0.8.8 (*)
+│       │           │   ├── rand feature "rand_chacha"
+│       │           │   │   └── rand v0.8.8 (*)
+│       │           │   └── rand_chacha feature "std"
+│       │           │       ├── rand_chacha v0.3.1 (*)
+│       │           │       └── ppv-lite86 feature "std"
+│       │           │           └── ppv-lite86 v0.2.21 (*)
+│       │           └── rand feature "std_rng"
+│       │               ├── rand v0.8.8 (*)
+│       │               └── rand feature "rand_chacha" (*)
+│       ├── gem-core feature "default" (command-line) (*)
+│       ├── half feature "default" (*)
+│       ├── half feature "serde" (*)
+│       ├── gem-search feature "default" (command-line) (*)
+│       ├── rayon feature "default" (*)
+│       ├── rand feature "default" (*)
+│       ├── gem-matrix-proof feature "default" (command-line)
+│       │   └── gem-matrix-proof v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-matrix-proof)
+│       │       ├── serde feature "default" (*)
+│       │       ├── serde feature "derive" (*)
+│       │       ├── curve25519-dalek feature "default" (*)
+│       │       ├── curve25519-dalek feature "digest" (*)
+│       │       ├── curve25519-dalek feature "group" (*)
+│       │       ├── curve25519-dalek feature "rand_core" (*)
+│       │       ├── curve25519-dalek feature "serde" (*)
+│       │       ├── gem-core feature "default" (command-line) (*)
+│       │       ├── serde_json feature "default" (*)
+│       │       ├── rayon feature "default" (*)
+│       │       ├── rand feature "default" (*)
+│       │       ├── ipa feature "default"
+│       │       │   ├── ipa v5.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/ipa)
+│       │       │   │   ├── byteorder v1.5.0
+│       │       │   │   ├── clear_on_drop v0.2.5
+│       │       │   │   │   [build-dependencies]
+│       │       │   │   │   └── cc feature "default" (*)
+│       │       │   │   ├── digest v0.10.7 (*)
+│       │       │   │   ├── group v0.13.0 (*)
+│       │       │   │   ├── merlin v3.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/merlin)
+│       │       │   │   │   ├── byteorder v1.5.0
+│       │       │   │   │   ├── keccak v0.1.6
+│       │       │   │   │   ├── rand_core v0.6.4 (*)
+│       │       │   │   │   └── zeroize feature "zeroize_derive"
+│       │       │   │   │       └── zeroize v1.9.0 (*)
+│       │       │   │   ├── rand v0.8.8 (*)
+│       │       │   │   ├── serde_derive v1.0.229 (proc-macro) (*)
+│       │       │   │   ├── sha3 v0.10.9
+│       │       │   │   │   ├── digest feature "default" (*)
+│       │       │   │   │   └── keccak feature "default"
+│       │       │   │   │       └── keccak v0.1.6
+│       │       │   │   ├── subtle v2.6.1
+│       │       │   │   ├── serde feature "alloc"
+│       │       │   │   │   ├── serde v1.0.229 (*)
+│       │       │   │   │   └── serde_core feature "alloc"
+│       │       │   │   │       └── serde_core v1.0.229
+│       │       │   │   ├── curve25519-dalek feature "default" (*)
+│       │       │   │   ├── curve25519-dalek feature "digest" (*)
+│       │       │   │   ├── curve25519-dalek feature "group" (*)
+│       │       │   │   ├── curve25519-dalek feature "rand_core" (*)
+│       │       │   │   ├── curve25519-dalek feature "serde" (*)
+│       │       │   │   ├── rand_core feature "alloc" (*)
+│       │       │   │   ├── rayon feature "default" (*)
+│       │       │   │   └── thiserror feature "default"
+│       │       │   │       └── thiserror v1.0.69
+│       │       │   │           └── thiserror-impl feature "default"
+│       │       │   │               └── thiserror-impl v1.0.69 (proc-macro)
+│       │       │   │                   ├── proc-macro2 feature "default" (*)
+│       │       │   │                   ├── quote feature "default" (*)
+│       │       │   │                   └── syn feature "default" (*)
+│       │       │   └── ipa feature "std"
+│       │       │       ├── ipa v5.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/ipa) (*)
+│       │       │       ├── rand feature "std" (*)
+│       │       │       ├── rand feature "std_rng" (*)
+│       │       │       ├── ipa feature "rand"
+│       │       │       │   └── ipa v5.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/ipa) (*)
+│       │       │       ├── ipa feature "rayon"
+│       │       │       │   └── ipa v5.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/ipa) (*)
+│       │       │       └── ipa feature "thiserror"
+│       │       │           └── ipa v5.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/ipa) (*)
+│       │       └── merlin feature "default"
+│       │           ├── merlin v3.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/merlin) (*)
+│       │           └── merlin feature "std"
+│       │               ├── merlin v3.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/merlin) (*)
+│       │               ├── rand_core feature "std" (*)
+│       │               └── byteorder feature "std"
+│       │                   └── byteorder v1.5.0
+│       └── merlin feature "default" (*)
+│       [dev-dependencies]
+│       └── serde_json feature "default" (*)
+├── gem-auth-v3 feature "default" (command-line) (*)
+├── gem-core feature "default" (command-line) (*)
+├── half feature "default" (*)
+├── half feature "serde" (*)
+├── serde_json feature "default" (*)
+├── gem-search feature "default" (command-line) (*)
+├── rayon feature "default" (*)
+├── rand feature "default" (*)
+├── gem-matrix-proof feature "default" (command-line) (*)
+├── ipa feature "default" (*)
+├── merlin feature "default" (*)
+├── gem-cli feature "default" (command-line)
+│   └── gem-cli v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-cli)
+│       ├── anyhow feature "default" (*)
+│       ├── bincode feature "default" (*)
+│       ├── serde feature "default" (*)
+│       ├── serde feature "derive" (*)
+│       ├── clap feature "default" (*)
+│       ├── clap feature "derive" (*)
+│       ├── ctrlc feature "default" (*)
+│       ├── ctrlc feature "termination" (*)
+│       ├── curve25519-dalek feature "default" (*)
+│       ├── curve25519-dalek feature "digest" (*)
+│       ├── curve25519-dalek feature "group" (*)
+│       ├── curve25519-dalek feature "rand_core" (*)
+│       ├── curve25519-dalek feature "serde" (*)
+│       ├── ed25519-dalek feature "default" (*)
+│       ├── ed25519-dalek feature "rand_core" (*)
+│       ├── gem-auth-scheme-v3 feature "default" (command-line) (*)
+│       ├── gem-auth-v3 feature "default" (command-line) (*)
+│       ├── gem-core feature "default" (command-line) (*)
+│       ├── half feature "default" (*)
+│       ├── half feature "serde" (*)
+│       ├── serde_json feature "default" (*)
+│       ├── gem-search feature "default" (command-line) (*)
+│       ├── rayon feature "default" (*)
+│       ├── rand feature "default" (*)
+│       ├── gem-matrix-proof feature "default" (command-line) (*)
+│       ├── ipa feature "default" (*)
+│       ├── hex feature "default"
+│       │   ├── hex v0.4.3
+│       │   └── hex feature "std"
+│       │       ├── hex v0.4.3
+│       │       └── hex feature "alloc"
+│       │           └── hex v0.4.3
+│       └── walkdir feature "default"
+│           └── walkdir v2.5.0
+│               └── same-file feature "default"
+│                   └── same-file v1.0.6
+├── hex feature "default" (*)
+├── walkdir feature "default" (*)
+└── openssl feature "default"
+    └── openssl v0.10.75
+        ├── bitflags feature "default" (*)
+        ├── cfg-if feature "default" (*)
+        ├── libc feature "default" (*)
+        ├── foreign-types feature "default"
+        │   └── foreign-types v0.3.2
+        │       └── foreign-types-shared feature "default"
+        │           └── foreign-types-shared v0.1.1
+        ├── once_cell feature "default"
+        │   ├── once_cell v1.21.4
+        │   └── once_cell feature "std"
+        │       ├── once_cell v1.21.4
+        │       └── once_cell feature "alloc"
+        │           ├── once_cell v1.21.4
+        │           └── once_cell feature "race"
+        │               └── once_cell v1.21.4
+        ├── openssl-macros feature "default"
+        │   └── openssl-macros v0.1.1 (proc-macro)
+        │       ├── proc-macro2 feature "default" (*)
+        │       ├── quote feature "default" (*)
+        │       ├── syn feature "default" (*)
+        │       └── syn feature "full" (*)
+        └── openssl-sys feature "default"
+            └── openssl-sys v0.9.111
+                └── libc feature "default" (*)
+                [build-dependencies]
+                ├── cc feature "default" (*)
+                ├── pkg-config feature "default"
+                │   └── pkg-config v0.3.34
+                └── vcpkg feature "default"
+                    └── vcpkg v0.2.15
+
+gem-auth-scheme-v3 v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-auth-scheme-v3) (*)
+
+gem-auth-v3 v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-auth-v3) (*)
+
+gem-cli v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-cli) (*)
+
+gem-core v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-core) (*)
+
+gem-lotte-auth-pilot v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/e2e-benchmark)
+├── gem-auth-scheme-block-multi-bench feature "default" (command-line)
+│   └── gem-auth-scheme-block-multi-bench v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/authentication) (*)
+├── anyhow feature "default" (*)
+├── bincode feature "default" (*)
+├── serde feature "default" (*)
+├── serde feature "derive" (*)
+├── clap feature "default" (*)
+├── clap feature "derive" (*)
+├── ctrlc feature "default" (*)
+├── ctrlc feature "termination" (*)
+├── curve25519-dalek feature "default" (*)
+├── curve25519-dalek feature "digest" (*)
+├── curve25519-dalek feature "group" (*)
+├── curve25519-dalek feature "rand_core" (*)
+├── curve25519-dalek feature "serde" (*)
+├── ed25519-dalek feature "default" (*)
+├── ed25519-dalek feature "rand_core" (*)
+├── gem-auth-scheme-v3 feature "default" (command-line) (*)
+├── gem-auth-v3 feature "default" (command-line) (*)
+├── gem-core feature "default" (command-line) (*)
+├── half feature "default" (*)
+├── half feature "serde" (*)
+├── serde_json feature "default" (*)
+├── gem-search feature "default" (command-line) (*)
+├── rayon feature "default" (*)
+├── rand feature "default" (*)
+├── gem-matrix-proof feature "default" (command-line) (*)
+├── ipa feature "default" (*)
+├── merlin feature "default" (*)
+├── gem-cli feature "default" (command-line) (*)
+├── hex feature "default" (*)
+└── walkdir feature "default" (*)
+
+gem-matrix-proof v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-matrix-proof) (*)
+
+gem-qemd-lemon v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-qemd-lemon) (*)
+
+gem-search v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-search) (*)

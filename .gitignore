@@ -1,0 +1,10 @@
+# Local builds, prepared datasets, environments and distribution archives.
+/artifacts/
+/target/
+__pycache__/
+*.pyc
+
+# Private state created for each local origin and owner.
+/results/**/auth-token
+/results/**/source-v1.key
+/results/**/owner-private/

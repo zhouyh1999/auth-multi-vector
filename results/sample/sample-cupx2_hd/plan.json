@@ -1,0 +1,54 @@
+{
+  "label": "sample",
+  "policies": [
+    0,
+    1,
+    2,
+    5
+  ],
+  "stages": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "warmups": 0,
+  "repeats": 1,
+  "ids": [
+    0
+  ],
+  "seed": 2026112204,
+  "caches": [
+    "first_visit"
+  ],
+  "purpose": "full corpus search and authentication",
+  "dimensions": 128,
+  "query_tokens": 32,
+  "bandwidth_mbps": 300,
+  "rtt_ms": 0,
+  "randomized_population_order_seed": 2026112203,
+  "client_trust": "fresh_tls_signed_manifests",
+  "heights": {
+    "0": [
+      1,
+      1,
+      1
+    ],
+    "1": [
+      1,
+      1,
+      1
+    ],
+    "2": [
+      1,
+      1,
+      1
+    ],
+    "5": [
+      8,
+      32,
+      128
+    ]
+  },
+  "digest_requests_per_measurement": 1
+}

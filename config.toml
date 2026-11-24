@@ -1,0 +1,14 @@
+[paths]
+target = "artifacts/acceptance/target"
+results = "results"
+fixtures = "tests/fixtures/lotte"
+
+[sample]
+inputs = "dataset/sample"
+work = "artifacts/sample"
+threads = 4
+
+[lotte]
+inputs = "dataset/lotte"
+work = "artifacts/lotte"
+threads = 16

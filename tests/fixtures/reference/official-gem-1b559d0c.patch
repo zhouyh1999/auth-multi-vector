@@ -1,0 +1,52 @@
+--- a/hnswlib/hnswlib/hnswalg.h
++++ b/hnswlib/hnswlib/hnswalg.h
+@@ -168,0 +169,4 @@
++#ifdef GEM_DIFFERENTIAL_TRACE
++    mutable std::vector<labeltype> fixture_trace_visited;
++    mutable std::vector<labeltype> fixture_trace_expanded;
++#endif
+@@ -295 +299,10 @@
+-            return a.first < b.first;
++            if (a.first != b.first) return a.first < b.first;
++            return a.second < b.second;
++        }
++    };
++
++    struct CompareClosestDeterministic {
++        constexpr bool operator()(std::pair<dist_t, tableint> const& a,
++            std::pair<dist_t, tableint> const& b) const noexcept {
++            if (a.first != b.first) return a.first < b.first;
++            return a.second > b.second;
+@@ -1559 +1572 @@
+-        std::vector<std::priority_queue<std::pair<dist_t, tableint>, std::vector<std::pair<dist_t, tableint>>, CompareByFirst>> candidate_set_list(entry_points.size());
++        std::vector<std::priority_queue<std::pair<dist_t, tableint>, std::vector<std::pair<dist_t, tableint>>, CompareClosestDeterministic>> candidate_set_list(entry_points.size());
+@@ -1562 +1575,5 @@
+-        dist_t lowerBound;
++        dist_t lowerBound = std::numeric_limits<dist_t>::lowest();
++#ifdef GEM_DIFFERENTIAL_TRACE
++        fixture_trace_visited.clear();
++        fixture_trace_expanded.clear();
++#endif
+@@ -1572,0 +1590,3 @@
++#ifdef GEM_DIFFERENTIAL_TRACE
++            fixture_trace_visited.push_back(getExternalLabel(ep_id));
++#endif
+@@ -1600,0 +1621,3 @@
++#ifdef GEM_DIFFERENTIAL_TRACE
++                    fixture_trace_expanded.push_back(getExternalLabel(current_node_id));
++#endif
+@@ -1628,0 +1652,3 @@
++#ifdef GEM_DIFFERENTIAL_TRACE
++                            fixture_trace_visited.push_back(getExternalLabel(candidate_id));
++#endif
+@@ -1707,2 +1733,2 @@
+-        std::vector<dist_t> lower_bound_list(entry_points.size());
+-        dist_t lowerBound;
++        std::vector<dist_t> lower_bound_list(entry_points.size(), std::numeric_limits<dist_t>::lowest());
++        dist_t lowerBound = std::numeric_limits<dist_t>::lowest();
+@@ -2188 +2214 @@
+-        std::priority_queue<std::pair<dist_t, tableint>> queue_closest;
++        std::priority_queue<std::pair<dist_t, tableint>, std::vector<std::pair<dist_t, tableint>>, CompareClosestDeterministic> queue_closest;
+@@ -2273 +2299 @@
+-        std::priority_queue<std::pair<dist_t, tableint>> queue_closest;
++        std::priority_queue<std::pair<dist_t, tableint>, std::vector<std::pair<dist_t, tableint>>, CompareClosestDeterministic> queue_closest;

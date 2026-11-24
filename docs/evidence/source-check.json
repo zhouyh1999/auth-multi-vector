@@ -1,0 +1,1315 @@
+{
+  "source_count": 238,
+  "all_match": true,
+  "source_files": {
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/Cargo.lock": {
+      "before": "74d42af4c820bc35a600c4ae8422fd250dfc9b5a8160bb8d3235fbb8700cfb76",
+      "after": "74d42af4c820bc35a600c4ae8422fd250dfc9b5a8160bb8d3235fbb8700cfb76",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/Cargo.toml": {
+      "before": "d529b2774c0cf2b4eead57b4bee5e63706f9f96b0ae4bd4b6caddb7146634e28",
+      "after": "d529b2774c0cf2b4eead57b4bee5e63706f9f96b0ae4bd4b6caddb7146634e28",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/Cargo.toml": {
+      "before": "2b446f2b46db3334921aac837dd5eb07e5419771129a7d1ce8bde4996ab37043",
+      "after": "2b446f2b46db3334921aac837dd5eb07e5419771129a7d1ce8bde4996ab37043",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/attacks.rs": {
+      "before": "4ce75b09e32556ff3d540a1b9a897392d1d391da3bebb8428c04ba5e4ec0ccdc",
+      "after": "4ce75b09e32556ff3d540a1b9a897392d1d391da3bebb8428c04ba5e4ec0ccdc",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/block_bench.rs": {
+      "before": "9e9f8e17e49fc69ec33f6c7a6ad4beb70ee71dd80eb6e68075ad8b64c0d68c70",
+      "after": "9e9f8e17e49fc69ec33f6c7a6ad4beb70ee71dd80eb6e68075ad8b64c0d68c70",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/compact.rs": {
+      "before": "82a330544b299f1e35730931c47e696da501c3994e89d738da2334de49d673c0",
+      "after": "82a330544b299f1e35730931c47e696da501c3994e89d738da2334de49d673c0",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/compact_numeric.rs": {
+      "before": "575415762b249a5efd738d1a21e6c4258fabe48a4ec2d65aa9e49c654cf1309a",
+      "after": "575415762b249a5efd738d1a21e6c4258fabe48a4ec2d65aa9e49c654cf1309a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/compact_protocol.rs": {
+      "before": "4d9283bbac2f360fc80d2e5e97d6026b8fc0f1573cd92bd1ae5e22953f6656f0",
+      "after": "4d9283bbac2f360fc80d2e5e97d6026b8fc0f1573cd92bd1ae5e22953f6656f0",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/compact_types.rs": {
+      "before": "d4d41b759d63cb456a1e3feac0ac1c2843d7daca125b72a10e21303d553ac59b",
+      "after": "d4d41b759d63cb456a1e3feac0ac1c2843d7daca125b72a10e21303d553ac59b",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/compact_wire.rs": {
+      "before": "3a3168350008b94da8ce3b2a4bb9144b0fbad489716216121469d25e3a61b44d",
+      "after": "3a3168350008b94da8ce3b2a4bb9144b0fbad489716216121469d25e3a61b44d",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/document_block_pilot.rs": {
+      "before": "1633043b5616b74ed65e49fbf84a40db902be334e03448ec2b487179e8b0df57",
+      "after": "1633043b5616b74ed65e49fbf84a40db902be334e03448ec2b487179e8b0df57",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/e2e.rs": {
+      "before": "fd174a6fd95ac445deb4e397cee74ed8f6aaa1536a2ef76440cb913707e7d691",
+      "after": "fd174a6fd95ac445deb4e397cee74ed8f6aaa1536a2ef76440cb913707e7d691",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/fair_endpoints.rs": {
+      "before": "29d524dae7b17b79ca2c2f0d3bb8969700c85977579264782372888eec2c7dd3",
+      "after": "29d524dae7b17b79ca2c2f0d3bb8969700c85977579264782372888eec2c7dd3",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/first_visit.rs": {
+      "before": "2226bf37b242cd9f93a8f93dfb3dceaf724a9c4e225ec313cab066c32d4a5e32",
+      "after": "2226bf37b242cd9f93a8f93dfb3dceaf724a9c4e225ec313cab066c32d4a5e32",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/full.rs": {
+      "before": "7172a91701cd81eab6963ddaa0804b5c2108269264ec8d2bf7c3ca7d7eb9d20a",
+      "after": "7172a91701cd81eab6963ddaa0804b5c2108269264ec8d2bf7c3ca7d7eb9d20a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/lib.rs": {
+      "before": "1df2c85173ad139dcc621c1da432f4004d6001134277d79710dcb58fc1c8f92e",
+      "after": "1df2c85173ad139dcc621c1da432f4004d6001134277d79710dcb58fc1c8f92e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/measure_visit.rs": {
+      "before": "43ed7ea0fc0ef693deff00daac5166b324a112d2484ae4c184e8105a69b8f4df",
+      "after": "43ed7ea0fc0ef693deff00daac5166b324a112d2484ae4c184e8105a69b8f4df",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/numeric.rs": {
+      "before": "a935b28c987c7cdc4af59f95f0e09b876766547dba7127b18a9fcfbe0c824a29",
+      "after": "a935b28c987c7cdc4af59f95f0e09b876766547dba7127b18a9fcfbe0c824a29",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/population_owner.rs": {
+      "before": "705e4cde8c5bbcc5337c560566b41946ce54b00d823a47dfd01f40010b284ca8",
+      "after": "705e4cde8c5bbcc5337c560566b41946ce54b00d823a47dfd01f40010b284ca8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/population_serve.rs": {
+      "before": "6559cf0acc9bc3d99895771a41077dc78761699f36d2aad9c3167cc37761e735",
+      "after": "6559cf0acc9bc3d99895771a41077dc78761699f36d2aad9c3167cc37761e735",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/power_aggregation.rs": {
+      "before": "f70a81d31b747cd713557842b6b058d36d3cc733b4a4d5b593a9efb3633fe549",
+      "after": "f70a81d31b747cd713557842b6b058d36d3cc733b4a4d5b593a9efb3633fe549",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/power_screen.rs": {
+      "before": "afb3c32c61564b7a5a5dd319ea21d7ab8cacc5cdb656ecfcbd1123b9b2bb842c",
+      "after": "afb3c32c61564b7a5a5dd319ea21d7ab8cacc5cdb656ecfcbd1123b9b2bb842c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/power_weights.rs": {
+      "before": "4e249aa64b8d3a1b9fe2ba9b5d7edc446fdad22a965bd6f8d7e0f4927cf73ffe",
+      "after": "4e249aa64b8d3a1b9fe2ba9b5d7edc446fdad22a965bd6f8d7e0f4927cf73ffe",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/protocol.rs": {
+      "before": "dd5c139870fded296b8e7e84b26d0985b94a667d9aa4b2752b4c20a26591f2b8",
+      "after": "dd5c139870fded296b8e7e84b26d0985b94a667d9aa4b2752b4c20a26591f2b8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/snapshot.rs": {
+      "before": "0093da4409932e67de263e93623405d1f4fd807f8e12f173fd1454b819f7aed0",
+      "after": "0093da4409932e67de263e93623405d1f4fd807f8e12f173fd1454b819f7aed0",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/tests.rs": {
+      "before": "af1ca7e768e51cf71a4986da3d4e1e0a6456dab0bfcde2a55c0b7d2f3fdcf1b6",
+      "after": "af1ca7e768e51cf71a4986da3d4e1e0a6456dab0bfcde2a55c0b7d2f3fdcf1b6",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/types.rs": {
+      "before": "079b07705df839cc0227665644ea8f676c2510f65e902b08109659afed1c6c15",
+      "after": "079b07705df839cc0227665644ea8f676c2510f65e902b08109659afed1c6c15",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/vida_baselines.rs": {
+      "before": "88ff6d5ad4114b0435edebcb0c3f186bc1cf47095d88a820032954d20cc91ff2",
+      "after": "88ff6d5ad4114b0435edebcb0c3f186bc1cf47095d88a820032954d20cc91ff2",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/scheme-block/src/wire.rs": {
+      "before": "3eebe0282a7f2c9282c0e95b330481e399762987bc87259a8f0ab7c387547aac",
+      "after": "3eebe0282a7f2c9282c0e95b330481e399762987bc87259a8f0ab7c387547aac",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/Cargo.toml": {
+      "before": "2ca35cd8facdf3b52a2f45ca9afec0ee6a39f03d4ab515aa879bd1d92f8a0396",
+      "after": "2ca35cd8facdf3b52a2f45ca9afec0ee6a39f03d4ab515aa879bd1d92f8a0396",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/digest-fetch-20261124.CtRzXj/owner.rs": {
+      "before": "8f1d8604843babe0093df31765f126cb427ea323e5ecef10d8c242fc8a61b366",
+      "after": "8f1d8604843babe0093df31765f126cb427ea323e5ecef10d8c242fc8a61b366",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/offline.rs": {
+      "before": "569e48be7e8503766b2234404ecd5d095c42fb5db7d82537fbf2275a6ce0117d",
+      "after": "569e48be7e8503766b2234404ecd5d095c42fb5db7d82537fbf2275a6ce0117d",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-fullquery-five-current-20261122-csr35/owner_main.rs": {
+      "before": "22aa88e26dd035fb483581a5087a9114ea47bdfed6f4482a259ab9586a035373",
+      "after": "22aa88e26dd035fb483581a5087a9114ea47bdfed6f4482a259ab9586a035373",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/serve_main.rs": {
+      "before": "5f502e4a8b23b7ea63f949e0d167fbbd7ed646d5086a7765ab1c38c4195d9cef",
+      "after": "5f502e4a8b23b7ea63f949e0d167fbbd7ed646d5086a7765ab1c38c4195d9cef",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/Cargo.toml": {
+      "before": "5a8fb76e3267d09d7d0f4a1ef2e278f3044b65ef1a3dc7a51776d8de9c6ceeb3",
+      "after": "5a8fb76e3267d09d7d0f4a1ef2e278f3044b65ef1a3dc7a51776d8de9c6ceeb3",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/attacks.rs": {
+      "before": "4ce75b09e32556ff3d540a1b9a897392d1d391da3bebb8428c04ba5e4ec0ccdc",
+      "after": "4ce75b09e32556ff3d540a1b9a897392d1d391da3bebb8428c04ba5e4ec0ccdc",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/compact.rs": {
+      "before": "148e1b5beb43264a6ff0bb229afc1d50c98c4c04c8a1f4ac66ac015e5bb34500",
+      "after": "148e1b5beb43264a6ff0bb229afc1d50c98c4c04c8a1f4ac66ac015e5bb34500",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/compact_numeric.rs": {
+      "before": "575415762b249a5efd738d1a21e6c4258fabe48a4ec2d65aa9e49c654cf1309a",
+      "after": "575415762b249a5efd738d1a21e6c4258fabe48a4ec2d65aa9e49c654cf1309a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/compact_types.rs": {
+      "before": "d4d41b759d63cb456a1e3feac0ac1c2843d7daca125b72a10e21303d553ac59b",
+      "after": "d4d41b759d63cb456a1e3feac0ac1c2843d7daca125b72a10e21303d553ac59b",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/lib.rs": {
+      "before": "1df2c85173ad139dcc621c1da432f4004d6001134277d79710dcb58fc1c8f92e",
+      "after": "1df2c85173ad139dcc621c1da432f4004d6001134277d79710dcb58fc1c8f92e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/numeric.rs": {
+      "before": "a935b28c987c7cdc4af59f95f0e09b876766547dba7127b18a9fcfbe0c824a29",
+      "after": "a935b28c987c7cdc4af59f95f0e09b876766547dba7127b18a9fcfbe0c824a29",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/protocol.rs": {
+      "before": "dd5c139870fded296b8e7e84b26d0985b94a667d9aa4b2752b4c20a26591f2b8",
+      "after": "dd5c139870fded296b8e7e84b26d0985b94a667d9aa4b2752b4c20a26591f2b8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/snapshot.rs": {
+      "before": "0093da4409932e67de263e93623405d1f4fd807f8e12f173fd1454b819f7aed0",
+      "after": "0093da4409932e67de263e93623405d1f4fd807f8e12f173fd1454b819f7aed0",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/tests.rs": {
+      "before": "af1ca7e768e51cf71a4986da3d4e1e0a6456dab0bfcde2a55c0b7d2f3fdcf1b6",
+      "after": "af1ca7e768e51cf71a4986da3d4e1e0a6456dab0bfcde2a55c0b7d2f3fdcf1b6",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/types.rs": {
+      "before": "079b07705df839cc0227665644ea8f676c2510f65e902b08109659afed1c6c15",
+      "after": "079b07705df839cc0227665644ea8f676c2510f65e902b08109659afed1c6c15",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-scheme-v3/src/wire.rs": {
+      "before": "3eebe0282a7f2c9282c0e95b330481e399762987bc87259a8f0ab7c387547aac",
+      "after": "3eebe0282a7f2c9282c0e95b330481e399762987bc87259a8f0ab7c387547aac",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-v3/Cargo.toml": {
+      "before": "29dd3e909595e2af4887c58f3b333715ebec63299f6d8d334b4b48211a94c1d0",
+      "after": "29dd3e909595e2af4887c58f3b333715ebec63299f6d8d334b4b48211a94c1d0",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-v3/src/audit_tests.rs": {
+      "before": "3aefd4aa521c7aea259981425015c5adfe247bd7e780ad0a4979dba6cb086c39",
+      "after": "3aefd4aa521c7aea259981425015c5adfe247bd7e780ad0a4979dba6cb086c39",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-v3/src/lib.rs": {
+      "before": "ca27508eb8da7edeb0a3bcd0e9dd81d01e2935efa353b3a98c376d11dcbef668",
+      "after": "ca27508eb8da7edeb0a3bcd0e9dd81d01e2935efa353b3a98c376d11dcbef668",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-v3/src/merkle.rs": {
+      "before": "272b9892e79266133cd7fa967e149a14c62de75bbc4abf0f05e712615988ae07",
+      "after": "272b9892e79266133cd7fa967e149a14c62de75bbc4abf0f05e712615988ae07",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-v3/src/protocol.rs": {
+      "before": "eaeab874b4af55820a07b2de41cf5330f17b077b984559a5052f8a08a066c4bc",
+      "after": "eaeab874b4af55820a07b2de41cf5330f17b077b984559a5052f8a08a066c4bc",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-v3/src/snapshot.rs": {
+      "before": "bde73c024e9ce2720b1fc7f06a03e0838b64bf8f07882e7b3c75dcdb499c7e4b",
+      "after": "bde73c024e9ce2720b1fc7f06a03e0838b64bf8f07882e7b3c75dcdb499c7e4b",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-v3/src/tests.rs": {
+      "before": "36b10f7c55547bc80edf00bf4c198cc5f92136049b817979917fc28240861392",
+      "after": "36b10f7c55547bc80edf00bf4c198cc5f92136049b817979917fc28240861392",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-v3/src/types.rs": {
+      "before": "5a3fd88638346dc47dd4c49f1353c73a83070b0d34faf9470298250e7132136a",
+      "after": "5a3fd88638346dc47dd4c49f1353c73a83070b0d34faf9470298250e7132136a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-auth-v3/src/wire.rs": {
+      "before": "b9d835774281a02623af9a4ef84bbb0c6c223808f1ab79396cbc83200e9238a9",
+      "after": "b9d835774281a02623af9a4ef84bbb0c6c223808f1ab79396cbc83200e9238a9",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/Cargo.toml": {
+      "before": "4bbe158acd3dd65b146a03981e4ceac3d196384b0ba1189670588bf3a226decc",
+      "after": "4bbe158acd3dd65b146a03981e4ceac3d196384b0ba1189670588bf3a226decc",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/bin/gem_csr38_full_test.rs": {
+      "before": "71d5a5db416e089c47e32d6c6e5d4550462e26937f50ba6b113f13ec703fd4b3",
+      "after": "71d5a5db416e089c47e32d6c6e5d4550462e26937f50ba6b113f13ec703fd4b3",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/bin/gem_native_v3.rs": {
+      "before": "4c417a1a0cb8e1e3922548b50ed9870e3a838f5709f569907986cce8d7244610",
+      "after": "4c417a1a0cb8e1e3922548b50ed9870e3a838f5709f569907986cce8d7244610",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/bin/gem_raw_auth_v3.rs": {
+      "before": "46b9947b561613c6c314da71e21b6990b620db53bd8e1cf3b87cbacbddf8bfc8",
+      "after": "46b9947b561613c6c314da71e21b6990b620db53bd8e1cf3b87cbacbddf8bfc8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/bin/gem_scheme_auth_v3.rs": {
+      "before": "41a63a079eae3d9525a6aead21c58d37f3093d56105de77bad0e0227343670d3",
+      "after": "41a63a079eae3d9525a6aead21c58d37f3093d56105de77bad0e0227343670d3",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/compact_cli.rs": {
+      "before": "5f39d93a2e2b77c0505d6df424cd78578270d72f46411f31999508187ad6ced9",
+      "after": "5f39d93a2e2b77c0505d6df424cd78578270d72f46411f31999508187ad6ced9",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/fixed_reference.rs": {
+      "before": "bf0e1998d371a3cb5937ff926bed7415b3293e0defa1892a441ef63b1b2dfd98",
+      "after": "bf0e1998d371a3cb5937ff926bed7415b3293e0defa1892a441ef63b1b2dfd98",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/full_snapshot.rs": {
+      "before": "bef79a57dd5566bb58b94781f9100b616ee6dc9784d21784fb09483bb640fa46",
+      "after": "bef79a57dd5566bb58b94781f9100b616ee6dc9784d21784fb09483bb640fa46",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/lib.rs": {
+      "before": "3557fd1d6d2312829ba9f0dc4fc6a47d93ede027f88a808204070154674a0c37",
+      "after": "3557fd1d6d2312829ba9f0dc4fc6a47d93ede027f88a808204070154674a0c37",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/native/args.rs": {
+      "before": "81b461f38d5f8524345e90bab32092a897dfc2cec626b3e1a61fa40b88fb4399",
+      "after": "81b461f38d5f8524345e90bab32092a897dfc2cec626b3e1a61fa40b88fb4399",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/native/benchmark.rs": {
+      "before": "a750a7c30bccdaf44f8970eeaeff134c3a5465daf9e1bdc726df06fe6130f660",
+      "after": "a750a7c30bccdaf44f8970eeaeff134c3a5465daf9e1bdc726df06fe6130f660",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/native/build.rs": {
+      "before": "7f9bf1b0c755c1efd016c598abf593ec728c760ec3805061862975c3cf793fbd",
+      "after": "7f9bf1b0c755c1efd016c598abf593ec728c760ec3805061862975c3cf793fbd",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/native/evidence.rs": {
+      "before": "7daaee6c9b4f045957cf54777fdbe9a555d5d009845dd0c64f5b7e1bdf837be3",
+      "after": "7daaee6c9b4f045957cf54777fdbe9a555d5d009845dd0c64f5b7e1bdf837be3",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/native/finalize.rs": {
+      "before": "03c12aaa22bb9e9c40d30824458fdb48e04a3ba77b90bf3b0e82ce5e205ba3dd",
+      "after": "03c12aaa22bb9e9c40d30824458fdb48e04a3ba77b90bf3b0e82ce5e205ba3dd",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/native/mod.rs": {
+      "before": "1d33aff1ce2963cde466f34eba4aa5b1bcbb7aae7ea6c32ad40b89433addd71c",
+      "after": "1d33aff1ce2963cde466f34eba4aa5b1bcbb7aae7ea6c32ad40b89433addd71c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/native/query.rs": {
+      "before": "91b1b9d775cdafc37a570144a47c57017050d3e896ee6a0b17105745dbcc4e76",
+      "after": "91b1b9d775cdafc37a570144a47c57017050d3e896ee6a0b17105745dbcc4e76",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/raw_auth.rs": {
+      "before": "a30f18bd23fb277d123d7b8f8eab028902afb42a191226bd729e8b12ff2b550a",
+      "after": "a30f18bd23fb277d123d7b8f8eab028902afb42a191226bd729e8b12ff2b550a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/scheme_auth.rs": {
+      "before": "c74aa2fe9b244d22490d3da229024beffbc9e7c761899f27ca8690f87b9e4796",
+      "after": "c74aa2fe9b244d22490d3da229024beffbc9e7c761899f27ca8690f87b9e4796",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/src/scheme_family.rs": {
+      "before": "e99393336748744f12d2a818c1e807f48b56a96a3563920faa84f692d6e22add",
+      "after": "e99393336748744f12d2a818c1e807f48b56a96a3563920faa84f692d6e22add",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/tests/finalize_v3.rs": {
+      "before": "ea2d77bc13e2e04757fdbdc1c3be9974756083f0d6c71409e9d8aaeda89ca401",
+      "after": "ea2d77bc13e2e04757fdbdc1c3be9974756083f0d6c71409e9d8aaeda89ca401",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/tests/native_query.rs": {
+      "before": "a576e3c5bbbe543cbba11a83163031b5bc081125ffb7fa615171436d06cf637b",
+      "after": "a576e3c5bbbe543cbba11a83163031b5bc081125ffb7fa615171436d06cf637b",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/tests/published_full_compatibility.rs": {
+      "before": "0eda54e0627868db3a2f4a42f0baa23bf2f6942e307376d9419d9031332b5858",
+      "after": "0eda54e0627868db3a2f4a42f0baa23bf2f6942e307376d9419d9031332b5858",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/tests/raw_auth_v3.rs": {
+      "before": "9a8e7811f5a8f80a10e48ab096dd31240d1423325a0da136edf78152a17c14b5",
+      "after": "9a8e7811f5a8f80a10e48ab096dd31240d1423325a0da136edf78152a17c14b5",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/tests/scheme_auth_v3.rs": {
+      "before": "5f48ee997bd90d261e5153096348d9af6e6709211931a353993eece35c65e024",
+      "after": "5f48ee997bd90d261e5153096348d9af6e6709211931a353993eece35c65e024",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/tests/support/compact_cases.rs": {
+      "before": "5b267dd49ca093b4eccda2a151977600a26183d1856b1ae497ff3d6e38c6b641",
+      "after": "5b267dd49ca093b4eccda2a151977600a26183d1856b1ae497ff3d6e38c6b641",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-cli/tests/support/scheme_auth_cases.rs": {
+      "before": "24a597df34e8d3519a66ded5da3ee1c54a8c6bf1572f8885cbda8e4ae7f910b8",
+      "after": "24a597df34e8d3519a66ded5da3ee1c54a8c6bf1572f8885cbda8e4ae7f910b8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/Cargo.toml": {
+      "before": "4a8a6268b3d20349a993f42a9d27f3249cfab4bf9e500f9ac0ecf819b85f84f2",
+      "after": "4a8a6268b3d20349a993f42a9d27f3249cfab4bf9e500f9ac0ecf819b85f84f2",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/src/compact.rs": {
+      "before": "5689694c2970d5b84e1d85dc96d19260d3e8ae280290ca9d0214508a048ceaf8",
+      "after": "5689694c2970d5b84e1d85dc96d19260d3e8ae280290ca9d0214508a048ceaf8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/src/error.rs": {
+      "before": "26d121c4964cb11c9c9e4ff74148cecbc8edccad31e8ea2ab6897e7ffa51ae2d",
+      "after": "26d121c4964cb11c9c9e4ff74148cecbc8edccad31e8ea2ab6897e7ffa51ae2d",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/src/fixed.rs": {
+      "before": "4e9fc49a9f20b3f307af584c1166ce290478e179db5a803960e0d08ce08e4abb",
+      "after": "4e9fc49a9f20b3f307af584c1166ce290478e179db5a803960e0d08ce08e4abb",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/src/hash.rs": {
+      "before": "b7bdac345594c451a692e8ddba61bd0d46244d483fc9cb65550951fbabd98874",
+      "after": "b7bdac345594c451a692e8ddba61bd0d46244d483fc9cb65550951fbabd98874",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/src/lib.rs": {
+      "before": "d3abe4dbe93ab9c03b24cf0853c7de60c396b849b3363a5144c99c3ee2677e1c",
+      "after": "d3abe4dbe93ab9c03b24cf0853c7de60c396b849b3363a5144c99c3ee2677e1c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/src/npy.rs": {
+      "before": "8d4c4faf9f96097126829f5958200bef7678d091f4c29a803fa8cecabb75bab4",
+      "after": "8d4c4faf9f96097126829f5958200bef7678d091f4c29a803fa8cecabb75bab4",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/src/numeric.rs": {
+      "before": "79629fc135a2ba90a643ac2993bce0589306264d50a1fa81b3b312589e331fea",
+      "after": "79629fc135a2ba90a643ac2993bce0589306264d50a1fa81b3b312589e331fea",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/src/v3.rs": {
+      "before": "622dd348691b8176f29fdb5583091b142165ce38f0952b0cd4c29d684d7767e0",
+      "after": "622dd348691b8176f29fdb5583091b142165ce38f0952b0cd4c29d684d7767e0",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-core/src/wire.rs": {
+      "before": "ce5340d20923e3f55d6c5a1402f6272fcda1be5f381042cac75ebe13f4e11cf3",
+      "after": "ce5340d20923e3f55d6c5a1402f6272fcda1be5f381042cac75ebe13f4e11cf3",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-matrix-proof/Cargo.toml": {
+      "before": "46a511a9791cbcee06f4c986fe00b1019e66e19cc19c5b567d63d3973c7437f0",
+      "after": "46a511a9791cbcee06f4c986fe00b1019e66e19cc19c5b567d63d3973c7437f0",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-matrix-proof/src/bin/fold_pair_checkpoint.rs": {
+      "before": "1664ee330e24f751651992c760d39b4a46d4fa05d613e724b39d1217374ad488",
+      "after": "1664ee330e24f751651992c760d39b4a46d4fa05d613e724b39d1217374ad488",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-matrix-proof/src/bin/folding_checkpoint.rs": {
+      "before": "2be571795c7799685eaf2b6567679c362eda033194c94641dca8640653feb076",
+      "after": "2be571795c7799685eaf2b6567679c362eda033194c94641dca8640653feb076",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-matrix-proof/src/bin/msm_precompute_checkpoint.rs": {
+      "before": "2405dde13fcea971d92739ede47b28bcd577195905d2462d11c9f3348efc0688",
+      "after": "2405dde13fcea971d92739ede47b28bcd577195905d2462d11c9f3348efc0688",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-matrix-proof/src/bin/projection_checkpoint.rs": {
+      "before": "436a6d6cb54d8ab5912d8fbc57a6003ced3bda18d8aaeef7690ac72f6a65907a",
+      "after": "436a6d6cb54d8ab5912d8fbc57a6003ced3bda18d8aaeef7690ac72f6a65907a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-matrix-proof/src/lib.rs": {
+      "before": "33cce0f852f5f964a4be2d02027da9ec744c9146f8cf8dc1252942f9ff661f6a",
+      "after": "33cce0f852f5f964a4be2d02027da9ec744c9146f8cf8dc1252942f9ff661f6a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-matrix-proof/src/parallel_tests.rs": {
+      "before": "77840088362d02e4a95a012f9e4cb13ba8f5fe06d87abb591f4df26fb166dfa4",
+      "after": "77840088362d02e4a95a012f9e4cb13ba8f5fe06d87abb591f4df26fb166dfa4",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-qemd-lemon/Cargo.toml": {
+      "before": "65d898093a30f83520a787a65b4989d542ac7fe6ab90cde3ce158b5e953ef6dd",
+      "after": "65d898093a30f83520a787a65b4989d542ac7fe6ab90cde3ce158b5e953ef6dd",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-qemd-lemon/build.rs": {
+      "before": "c2228c5bec592e947b383356df1f69cf2694b491d96522416e723e833c3005e5",
+      "after": "c2228c5bec592e947b383356df1f69cf2694b491d96522416e723e833c3005e5",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-qemd-lemon/src/lib.rs": {
+      "before": "61be0bfc6f12859a274da2bd2078b44a576598a4ef463ee729bf59480dac15bc",
+      "after": "61be0bfc6f12859a274da2bd2078b44a576598a4ef463ee729bf59480dac15bc",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/Cargo.toml": {
+      "before": "6fffc2c3521bf1a56f3f327740355fb56de526b827247653e380c398b8b06c6d",
+      "after": "6fffc2c3521bf1a56f3f327740355fb56de526b827247653e380c398b8b06c6d",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/artifact_v3.rs": {
+      "before": "629829222e156f21ddfafa70fc72eab25656729d2536a585260e41c83f3f3102",
+      "after": "629829222e156f21ddfafa70fc72eab25656729d2536a585260e41c83f3f3102",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/lib.rs": {
+      "before": "0181db9a3a93cf91af362914b040ce30ab6a849b7c01ac0476880dfedaadeb69",
+      "after": "0181db9a3a93cf91af362914b040ce30ab6a849b7c01ac0476880dfedaadeb69",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/qemd.rs": {
+      "before": "69e179600be0253e8fa91195da6c058b0c0c3746301503f0f8344848ce4fae65",
+      "after": "69e179600be0253e8fa91195da6c058b0c0c3746301503f0f8344848ce4fae65",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/shards_v3.rs": {
+      "before": "97f0694cfab6948d6979b8157852be0987b90906bd8c534a67e2464691517830",
+      "after": "97f0694cfab6948d6979b8157852be0987b90906bd8c534a67e2464691517830",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/audit_tests.rs": {
+      "before": "44145905983732057b990f932c743183edf9a52fd33bc753901bc04e49894428",
+      "after": "44145905983732057b990f932c743183edf9a52fd33bc753901bc04e49894428",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/compact.rs": {
+      "before": "29fc4661f4f896d27e70ad377ead5919d2e8f6cc1b31ee6b87c28651b06e0731",
+      "after": "29fc4661f4f896d27e70ad377ead5919d2e8f6cc1b31ee6b87c28651b06e0731",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/distance.rs": {
+      "before": "c2f9e60db32a1793e28b3aff1d778e78d8112c16b35f9f976d7bf047dbb381be",
+      "after": "c2f9e60db32a1793e28b3aff1d778e78d8112c16b35f9f976d7bf047dbb381be",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/engine.rs": {
+      "before": "0a68eaf23ba2113676565f7462730a4507e04bc030dab1fdfbfdaf6995a06336",
+      "after": "0a68eaf23ba2113676565f7462730a4507e04bc030dab1fdfbfdaf6995a06336",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/execution.rs": {
+      "before": "81282ea42d8c816830061a0bb2c57d3ea8fcd470e3b9d90acb1215a37a7f90ea",
+      "after": "81282ea42d8c816830061a0bb2c57d3ea8fcd470e3b9d90acb1215a37a7f90ea",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/fixed.rs": {
+      "before": "24d27deeb536260a365eae6ee1c6675f1bac2a9842e54a4cae155da9945cc1a2",
+      "after": "24d27deeb536260a365eae6ee1c6675f1bac2a9842e54a4cae155da9945cc1a2",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/graph.rs": {
+      "before": "659b686e5610d6822ab074e6b7b70257709983b0787142f03b9f82b682d6bcb3",
+      "after": "659b686e5610d6822ab074e6b7b70257709983b0787142f03b9f82b682d6bcb3",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/membership.rs": {
+      "before": "eee0c6f0568a4cd2db271eb23df85c22d86e0420c4a862e96d3995536043de05",
+      "after": "eee0c6f0568a4cd2db271eb23df85c22d86e0420c4a862e96d3995536043de05",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/mod.rs": {
+      "before": "ff1621e5bde40fc516bcb6fed7652e6934f00338c91cff55faa5a3bc2931440f",
+      "after": "ff1621e5bde40fc516bcb6fed7652e6934f00338c91cff55faa5a3bc2931440f",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/qemd_runtime.rs": {
+      "before": "82f862fa9b3974687d7b188c55f631d785fd1f3884afdbe25fe8c3a68719286e",
+      "after": "82f862fa9b3974687d7b188c55f631d785fd1f3884afdbe25fe8c3a68719286e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/repair.rs": {
+      "before": "7d71369821c0254a27a887bdaf59428caeccaf65e84f6c3c47756606e305e578",
+      "after": "7d71369821c0254a27a887bdaf59428caeccaf65e84f6c3c47756606e305e578",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/search.rs": {
+      "before": "f2de8f4f06b7d8def76749bf42a56bbf82c1de0526e34ebd27121ccfbab01716",
+      "after": "f2de8f4f06b7d8def76749bf42a56bbf82c1de0526e34ebd27121ccfbab01716",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/shortcut.rs": {
+      "before": "fd9f852beb79df8864758123364bbf81411fdcc4c8416b11ec744af718ed3306",
+      "after": "fd9f852beb79df8864758123364bbf81411fdcc4c8416b11ec744af718ed3306",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/src/v3/tests.rs": {
+      "before": "2f0772009b88939989c4bfbb8daa1dc841922a310e40fdec6e052985d3c716f5",
+      "after": "2f0772009b88939989c4bfbb8daa1dc841922a310e40fdec6e052985d3c716f5",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/vendor/gem-otlib/EMD.h": {
+      "before": "e6113d6d14d243e0dfa15c64586ef6968f5351288f022151f3ef1e98feba07e7",
+      "after": "e6113d6d14d243e0dfa15c64586ef6968f5351288f022151f3ef1e98feba07e7",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/vendor/gem-otlib/EMD_wrapper.cpp": {
+      "before": "9ac1476b7003d0018788d2d65abb0df6997ef708eef7468888cb3162ef6c04dd",
+      "after": "9ac1476b7003d0018788d2d65abb0df6997ef708eef7468888cb3162ef6c04dd",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/vendor/gem-otlib/VENDORED_FROM.md": {
+      "before": "ad1ee1d62d5e6937d25a37bf9be7b92d9af48dacb6e5128d97cc43efb3d490ca",
+      "after": "ad1ee1d62d5e6937d25a37bf9be7b92d9af48dacb6e5128d97cc43efb3d490ca",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/vendor/gem-otlib/core.h": {
+      "before": "359e9b1d580c1eb7213bfd961d57ea70f6713d364534ae343f6d79b90626d753",
+      "after": "359e9b1d580c1eb7213bfd961d57ea70f6713d364534ae343f6d79b90626d753",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/vendor/gem-otlib/full_bipartitegraph.h": {
+      "before": "c9ee7e62db0d58c755854526fe67ee166fb6c819f5ca040fa16e95f0116832d8",
+      "after": "c9ee7e62db0d58c755854526fe67ee166fb6c819f5ca040fa16e95f0116832d8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/vendor/gem-otlib/gem_emd_shim.cpp": {
+      "before": "ff5efc25770a3105850d4fd722b8fb0f7c991c79bbe7b4c2b6bc3ca834b8be91",
+      "after": "ff5efc25770a3105850d4fd722b8fb0f7c991c79bbe7b4c2b6bc3ca834b8be91",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/crates/gem-search/vendor/gem-otlib/network_simplex_simple.h": {
+      "before": "4264bfe6760fcdf9b4c591e0e1fac9b2d983ccf6874dffb4d9e314868b197c93",
+      "after": "4264bfe6760fcdf9b4c591e0e1fac9b2d983ccf6874dffb4d9e314868b197c93",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/origin.py": {
+      "before": "f32bad6fe98a5b2b902470c0ac5d047552872c5b36379169449427d6713d4b69",
+      "after": "f32bad6fe98a5b2b902470c0ac5d047552872c5b36379169449427d6713d4b69",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/fixtures/golden/qemd-lemon-v3.json": {
+      "before": "1eaa997c24c77c487567a738d2ac77d802dff0dd7ff0d329c88dc2bf77652b9a",
+      "after": "1eaa997c24c77c487567a738d2ac77d802dff0dd7ff0d329c88dc2bf77652b9a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/fixtures/2857/reference.json": {
+      "before": "82ff40e7fa630c986a19fec38ec39e85873fc8bb1015d8c98cb8ef15e43d3195",
+      "after": "82ff40e7fa630c986a19fec38ec39e85873fc8bb1015d8c98cb8ef15e43d3195",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/fixtures/2857/request.json": {
+      "before": "9c6f6114e0ebb366325cd386a5d5757dadfd70a926469232f7648478f8e8fab4",
+      "after": "9c6f6114e0ebb366325cd386a5d5757dadfd70a926469232f7648478f8e8fab4",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/fixtures/2857/source.vo": {
+      "before": "10b2455181494e0dffa389ad84934e37bf41d82c3027a394b545c1a58a33ebfa",
+      "after": "10b2455181494e0dffa389ad84934e37bf41d82c3027a394b545c1a58a33ebfa",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/fixtures/2857/trusted.json": {
+      "before": "f3728c5dd86c1644892455f16c3d32688cd0f566229ee09231d6fe5bc29e4fde",
+      "after": "f3728c5dd86c1644892455f16c3d32688cd0f566229ee09231d6fe5bc29e4fde",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/full-plan.json": {
+      "before": "59873fa00213329236860684c6104322650ba35af5a1a36b97e3f4431a57c6e6",
+      "after": "59873fa00213329236860684c6104322650ba35af5a1a36b97e3f4431a57c6e6",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/input-receipts.json": {
+      "before": "36cd736ec615eca5919669e8e0f2c52e4de03814ec69bde28ac20e5b5039855f",
+      "after": "36cd736ec615eca5919669e8e0f2c52e4de03814ec69bde28ac20e5b5039855f",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/inputs-manifest.json": {
+      "before": "5c4431dc11e5f578c17ac5d61448a13f03500ee86304105505695ff60c809c21",
+      "after": "5c4431dc11e5f578c17ac5d61448a13f03500ee86304105505695ff60c809c21",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/native-reference.jsonl": {
+      "before": "5f98f6ca9132f27480d0aea6cc2320d2b519d7bfa839729ad389486f849fa3d1",
+      "after": "5f98f6ca9132f27480d0aea6cc2320d2b519d7bfa839729ad389486f849fa3d1",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/anchors.bin": {
+      "before": "772ecc3e7c39133a84075a5d8ef06ed9935baaff9ea3a5aa4934fa3d784ec2dd",
+      "after": "772ecc3e7c39133a84075a5d8ef06ed9935baaff9ea3a5aa4934fa3d784ec2dd",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/block_fast.all.bin": {
+      "before": "889b1afb503c05f38259bb28c716414865e4e83657d791bf7e12f50773c78a3e",
+      "after": "889b1afb503c05f38259bb28c716414865e4e83657d791bf7e12f50773c78a3e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/block_fast.coarse.bin": {
+      "before": "9c26d4195bbe5304f351b1b82ff4058dc19e4fe29978caeae30be00b0a57adf6",
+      "after": "9c26d4195bbe5304f351b1b82ff4058dc19e4fe29978caeae30be00b0a57adf6",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/block_fast.fine.bin": {
+      "before": "d38f40cfdb1b104158a44049119b061bcdcaf47c6497ee9bd77c0d0c99b6a750",
+      "after": "d38f40cfdb1b104158a44049119b061bcdcaf47c6497ee9bd77c0d0c99b6a750",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/block_fast.rerank.bin": {
+      "before": "e9538745326e4d75f6d67a5c84ed47743e8660bc765a15ba19d397a123bee81e",
+      "after": "e9538745326e4d75f6d67a5c84ed47743e8660bc765a15ba19d397a123bee81e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/raw.all.bin": {
+      "before": "b3624f0d59e4ad7dabcbd41877db60628d3d65b96b29ce0c7faf965d6e662fb4",
+      "after": "b3624f0d59e4ad7dabcbd41877db60628d3d65b96b29ce0c7faf965d6e662fb4",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/raw.coarse.bin": {
+      "before": "9caf02f8a1ecac81556a1c3dc7df8b345e02e35c4f48c3589373f240284ac00b",
+      "after": "9caf02f8a1ecac81556a1c3dc7df8b345e02e35c4f48c3589373f240284ac00b",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/raw.fine.bin": {
+      "before": "488ec3dc3488a62b402c26ef59edb62493dec713868945a62b91cf1bd707be91",
+      "after": "488ec3dc3488a62b402c26ef59edb62493dec713868945a62b91cf1bd707be91",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/raw.rerank.bin": {
+      "before": "27d1092fdb64c56bf91dc2a6060b4d6c78dcbed324c209fb08a5fc59b7e3cb61",
+      "after": "27d1092fdb64c56bf91dc2a6060b4d6c78dcbed324c209fb08a5fc59b7e3cb61",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/vida_batched.all.bin": {
+      "before": "a4cff5f70b7358c94b594f84d5a3d9d237c18afde5fcb8b3e8660cca750adeff",
+      "after": "a4cff5f70b7358c94b594f84d5a3d9d237c18afde5fcb8b3e8660cca750adeff",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/vida_batched.coarse.bin": {
+      "before": "b033b29549b43543d8fb2970fe1e1e527efe3c9f57abf7dc31ba1d2888291e2c",
+      "after": "b033b29549b43543d8fb2970fe1e1e527efe3c9f57abf7dc31ba1d2888291e2c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/vida_batched.fine.bin": {
+      "before": "1d15e8d30836ec33b824d31b1b0676c7f888cb66dcedbe89e5e301b118966282",
+      "after": "1d15e8d30836ec33b824d31b1b0676c7f888cb66dcedbe89e5e301b118966282",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/vida_batched.rerank.bin": {
+      "before": "32f992dab01ce24db1324b470bbd89f5c658bba672e9fe8e3b7a4f9f3fe06e9f",
+      "after": "32f992dab01ce24db1324b470bbd89f5c658bba672e9fe8e3b7a4f9f3fe06e9f",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/vida_per_token.all.bin": {
+      "before": "a4cff5f70b7358c94b594f84d5a3d9d237c18afde5fcb8b3e8660cca750adeff",
+      "after": "a4cff5f70b7358c94b594f84d5a3d9d237c18afde5fcb8b3e8660cca750adeff",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/vida_per_token.coarse.bin": {
+      "before": "b033b29549b43543d8fb2970fe1e1e527efe3c9f57abf7dc31ba1d2888291e2c",
+      "after": "b033b29549b43543d8fb2970fe1e1e527efe3c9f57abf7dc31ba1d2888291e2c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/vida_per_token.fine.bin": {
+      "before": "1d15e8d30836ec33b824d31b1b0676c7f888cb66dcedbe89e5e301b118966282",
+      "after": "1d15e8d30836ec33b824d31b1b0676c7f888cb66dcedbe89e5e301b118966282",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/public/vida_per_token.rerank.bin": {
+      "before": "32f992dab01ce24db1324b470bbd89f5c658bba672e9fe8e3b7a4f9f3fe06e9f",
+      "after": "32f992dab01ce24db1324b470bbd89f5c658bba672e9fe8e3b7a4f9f3fe06e9f",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/publication.json": {
+      "before": "edaa7b1f89bb2cb70e7d07f1d38d7e7da22b05075397fec2def3769d71a094ff",
+      "after": "edaa7b1f89bb2cb70e7d07f1d38d7e7da22b05075397fec2def3769d71a094ff",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/records/full/identity.json": {
+      "before": "761173137545341b10ea37586d8364030d0e1c868f2efc09bfe1d50f8ed90860",
+      "after": "761173137545341b10ea37586d8364030d0e1c868f2efc09bfe1d50f8ed90860",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/inputs/ref-0.json": {
+      "before": "52fd5cd65b501c821c7da48f900531762cebdcf122e0fcdbad17b8bd3477fa09",
+      "after": "52fd5cd65b501c821c7da48f900531762cebdcf122e0fcdbad17b8bd3477fa09",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/inputs/ref-2857.json": {
+      "before": "82ff40e7fa630c986a19fec38ec39e85873fc8bb1015d8c98cb8ef15e43d3195",
+      "after": "82ff40e7fa630c986a19fec38ec39e85873fc8bb1015d8c98cb8ef15e43d3195",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/run-manifest.json": {
+      "before": "519eb9a1a74f002d4176818df86760e6eddbc5ea7c1bc2de4f9743d04ca35528",
+      "after": "519eb9a1a74f002d4176818df86760e6eddbc5ea7c1bc2de4f9743d04ca35528",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/inputs/runner.json": {
+      "before": "9eb8b1d91dc68bde0108a7020ad4ec41ea23a5cbcf2d8e58c26ea0ee609b868a",
+      "after": "9eb8b1d91dc68bde0108a7020ad4ec41ea23a5cbcf2d8e58c26ea0ee609b868a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/smoke-plan.json": {
+      "before": "76299147f31564be41404b50f20a05fa16590cd85bbcd62a139dac5a813743e7",
+      "after": "76299147f31564be41404b50f20a05fa16590cd85bbcd62a139dac5a813743e7",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/inputs/trusted.json": {
+      "before": "613834f7698e0ce9074aba6c063992c0ee45d90401c63e6c9007e902902d91f6",
+      "after": "613834f7698e0ce9074aba6c063992c0ee45d90401c63e6c9007e902902d91f6",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/reference/README.md": {
+      "before": "5e52cc799f1d50e1f430edc69cc7e1c0be908fbf93efe0da7ed94b6b0b551e9f",
+      "after": "5e52cc799f1d50e1f430edc69cc7e1c0be908fbf93efe0da7ed94b6b0b551e9f",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/reference/gem_repo_v3_differential.cpp": {
+      "before": "c082ec71844311f24ee8f6dc071cb0a7ced8af39721449444c8f770c15917dfc",
+      "after": "c082ec71844311f24ee8f6dc071cb0a7ced8af39721449444c8f770c15917dfc",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/reference/gem_repo_v3_differential.expected.json": {
+      "before": "5b3c432fd3db8b83753aacbce6ac679cbccae3fbac5eec5bd0e49361e5e4a39d",
+      "after": "5b3c432fd3db8b83753aacbce6ac679cbccae3fbac5eec5bd0e49361e5e4a39d",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/reference/official-gem-1b559d0c.patch": {
+      "before": "4d782e1799a2e0e93da64889edc3ac2e47fcc00a1de897afd8dd9b6818718905",
+      "after": "4d782e1799a2e0e93da64889edc3ac2e47fcc00a1de897afd8dd9b6818718905",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/MERLIN_PROVENANCE.json": {
+      "before": "0d87b148ad5cc403204d31e05ef6670ef5d6c8a44fdb89b4858dee8a3e4a13ef",
+      "after": "0d87b148ad5cc403204d31e05ef6670ef5d6c8a44fdb89b4858dee8a3e4a13ef",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/SPRING_PROVENANCE.json": {
+      "before": "f4e5fd249a1cf0597c5fbc2a7c26bd9596fb8d7e3bf3421a3cc5eb5002092425",
+      "after": "f4e5fd249a1cf0597c5fbc2a7c26bd9596fb8d7e3bf3421a3cc5eb5002092425",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/.github/workflows/check-develop.yml": {
+      "before": "5b330f33789e45b4be5d8cf898fcc5cbf78e8e59d65dc5a757b2488cc2fbdf6c",
+      "after": "5b330f33789e45b4be5d8cf898fcc5cbf78e8e59d65dc5a757b2488cc2fbdf6c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/.github/workflows/check-main.yml": {
+      "before": "aa6abddd8729f8aab37aef610cc98e917c837b2ae985c549b8d90b6388cb882b",
+      "after": "aa6abddd8729f8aab37aef610cc98e917c837b2ae985c549b8d90b6388cb882b",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/.gitignore": {
+      "before": "3c190dc8bc9f793ca5c8d1e5f01b329ea63b2853bc9e8a3e18da63f7fb10c5b5",
+      "after": "3c190dc8bc9f793ca5c8d1e5f01b329ea63b2853bc9e8a3e18da63f7fb10c5b5",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/CHANGELOG.md": {
+      "before": "e78271c5f76a94e4ae4edac1d45cd8fd71a179b89b982b302d4cbef30e730811",
+      "after": "e78271c5f76a94e4ae4edac1d45cd8fd71a179b89b982b302d4cbef30e730811",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/CONTRIBUTING.md": {
+      "before": "01f09b16143b0ff1ba7067935636e55daf5b68452d4b9afdf9e27b2c37346b1e",
+      "after": "01f09b16143b0ff1ba7067935636e55daf5b68452d4b9afdf9e27b2c37346b1e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/Cargo.lock": {
+      "before": "aadf555578f6b86b40f467ca01b1f03e502d8f9ef5a48452899371cde1f6b079",
+      "after": "aadf555578f6b86b40f467ca01b1f03e502d8f9ef5a48452899371cde1f6b079",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/Cargo.toml": {
+      "before": "70dc805a0aaae5b13c38fcea48e667fc6fe65dc6e27d0da7d2e2cdadf777f93c",
+      "after": "70dc805a0aaae5b13c38fcea48e667fc6fe65dc6e27d0da7d2e2cdadf777f93c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/LICENSE.txt": {
+      "before": "c11b881a42d112b7fb0ba3b4731c76d2a0c1f90e9fa62612b83f435ff38d76f7",
+      "after": "c11b881a42d112b7fb0ba3b4731c76d2a0c1f90e9fa62612b83f435ff38d76f7",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/Makefile": {
+      "before": "2a77bbbe4443fc4f181687112d8319f2302cb45ebe80180a6ae0709469bcf6e6",
+      "after": "2a77bbbe4443fc4f181687112d8319f2302cb45ebe80180a6ae0709469bcf6e6",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/README.md": {
+      "before": "83827ac83ab979d188305913ce46cf53e66c5840a6b47f21f0e99db15f190c69",
+      "after": "83827ac83ab979d188305913ce46cf53e66c5840a6b47f21f0e99db15f190c69",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/benches/generators.rs": {
+      "before": "64feb80a80e2a5385271701470c30bd2ec290798770f73532a857fb80f481f58",
+      "after": "64feb80a80e2a5385271701470c30bd2ec290798770f73532a857fb80f481f58",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/benches/linear_proof.rs": {
+      "before": "bd7c9aabcae22ab0f05ab0e886fec7c6113d4dddcf204f32d7c3a9e054061a1e",
+      "after": "bd7c9aabcae22ab0f05ab0e886fec7c6113d4dddcf204f32d7c3a9e054061a1e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/benches/r1cs.rs": {
+      "before": "9b82615e137184b52a6d38296df0f0f7e2c3e37b8636f547e8fc6160bbaa07f8",
+      "after": "9b82615e137184b52a6d38296df0f0f7e2c3e37b8636f547e8fc6160bbaa07f8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/benches/range_proof.rs": {
+      "before": "ec97a29f491d5f45c410fc3707227a80c8a3c63b17e8a29022e754be8acecb52",
+      "after": "ec97a29f491d5f45c410fc3707227a80c8a3c63b17e8a29022e754be8acecb52",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/benches/spring_vs_padding.rs": {
+      "before": "98f587e4d8bc391305c333b1b3273593c263329da1f9b797d89f3f5f6a358e8b",
+      "after": "98f587e4d8bc391305c333b1b3273593c263329da1f9b797d89f3f5f6a358e8b",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/aggregation-api.md": {
+      "before": "17add7d18c976824e88a8635582b256672e5d299eabef7d18179b62d2d5db059",
+      "after": "17add7d18c976824e88a8635582b256672e5d299eabef7d18179b62d2d5db059",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/assets/aggregated-range-proof.sketch": {
+      "before": "99307e538f81e96fcc626d2836337fc182ace80f1adb3fe443f241968144d97f",
+      "after": "99307e538f81e96fcc626d2836337fc182ace80f1adb3fe443f241968144d97f",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/assets/bulletproofs-diagram.png": {
+      "before": "fc22e0b698518f72543a6ff80646d8e03683df77f57de6a0031cb66f7947a39c",
+      "after": "fc22e0b698518f72543a6ff80646d8e03683df77f57de6a0031cb66f7947a39c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/cs-proof.md": {
+      "before": "6bebd24f42cea86015c019ed73e68dc17043cdf7ff88f5e2efc1ef668a2023f1",
+      "after": "6bebd24f42cea86015c019ed73e68dc17043cdf7ff88f5e2efc1ef668a2023f1",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/inner-product-protocol.md": {
+      "before": "ced99838782058424e78e7ef8a04c89a0a6e3a5f205520149cf3453defe26ad2",
+      "after": "ced99838782058424e78e7ef8a04c89a0a6e3a5f205520149cf3453defe26ad2",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/notes-intro.md": {
+      "before": "2295beb6a2dd8e3d2a74eb3dd52a614815517a734b3126b6ac93b38ee46ad280",
+      "after": "2295beb6a2dd8e3d2a74eb3dd52a614815517a734b3126b6ac93b38ee46ad280",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/notes-ipp.md": {
+      "before": "9ca1815405b49627558a89585ccdd676eb34a31bd60085d98fac696cf0947e14",
+      "after": "9ca1815405b49627558a89585ccdd676eb34a31bd60085d98fac696cf0947e14",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/notes-r1cs.md": {
+      "before": "ca92d802540e9c01d4be6ef4e13eb0f7f21040dd2bd3085e462ec2a5a5e86d0e",
+      "after": "ca92d802540e9c01d4be6ef4e13eb0f7f21040dd2bd3085e462ec2a5a5e86d0e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/notes-rp.md": {
+      "before": "4166eb4923aac54781a6a4d0aaccdce47484e0bc8983f0795e7854baf4134d86",
+      "after": "4166eb4923aac54781a6a4d0aaccdce47484e0bc8983f0795e7854baf4134d86",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/r1cs-docs-example.md": {
+      "before": "9b1711c7dc3c346d7069273636f20d7e7c69427c73c7f505c120ef41e285e3eb",
+      "after": "9b1711c7dc3c346d7069273636f20d7e7c69427c73c7f505c120ef41e285e3eb",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/docs/range-proof-protocol.md": {
+      "before": "5d141b6ae87b3534249125956df5cd595de8ff9cf2b0964f265325e28128c39e",
+      "after": "5d141b6ae87b3534249125956df5cd595de8ff9cf2b0964f265325e28128c39e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/examples/bench_print.rs": {
+      "before": "68e03479dbb46efdaf41586de3ea9c53ddb0f83f90edc10b5b2e1deb4d41baea",
+      "after": "68e03479dbb46efdaf41586de3ea9c53ddb0f83f90edc10b5b2e1deb4d41baea",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/examples/ipa_compare.rs": {
+      "before": "1566f91f680a5d88518544bf6230f0abc3017f0064b71b967b2790128827641b",
+      "after": "1566f91f680a5d88518544bf6230f0abc3017f0064b71b967b2790128827641b",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/errors.rs": {
+      "before": "bd1d665d8dbf5c50c6e28ca9ecbb2be3cac82153d51220fd95e56536df039f86",
+      "after": "bd1d665d8dbf5c50c6e28ca9ecbb2be3cac82153d51220fd95e56536df039f86",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/generators.rs": {
+      "before": "9bc4efb9c059385dddbb9442650dfb5717d460c773dd9a628954e63b6fd29a73",
+      "after": "9bc4efb9c059385dddbb9442650dfb5717d460c773dd9a628954e63b6fd29a73",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/inner_product_proof.rs": {
+      "before": "d28ecc3ca6364edfe1a8e3abeaa4cfc28afb15ef1ac89af6449f477a00c3428e",
+      "after": "d28ecc3ca6364edfe1a8e3abeaa4cfc28afb15ef1ac89af6449f477a00c3428e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/lib.rs": {
+      "before": "8beb0d6f15afc90e448fc9e4b20bc66309c067624b93785bf69021305ac765a6",
+      "after": "8beb0d6f15afc90e448fc9e4b20bc66309c067624b93785bf69021305ac765a6",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/linear_proof.rs": {
+      "before": "695d98cf2d712785bb58d2eab7d1d1acc4b612e31de1bc529d588658d05d8578",
+      "after": "695d98cf2d712785bb58d2eab7d1d1acc4b612e31de1bc529d588658d05d8578",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/r1cs/constraint_system.rs": {
+      "before": "002fca10eefaa29c615fbc65807f4416b1586d9a67fd1b28b18575bf0f86a779",
+      "after": "002fca10eefaa29c615fbc65807f4416b1586d9a67fd1b28b18575bf0f86a779",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/r1cs/linear_combination.rs": {
+      "before": "42e597aaee86952d1d2fdd6c419557d8af0b01abd99022f1f2a1dbe58db976a3",
+      "after": "42e597aaee86952d1d2fdd6c419557d8af0b01abd99022f1f2a1dbe58db976a3",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/r1cs/metrics.rs": {
+      "before": "c6819746a72c79cb5193724f15e431e3d036c6dd7de0a504a9bfcadfd1c7eda9",
+      "after": "c6819746a72c79cb5193724f15e431e3d036c6dd7de0a504a9bfcadfd1c7eda9",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/r1cs/mod.rs": {
+      "before": "62db8270277922a9d742886885570d3e1dec78455da63291c5689783a4e53f05",
+      "after": "62db8270277922a9d742886885570d3e1dec78455da63291c5689783a4e53f05",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/r1cs/proof.rs": {
+      "before": "28a11faaa9efcbef6225d62612552f80de32f12557c5c454a0a318db3d94ba2e",
+      "after": "28a11faaa9efcbef6225d62612552f80de32f12557c5c454a0a318db3d94ba2e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/r1cs/prover.rs": {
+      "before": "d4a2e9d333ca39999b625340224d1cab969a319849abb18c8acf55d4d427b239",
+      "after": "d4a2e9d333ca39999b625340224d1cab969a319849abb18c8acf55d4d427b239",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/r1cs/verifier.rs": {
+      "before": "bd07ee4bed98e0e1ddce7314e2da77fd8a0e43c1ded552c25acc77c696878396",
+      "after": "bd07ee4bed98e0e1ddce7314e2da77fd8a0e43c1ded552c25acc77c696878396",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/range_proof/dealer.rs": {
+      "before": "97b120ad77e2f90d2ce0db889f21422d95c456e6e1b389ed42a8728b599843c6",
+      "after": "97b120ad77e2f90d2ce0db889f21422d95c456e6e1b389ed42a8728b599843c6",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/range_proof/messages.rs": {
+      "before": "8ede8a072bdaecc0e34701ac8055a3b475889cd660c4e29ef3086fd70e3cb4b8",
+      "after": "8ede8a072bdaecc0e34701ac8055a3b475889cd660c4e29ef3086fd70e3cb4b8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/range_proof/mod.rs": {
+      "before": "45d317f4fbb194cebbe811445a804f75f64b4aa563b740bafc364fe61287b22f",
+      "after": "45d317f4fbb194cebbe811445a804f75f64b4aa563b740bafc364fe61287b22f",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/range_proof/party.rs": {
+      "before": "173d240a915ee6bc47669234c436f0f2f9ec39f179f3310eada30546fa1ea71c",
+      "after": "173d240a915ee6bc47669234c436f0f2f9ec39f179f3310eada30546fa1ea71c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/spring_linear_proof.rs": {
+      "before": "7a1235176b2f13034085ad08de00939c061e2e789ec7e2990d1dc59f6c021dde",
+      "after": "7a1235176b2f13034085ad08de00939c061e2e789ec7e2990d1dc59f6c021dde",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/transcript.rs": {
+      "before": "95e3313038e591405381f6aed8d3c6a1532271a33fd90b3cc8af7a1a59a3ae6d",
+      "after": "95e3313038e591405381f6aed8d3c6a1532271a33fd90b3cc8af7a1a59a3ae6d",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/src/util.rs": {
+      "before": "b85df1621bf88c34a2c385658a5c003c0d1f46fcddb9382d7ad1f1462bd5f0d4",
+      "after": "b85df1621bf88c34a2c385658a5c003c0d1f46fcddb9382d7ad1f1462bd5f0d4",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/tests/r1cs.rs": {
+      "before": "e5d9d1dd00673af3700160c717364a479ea5d6f4aee3ea7cd98fb492178271fe",
+      "after": "e5d9d1dd00673af3700160c717364a479ea5d6f4aee3ea7cd98fb492178271fe",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/ipa/tests/range_proof.rs": {
+      "before": "d87b7cde288d25212c3cf24957ea100adf04914be6011ca7e2ecc1e9870b29a8",
+      "after": "d87b7cde288d25212c3cf24957ea100adf04914be6011ca7e2ecc1e9870b29a8",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/CHANGELOG.md": {
+      "before": "c42b4fd36c0354c4ce55ebc197edfad68d86876c062e7fb1eca9b12f4f6dab96",
+      "after": "c42b4fd36c0354c4ce55ebc197edfad68d86876c062e7fb1eca9b12f4f6dab96",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/Cargo.toml": {
+      "before": "92ec3c487eb74379593a65a57861536556246c8fc7df00079b6117fd923db65e",
+      "after": "92ec3c487eb74379593a65a57861536556246c8fc7df00079b6117fd923db65e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/Cargo.toml.orig": {
+      "before": "210dbc461a32a4e5bc0b5a873235b423692b60a27b1905e669ba1934d016d143",
+      "after": "210dbc461a32a4e5bc0b5a873235b423692b60a27b1905e669ba1934d016d143",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/LICENSE.txt": {
+      "before": "a23decac74ff35091240ea623bdad2c867ca5054cd1b9e4a848e4628d0c92689",
+      "after": "a23decac74ff35091240ea623bdad2c867ca5054cd1b9e4a848e4628d0c92689",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/LOCAL_CHANGES.md": {
+      "before": "640401d4794edde625828733d46c7b4bf572f0e623462eced3dfde15e2cba70c",
+      "after": "640401d4794edde625828733d46c7b4bf572f0e623462eced3dfde15e2cba70c",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/README.md": {
+      "before": "7b184bfaa764e36cc7ea05bb7ee74e3fb270ea8d1e0a9aef50f35b5a1244b2bc",
+      "after": "7b184bfaa764e36cc7ea05bb7ee74e3fb270ea8d1e0a9aef50f35b5a1244b2bc",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/reference/strobe.rs": {
+      "before": "ff2ef7765ce1e96c87cdb0dfc32b9ba4a009af473b62a532300b4875d18369fd",
+      "after": "ff2ef7765ce1e96c87cdb0dfc32b9ba4a009af473b62a532300b4875d18369fd",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/src/constants.rs": {
+      "before": "306afea9fdb42642246b49a8c2e2fd59d3c0036d4e7c8ad80de34755dcb8ec43",
+      "after": "306afea9fdb42642246b49a8c2e2fd59d3c0036d4e7c8ad80de34755dcb8ec43",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/src/equivalence_tests.rs": {
+      "before": "2277c972139909f7e0ec44638fbe98e1103f4b8a5cc83711f86a50a8e2667475",
+      "after": "2277c972139909f7e0ec44638fbe98e1103f4b8a5cc83711f86a50a8e2667475",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/src/lib.rs": {
+      "before": "06b42419a2d541725828e22908e2da3876ce09ece20e00bacff610478686efba",
+      "after": "06b42419a2d541725828e22908e2da3876ce09ece20e00bacff610478686efba",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/src/strobe.rs": {
+      "before": "1a304bf10147150ecd6f2ba8bb93bc85b87c1c531046dfda6976833b4c0fb38e",
+      "after": "1a304bf10147150ecd6f2ba8bb93bc85b87c1c531046dfda6976833b4c0fb38e",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/gem-four-method-auth-e2e-20261118-v4-csr35/sources/vendor/merlin/src/transcript.rs": {
+      "before": "90b45e7378d6d098ef3512148279302c4899ed0a0d6cfb7f3b907e3583b69ad6",
+      "after": "90b45e7378d6d098ef3512148279302c4899ed0a0d6cfb7f3b907e3583b69ad6",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/build/release/first-visit": {
+      "before": "40011cba9cab18d92c3f17665dc35867cd45f995e09f806f1b73fa3007610589",
+      "after": "40011cba9cab18d92c3f17665dc35867cd45f995e09f806f1b73fa3007610589",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/measure_visit.rs": {
+      "before": "43ed7ea0fc0ef693deff00daac5166b324a112d2484ae4c184e8105a69b8f4df",
+      "after": "43ed7ea0fc0ef693deff00daac5166b324a112d2484ae4c184e8105a69b8f4df",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/first_visit.rs": {
+      "before": "2226bf37b242cd9f93a8f93dfb3dceaf724a9c4e225ec313cab066c32d4a5e32",
+      "after": "2226bf37b242cd9f93a8f93dfb3dceaf724a9c4e225ec313cab066c32d4a5e32",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/population_serve.rs": {
+      "before": "6559cf0acc9bc3d99895771a41077dc78761699f36d2aad9c3167cc37761e735",
+      "after": "6559cf0acc9bc3d99895771a41077dc78761699f36d2aad9c3167cc37761e735",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/prepare_profile.py": {
+      "before": "2482b8a1c5fb27a0c3f4cae2c11adac45050c27b8174b9c6b7725aa587b2f3b5",
+      "after": "2482b8a1c5fb27a0c3f4cae2c11adac45050c27b8174b9c6b7725aa587b2f3b5",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/run_campaign.py": {
+      "before": "6e0c955d109c69429749362791c56c2b34db3c99d0bd928354eab61a65bf221a",
+      "after": "6e0c955d109c69429749362791c56c2b34db3c99d0bd928354eab61a65bf221a",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/client-runtime/source.pem": {
+      "before": "903b3eed49da16031f94c8a7d345ad7cec0e5acdfbbe55e711e0c3b71c2f7c65",
+      "after": "903b3eed49da16031f94c8a7d345ad7cec0e5acdfbbe55e711e0c3b71c2f7c65",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/client-runtime/anchors.bin": {
+      "before": "772ecc3e7c39133a84075a5d8ef06ed9935baaff9ea3a5aa4934fa3d784ec2dd",
+      "after": "772ecc3e7c39133a84075a5d8ef06ed9935baaff9ea3a5aa4934fa3d784ec2dd",
+      "matches": true
+    },
+    "/tmp/local/csyhzhou/test_rag/lotte-first-visit-four-20261124-csr35/client-runtime/connection.json": {
+      "before": "a48cad9ea0f7e484f4342d07cc0ffaa41e31b0a843dd4d7e6d573f3864ccd53a",
+      "after": "a48cad9ea0f7e484f4342d07cc0ffaa41e31b0a843dd4d7e6d573f3864ccd53a",
+      "matches": true
+    }
+  },
+  "same_named_implementations": {
+    "attacks.rs": {
+      "compiled": "4ce75b09e32556ff3d540a1b9a897392d1d391da3bebb8428c04ba5e4ec0ccdc",
+      "top_level": null
+    },
+    "block_bench.rs": {
+      "compiled": "9e9f8e17e49fc69ec33f6c7a6ad4beb70ee71dd80eb6e68075ad8b64c0d68c70",
+      "top_level": null
+    },
+    "compact.rs": {
+      "compiled": "82a330544b299f1e35730931c47e696da501c3994e89d738da2334de49d673c0",
+      "top_level": null
+    },
+    "compact_numeric.rs": {
+      "compiled": "575415762b249a5efd738d1a21e6c4258fabe48a4ec2d65aa9e49c654cf1309a",
+      "top_level": null
+    },
+    "compact_protocol.rs": {
+      "compiled": "4d9283bbac2f360fc80d2e5e97d6026b8fc0f1573cd92bd1ae5e22953f6656f0",
+      "top_level": null
+    },
+    "compact_types.rs": {
+      "compiled": "d4d41b759d63cb456a1e3feac0ac1c2843d7daca125b72a10e21303d553ac59b",
+      "top_level": null
+    },
+    "compact_wire.rs": {
+      "compiled": "3a3168350008b94da8ce3b2a4bb9144b0fbad489716216121469d25e3a61b44d",
+      "top_level": null
+    },
+    "document_block_pilot.rs": {
+      "compiled": "1633043b5616b74ed65e49fbf84a40db902be334e03448ec2b487179e8b0df57",
+      "top_level": null
+    },
+    "e2e.rs": {
+      "compiled": "fd174a6fd95ac445deb4e397cee74ed8f6aaa1536a2ef76440cb913707e7d691",
+      "top_level": null
+    },
+    "fair_endpoints.rs": {
+      "compiled": "29d524dae7b17b79ca2c2f0d3bb8969700c85977579264782372888eec2c7dd3",
+      "top_level": null
+    },
+    "full.rs": {
+      "compiled": "7172a91701cd81eab6963ddaa0804b5c2108269264ec8d2bf7c3ca7d7eb9d20a",
+      "top_level": null
+    },
+    "lib.rs": {
+      "compiled": "1df2c85173ad139dcc621c1da432f4004d6001134277d79710dcb58fc1c8f92e",
+      "top_level": null
+    },
+    "numeric.rs": {
+      "compiled": "a935b28c987c7cdc4af59f95f0e09b876766547dba7127b18a9fcfbe0c824a29",
+      "top_level": null
+    },
+    "power_aggregation.rs": {
+      "compiled": "f70a81d31b747cd713557842b6b058d36d3cc733b4a4d5b593a9efb3633fe549",
+      "top_level": null
+    },
+    "power_screen.rs": {
+      "compiled": "afb3c32c61564b7a5a5dd319ea21d7ab8cacc5cdb656ecfcbd1123b9b2bb842c",
+      "top_level": null
+    },
+    "power_weights.rs": {
+      "compiled": "4e249aa64b8d3a1b9fe2ba9b5d7edc446fdad22a965bd6f8d7e0f4927cf73ffe",
+      "top_level": null
+    },
+    "protocol.rs": {
+      "compiled": "dd5c139870fded296b8e7e84b26d0985b94a667d9aa4b2752b4c20a26591f2b8",
+      "top_level": null
+    },
+    "snapshot.rs": {
+      "compiled": "0093da4409932e67de263e93623405d1f4fd807f8e12f173fd1454b819f7aed0",
+      "top_level": null
+    },
+    "tests.rs": {
+      "compiled": "af1ca7e768e51cf71a4986da3d4e1e0a6456dab0bfcde2a55c0b7d2f3fdcf1b6",
+      "top_level": null
+    },
+    "types.rs": {
+      "compiled": "079b07705df839cc0227665644ea8f676c2510f65e902b08109659afed1c6c15",
+      "top_level": null
+    },
+    "vida_baselines.rs": {
+      "compiled": "88ff6d5ad4114b0435edebcb0c3f186bc1cf47095d88a820032954d20cc91ff2",
+      "top_level": null
+    },
+    "wire.rs": {
+      "compiled": "3eebe0282a7f2c9282c0e95b330481e399762987bc87259a8f0ab7c387547aac",
+      "top_level": null
+    },
+    "population_owner.rs": {
+      "compiled": "705e4cde8c5bbcc5337c560566b41946ce54b00d823a47dfd01f40010b284ca8",
+      "top_level": null
+    },
+    "population_serve.rs": {
+      "compiled": "6559cf0acc9bc3d99895771a41077dc78761699f36d2aad9c3167cc37761e735",
+      "top_level": "6559cf0acc9bc3d99895771a41077dc78761699f36d2aad9c3167cc37761e735"
+    },
+    "first_visit.rs": {
+      "compiled": "2226bf37b242cd9f93a8f93dfb3dceaf724a9c4e225ec313cab066c32d4a5e32",
+      "top_level": "2226bf37b242cd9f93a8f93dfb3dceaf724a9c4e225ec313cab066c32d4a5e32"
+    },
+    "measure_visit.rs": {
+      "compiled": "43ed7ea0fc0ef693deff00daac5166b324a112d2484ae4c184e8105a69b8f4df",
+      "top_level": "43ed7ea0fc0ef693deff00daac5166b324a112d2484ae4c184e8105a69b8f4df"
+    }
+  },
+  "dataset_links": {
+    "inputs": {
+      "original_link": "/tmp/local/csyhzhou/test_rag/lotte-fullquery-five-current-20261122-csr35/inputs",
+      "resolved": "/tmp/local/csyhzhou/test_rag/lotte-fullquery-20261122-csr35/inputs"
+    },
+    "native-material": {
+      "original_link": "/tmp/local/csyhzhou/test_rag/lotte-fullquery-five-current-20261122-csr35/native-material",
+      "resolved": "/tmp/local/csyhzhou/test_rag/lotte-fullquery-five-current-20261122-csr35/native-material"
+    }
+  },
+  "imported_regular_distinct_inodes": true,
+  "dataset_files": 900,
+  "after_timestamp_utc": "2026-11-24T06:37:05.542859+00:00"
+}

@@ -1,0 +1,77 @@
+{
+  "count": 14,
+  "all_match_adopted_versions": true,
+  "source_revision_event": "oracle-source-versions.json",
+  "files": [
+    {
+      "source": "experiments/lotte-fullquery-five-current-20261122-csr35/reference.rs",
+      "adopted_sha256": "4bd67034088e9fc78c5da53b266e4b2bcd08bcf7d4471671b7921f85cc80e60d",
+      "after_sha256": "4bd67034088e9fc78c5da53b266e4b2bcd08bcf7d4471671b7921f85cc80e60d"
+    },
+    {
+      "source": "analysis/gem-auth-correctness-20261124/verify_frozen_sample.py",
+      "adopted_sha256": "f6e7fe31f83e4c339a73d6fe92d3dc98ff5be30bb3d786425d8f2cdcda542ea5",
+      "after_sha256": "f6e7fe31f83e4c339a73d6fe92d3dc98ff5be30bb3d786425d8f2cdcda542ea5"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/audit_visit.py",
+      "adopted_sha256": "973fa4e21d571fde6751de351ad48718fb511c9b1756482010a03cf9201e13e3",
+      "after_sha256": "973fa4e21d571fde6751de351ad48718fb511c9b1756482010a03cf9201e13e3"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/analyze.py",
+      "adopted_sha256": "96c5217f3220ca225c1103d88a44f6678bfa8f5e311072d346349236dbb797d4",
+      "after_sha256": "96c5217f3220ca225c1103d88a44f6678bfa8f5e311072d346349236dbb797d4"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0001-0256-origin.jsonl",
+      "adopted_sha256": "4baa686ae8e7de7ec35e12eac940fffd05054349c894ba3caf2fce687f19ad7c",
+      "after_sha256": "4baa686ae8e7de7ec35e12eac940fffd05054349c894ba3caf2fce687f19ad7c"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0001-0256-origin.sha256.json",
+      "adopted_sha256": "0eb51d8a4866ce352bc514448dd31e8d241333ac05f4a1aba8d4927e9d278960",
+      "after_sha256": "0eb51d8a4866ce352bc514448dd31e8d241333ac05f4a1aba8d4927e9d278960"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0001-0256-sha256.json",
+      "adopted_sha256": "4b98acc7428a802a0ebcfe4942acade7b74bbe7269529dd120974c7c5cef075e",
+      "after_sha256": "4b98acc7428a802a0ebcfe4942acade7b74bbe7269529dd120974c7c5cef075e"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0001-0256-verified.json",
+      "adopted_sha256": "6b6493c3dde42fb35911b2491e4a1d0fa1b34a0174b0ae2ba718036cf5bce184",
+      "after_sha256": "6b6493c3dde42fb35911b2491e4a1d0fa1b34a0174b0ae2ba718036cf5bce184"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0001-0256.tar.gz",
+      "adopted_sha256": "b892ee1bdf17febbf4b032f8fb5323b754ce4f297b12ae11c94bb8a7b52d6e28",
+      "after_sha256": "b892ee1bdf17febbf4b032f8fb5323b754ce4f297b12ae11c94bb8a7b52d6e28"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0257-0512-origin.jsonl",
+      "adopted_sha256": "b68522ef370c2b600a683c564dd1540fa60b123cfd1069753db5e7809c72236f",
+      "after_sha256": "b68522ef370c2b600a683c564dd1540fa60b123cfd1069753db5e7809c72236f"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0257-0512-origin.sha256.json",
+      "adopted_sha256": "67cd79b73aa83eb0b976ca453da1e10005e3c53d646fba28df19d58f9aad6612",
+      "after_sha256": "67cd79b73aa83eb0b976ca453da1e10005e3c53d646fba28df19d58f9aad6612"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0257-0512-sha256.json",
+      "adopted_sha256": "43c06a8924685c4a21af3021f699076cc61701f697ba3c83b6d5afb5660b08a9",
+      "after_sha256": "43c06a8924685c4a21af3021f699076cc61701f697ba3c83b6d5afb5660b08a9"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0257-0512-verified.json",
+      "adopted_sha256": "0021e796d4b2e34ba208a709cf1cde6172411c5b56bb8de760721e07aa39d301",
+      "after_sha256": "0021e796d4b2e34ba208a709cf1cde6172411c5b56bb8de760721e07aa39d301"
+    },
+    {
+      "source": "experiments/lotte-first-visit-four-20261124-csr35/archives/qorder-0257-0512.tar.gz",
+      "adopted_sha256": "1ca1727d8296109934f79b8f47a7694e1ed080fef2253d27b6a351bf24c5e844",
+      "after_sha256": "1ca1727d8296109934f79b8f47a7694e1ed080fef2253d27b6a351bf24c5e844"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+warning: unused import: `decode_frame_v3`
+ --> crates/gem-cli/src/raw_auth.rs:7:48
+  |
+7 | use gem_core::{INDEX_MAGIC_V3, SearchParamsV3, decode_frame_v3, hash_bytes, sha256_file};
+  |                                                ^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: `gem-cli` (lib) generated 1 warning (run `cargo fix --lib -p gem-cli` to apply 1 suggestion)
+   Compiling gem-auth-scheme-block-multi-bench v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/authentication)
+warning: `gem-cli` (lib test) generated 1 warning (1 duplicate)
+warning: unused imports: `import_coarse_centroids`, `import_fine_centroids`, and `import_queries`
+ --> crates/authentication/src/block_bench.rs:8:18
+  |
+8 | use gem_search::{import_queries, import_fine_centroids, import_coarse_centroids};
+  |                  ^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `PathBuf`
+  --> crates/authentication/src/block_bench.rs:13:28
+   |
+13 | use std::{fs, path::{Path, PathBuf}, time::Instant};
+   |                            ^^^^^^^
+
+warning: unused import: `Write`
+ --> crates/authentication/src/first_visit.rs:1:59
+  |
+1 | use std::io::{BufRead as VisitBufRead, Read as VisitRead, Write as VisitWrite};
+  |                                                           ^^^^^
+
+warning: unused variable: `coordinates`
+   --> crates/authentication/src/compact_protocol.rs:194:10
+    |
+194 |     let (coordinates, cached, name) = match stage {
+    |          ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_coordinates`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `cached`
+   --> crates/authentication/src/compact_protocol.rs:194:23
+    |
+194 |     let (coordinates, cached, name) = match stage {
+    |                       ^^^^^^ help: if this is intentional, prefix it with an underscore: `_cached`
+
+warning: unused variable: `r`
+   --> crates/authentication/src/compact_protocol.rs:735:5
+    |
+735 |     r: &SchemeRequestV3,
+    |     ^ help: if this is intentional, prefix it with an underscore: `_r`
+
+warning: function `metric_context` is never used
+   --> crates/authentication/src/compact_protocol.rs:209:4
+    |
+209 | fn metric_context(
+    |    ^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `save` is never used
+  --> crates/authentication/src/block_bench.rs:16:4
+   |
+16 | fn save(path: &Path, value: &Value) -> Result<()> {
+   |    ^^^^
+
+warning: function `aggregate_doc_y` is never used
+  --> crates/authentication/src/block_bench.rs:63:4
+   |
+63 | fn aggregate_doc_y(y:&[i32],lens:&[usize],ws:&[Scalar],h:usize)->Vec<Scalar> {
+   |    ^^^^^^^^^^^^^^^
+
+   Compiling gem-lotte-auth-pilot v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/e2e-benchmark)
+warning: `gem-auth-scheme-block-multi-bench` (lib test) generated 9 warnings (9 duplicates)
+warning: `gem-auth-scheme-block-multi-bench` (lib) generated 9 warnings (run `cargo fix --lib -p gem-auth-scheme-block-multi-bench` to apply 2 suggestions)
+warning: unused import: `Hash`
+ --> crates/e2e-benchmark/serve_main.rs:3:16
+  |
+3 | use gem_core::{Hash, hash_serialized, sha256_file};
+  |                ^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused imports: `Duration` and `thread`
+ --> crates/e2e-benchmark/owner_main.rs:4:32
+  |
+4 | use std::{env, fs, path::Path, thread, time::{Duration, Instant}};
+  |                                ^^^^^^         ^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `Hash`
+ --> crates/e2e-benchmark/reference.rs:4:32
+  |
+4 | use gem_core::{CompactQueryV3, Hash, compact_fp16_v1, hash_serialized, sha256_file};
+  |                                ^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `serde::Deserialize`
+  --> crates/e2e-benchmark/reference.rs:10:5
+   |
+10 | use serde::Deserialize;
+   |     ^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `BufRead` and `BufReader`
+  --> crates/e2e-benchmark/reference.rs:12:25
+   |
+12 | use std::{env, fs, io::{BufRead, BufReader, Write}, path::Path};
+   |                         ^^^^^^^  ^^^^^^^^^
+
+warning: `gem-lotte-auth-pilot` (bin "first-visit" test) generated 1 warning (run `cargo fix --bin "first-visit" --tests` to apply 1 suggestion)
+warning: `gem-lotte-auth-pilot` (bin "population-owner" test) generated 1 warning (run `cargo fix --bin "population-owner" --tests` to apply 1 suggestion)
+warning: `gem-lotte-auth-pilot` (bin "gem-reference" test) generated 3 warnings (run `cargo fix --bin "gem-reference" --tests` to apply 3 suggestions)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 3.69s
+     Running unittests src/lib.rs (artifacts/acceptance/target/debug/deps/gem_auth_scheme_block_multi_bench-63bc823292ffc7e2)
+
+running 40 tests
+test compact::protocol::optimization_tests::batched_witness_matches_scalar_reference_and_preserves_padding ... ignored, batched million-coordinate witness: run explicitly with --release --ignored
+test compact::protocol::optimization_tests::tiled_aggregations_match_independent_scalar_loops ... ok
+test compact::protocol::optimization_tests::valid_speculative_reranking_still_requires_exact_replay_disclosures ... FAILED
+test compact::protocol::optimization_tests::i16_windows_cover_every_signed_coordinate ... ok
+test compact::tests::all_backends_modes_threads_and_empty_entries ... FAILED
+test compact::tests::bounded_parser_truncation_trailing_enums_lengths_and_public ... FAILED
+test compact::tests::explicit_centroid_preprocessing_preserves_self_contained_vo ... FAILED
+test compact::tests::every_request_reauthenticates_complete_public_payload ... FAILED
+test compact::tests::external_trust_vo_preserves_results_and_local_matrix_request_binding ... FAILED
+test compact::tests::directed_serialized_attack_runner_checks_each_backend ... FAILED
+test compact::tests::nonwinner_token_deletion_and_commitment_tampering ... FAILED
+test compact::tests::implicit_candidate_boundaries_require_exact_replay_disclosures ... FAILED
+test compact::tests::large_norms_with_representable_dots_are_authenticated ... FAILED
+test compact::tests::stored_raw_and_matrix_trees_are_both_validated ... ok
+test compact::tests::separate_five_component_trees_and_backend_specific_wire ... FAILED
+test compact::tests::raw_expansion_and_padding_corruption_rejected ... ok
+test compact::wire::optimization_tests::fixed_arrays_omit_lengths_and_preserve_values_and_accounting ... ok
+test compact::wire::optimization_tests::implicit_code_length_preserves_values_and_checks_bytes_before_allocation ... ok
+test protocol::optimization_tests::batched_witness_matches_scalar_reference_and_preserves_padding ... ignored, batched million-coordinate witness: run explicitly with --release --ignored
+test compact::tests::table_y_commitment_boundaries_and_proof_attacks ... FAILED
+test protocol::optimization_tests::tiled_aggregations_match_independent_scalar_loops ... ok
+test compact::tests::valid_unused_commitment_and_no_entry_payload_are_rejected ... FAILED
+test protocol::optimization_tests::i16_windows_cover_every_signed_coordinate ... ok
+test protocol::optimization_tests::valid_speculative_reranking_still_requires_exact_replay_disclosures ... ok
+test tests::bounded_parser_truncation_trailing_enums_lengths_and_public ... ok
+test tests::every_request_reauthenticates_complete_public_payload ... ok
+test tests::explicit_centroid_preprocessing_preserves_self_contained_vo ... ok
+test tests::directed_serialized_attack_runner_checks_each_backend ... ok
+test tests::implicit_candidate_boundaries_require_exact_replay_disclosures ... ok
+test tests::external_trust_vo_preserves_results_and_local_matrix_request_binding ... ok
+test tests::all_backends_modes_threads_and_empty_entries ... ok
+test tests::nonwinner_token_deletion_and_commitment_tampering ... ok
+test tests::large_norms_with_representable_dots_are_authenticated ... ok
+test tests::raw_expansion_and_padding_corruption_rejected ... ok
+test tests::stored_raw_and_matrix_trees_are_both_validated ... ok
+test tests::separate_five_component_trees_and_backend_specific_wire ... ok
+test wire::optimization_tests::fixed_arrays_omit_lengths_and_preserve_values_and_accounting ... ok
+test wire::optimization_tests::implicit_code_length_preserves_values_and_checks_bytes_before_allocation ... ok
+test tests::valid_unused_commitment_and_no_entry_payload_are_rejected ... ok
+test tests::table_y_commitment_boundaries_and_proof_attacks ... ok
+
+failures:
+
+---- compact::protocol::optimization_tests::valid_speculative_reranking_still_requires_exact_replay_disclosures stdout ----
+
+thread 'compact::protocol::optimization_tests::valid_speculative_reranking_still_requires_exact_replay_disclosures' (306311) panicked at crates/authentication/src/compact_protocol.rs:1089:58:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- compact::tests::all_backends_modes_threads_and_empty_entries stdout ----
+
+thread 'compact::tests::all_backends_modes_threads_and_empty_entries' (306590) panicked at crates/authentication/src/tests.rs:239:17:
+assertion `left == right` failed
+  left: [71, 51, 83, 66, 69, 78, 48, 49]
+ right: [71, 51, 83, 67, 72, 86, 79, 52]
+
+---- compact::tests::bounded_parser_truncation_trailing_enums_lengths_and_public stdout ----
+
+thread 'compact::tests::bounded_parser_truncation_trailing_enums_lengths_and_public' (306620) panicked at crates/authentication/src/tests.rs:520:49:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::explicit_centroid_preprocessing_preserves_self_contained_vo stdout ----
+
+thread '<unnamed>' (306661) panicked at crates/authentication/src/tests.rs:847:84:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::every_request_reauthenticates_complete_public_payload stdout ----
+
+thread 'compact::tests::every_request_reauthenticates_complete_public_payload' (306638) panicked at crates/authentication/src/tests.rs:706:70:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::external_trust_vo_preserves_results_and_local_matrix_request_binding stdout ----
+
+thread 'compact::tests::external_trust_vo_preserves_results_and_local_matrix_request_binding' (306665) panicked at crates/authentication/src/tests.rs:461:53:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::directed_serialized_attack_runner_checks_each_backend stdout ----
+
+thread 'compact::tests::directed_serialized_attack_runner_checks_each_backend' (306627) panicked at crates/authentication/src/tests.rs:668:53:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::nonwinner_token_deletion_and_commitment_tampering stdout ----
+
+thread 'compact::tests::nonwinner_token_deletion_and_commitment_tampering' (306736) panicked at crates/authentication/src/tests.rs:610:49:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::implicit_candidate_boundaries_require_exact_replay_disclosures stdout ----
+
+thread 'compact::tests::implicit_candidate_boundaries_require_exact_replay_disclosures' (306722) panicked at crates/authentication/src/tests.rs:393:49:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::large_norms_with_representable_dots_are_authenticated stdout ----
+
+thread 'compact::tests::large_norms_with_representable_dots_are_authenticated' (306723) panicked at crates/authentication/src/tests.rs:798:53:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::separate_five_component_trees_and_backend_specific_wire stdout ----
+
+thread 'compact::tests::separate_five_component_trees_and_backend_specific_wire' (306753) panicked at crates/authentication/src/tests.rs:156:67:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::table_y_commitment_boundaries_and_proof_attacks stdout ----
+
+thread 'compact::tests::table_y_commitment_boundaries_and_proof_attacks' (306755) panicked at crates/authentication/src/tests.rs:327:49:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+---- compact::tests::valid_unused_commitment_and_no_entry_payload_are_rejected stdout ----
+
+thread 'compact::tests::valid_unused_commitment_and_no_entry_payload_are_rejected' (306766) panicked at crates/authentication/src/tests.rs:575:49:
+called `Result::unwrap()` on an `Err` value: Serialization("missing pinned block config")
+
+
+failures:
+    compact::protocol::optimization_tests::valid_speculative_reranking_still_requires_exact_replay_disclosures
+    compact::tests::all_backends_modes_threads_and_empty_entries
+    compact::tests::bounded_parser_truncation_trailing_enums_lengths_and_public
+    compact::tests::directed_serialized_attack_runner_checks_each_backend
+    compact::tests::every_request_reauthenticates_complete_public_payload
+    compact::tests::explicit_centroid_preprocessing_preserves_self_contained_vo
+    compact::tests::external_trust_vo_preserves_results_and_local_matrix_request_binding
+    compact::tests::implicit_candidate_boundaries_require_exact_replay_disclosures
+    compact::tests::large_norms_with_representable_dots_are_authenticated
+    compact::tests::nonwinner_token_deletion_and_commitment_tampering
+    compact::tests::separate_five_component_trees_and_backend_specific_wire
+    compact::tests::table_y_commitment_boundaries_and_proof_attacks
+    compact::tests::valid_unused_commitment_and_no_entry_payload_are_rejected
+
+test result: FAILED. 25 passed; 13 failed; 2 ignored; 0 measured; 0 filtered out; finished in 30.00s
+
+error: test failed, to rerun pass `-p gem-auth-scheme-block-multi-bench --lib`

@@ -1,0 +1,4 @@
+   Compiling gem-cli v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-cli)
+   Compiling gem-auth-scheme-block-multi-bench v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/authentication)
+   Compiling gem-lotte-auth-pilot v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/e2e-benchmark)
+    Finished `release` profile [optimized] target(s) in 41.67s

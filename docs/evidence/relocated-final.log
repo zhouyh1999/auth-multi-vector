@@ -1,0 +1,410 @@
+   Compiling gem-lotte-auth-pilot v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/e2e-benchmark)
+    Finished `release` profile [optimized] target(s) in 5.70s
+import shard 1/1 documents=4
+loaded raw shard 1/1 documents=4
+raw components shard 1/1
+loaded raw shard 1/1 documents=4
+compact commitments shard 1/1 elapsed=0.1s
+deep compact shard 1/1
+block 1/1 documents=4 seconds=0.07
+complete block
+row 1/1 documents=4 seconds=0.03
+complete row
+loaded raw shard 1/1 documents=4
+loaded raw shard 1/1 documents=4
+block 1/1 documents=4 seconds=0.00
+complete block
+row 1/1 documents=4 seconds=0.00
+complete row
+/tmp/local/csyhzhou/auth gem relocated/results/sample/sample-xqki2iy5
+loading all corpus coordinates and selected signed native catalogs
+{"blocks":10,"branch":"direct_opening","catalog_hash":"3228a2ece3761119ba41a9b0080c91507b3c444a0f8e018d6343a40b197bbbf7","commitment_bytes":320,"dimension":128,"h":1,"offline_ms":1.78761,"padded_rows":10,"real_rows":10,"stage":"coarse","static_witness_prepared":false,"type":"case","zero_rows":0}
+Prepared coarse h=1, B=10, 0.0s
+{"blocks":2,"branch":"aggregate_ipa","catalog_hash":"ddae54ac8556d5344a021af0380d92c18b54d74fc8cd224eb705763e10ea6c4a","commitment_bytes":64,"dimension":1024,"h":8,"offline_ms":4.955808,"padded_rows":16,"real_rows":10,"stage":"coarse","static_witness_prepared":false,"type":"case","zero_rows":6}
+Prepared coarse h=8, B=2, 0.0s
+{"blocks":35,"branch":"direct_opening","catalog_hash":"7a734855199b7172e08f9d049ab01134728829f4be9fb40fe6e2b0dded399153","commitment_bytes":1120,"dimension":128,"h":1,"offline_ms":2.1604189999999996,"padded_rows":35,"real_rows":35,"stage":"fine","static_witness_prepared":false,"type":"case","zero_rows":0}
+Prepared fine h=1, B=35, 0.0s
+{"blocks":2,"branch":"aggregate_ipa","catalog_hash":"e1bb1ae7e1113955259fb5521ae26d9383d0185950447bf9a5fd3a6a53b527fe","commitment_bytes":64,"dimension":4096,"h":32,"offline_ms":17.201147,"padded_rows":64,"real_rows":35,"stage":"fine","static_witness_prepared":false,"type":"case","zero_rows":29}
+Prepared fine h=32, B=2, 0.0s
+full corpus service ready
+completed 1/1 query 0 in 0.85s
+{"binary": "e456be073c19152d5c19ef7ce13eb76e96a3769f0af48005ae189415ee961c1c", "plan": "0f6347464eced63e9d000430b350e1b5839a2ded60aff7c89391f09f9900589f", "queries": 1, "requests": 16, "full": 4, "warmup": 0, "formal": 16, "matched_receipts": 16}
+{"binary": "e456be073c19152d5c19ef7ce13eb76e96a3769f0af48005ae189415ee961c1c", "plan": "0f6347464eced63e9d000430b350e1b5839a2ded60aff7c89391f09f9900589f", "queries": 1, "requests": 16, "full": 4, "warmup": 0, "formal": 16, "matched_receipts": 16}
+tests/fixtures/sample/wire/block_fast.request: OK
+tests/fixtures/sample/wire/block_fast.response: OK
+tests/fixtures/sample/wire/raw.request: OK
+tests/fixtures/sample/wire/raw.response: OK
+tests/fixtures/sample/wire/vida_batched.request: OK
+tests/fixtures/sample/wire/vida_batched.response: OK
+tests/fixtures/sample/wire/vida_per_token.request: OK
+tests/fixtures/sample/wire/vida_per_token.response: OK
+{
+  "binary": "e456be073c19152d5c19ef7ce13eb76e96a3769f0af48005ae189415ee961c1c",
+  "cases": [
+    {
+      "case": "version",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "publication",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "request",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "stage",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "merkle",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "invalid Merkle proof",
+      "rejected": true
+    },
+    {
+      "case": "missing_graph",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "invalid manifest",
+      "rejected": true
+    },
+    {
+      "case": "material_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "material_length",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "table",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "raw redundant proof/table",
+      "rejected": true
+    },
+    {
+      "case": "proof",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "result_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "distance",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "order",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "version",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "publication",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "request",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "stage",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "merkle",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "invalid Merkle proof",
+      "rejected": true
+    },
+    {
+      "case": "missing_graph",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "invalid manifest",
+      "rejected": true
+    },
+    {
+      "case": "material_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "material_length",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "table",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "VIDA claimed scalar mismatch",
+      "rejected": true
+    },
+    {
+      "case": "proof",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "VIDA proof encoding: FormatError",
+      "rejected": true
+    },
+    {
+      "case": "result_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "distance",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "order",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "version",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "publication",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "request",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "stage",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "merkle",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "invalid Merkle proof",
+      "rejected": true
+    },
+    {
+      "case": "missing_graph",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "invalid manifest",
+      "rejected": true
+    },
+    {
+      "case": "material_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "material_length",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "table",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "VIDA claimed scalar mismatch",
+      "rejected": true
+    },
+    {
+      "case": "proof",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "VIDA proof encoding: FormatError",
+      "rejected": true
+    },
+    {
+      "case": "result_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "distance",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "order",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "version",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "publication",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "request",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "stage",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "merkle",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "invalid Merkle proof",
+      "rejected": true
+    },
+    {
+      "case": "missing_graph",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "invalid manifest",
+      "rejected": true
+    },
+    {
+      "case": "material_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "material_length",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "table",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "invalid matrix proof: Proof verification failed.",
+      "rejected": true
+    },
+    {
+      "case": "proof",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "invalid matrix proof: Proof data could not be parsed.",
+      "rejected": true
+    },
+    {
+      "case": "result_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "distance",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "order",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "final results",
+      "rejected": true
+    }
+  ]
+}
+{"candidates":1024,"execution":"5ad4033f59654baf7eff89ad41c9b5e6bb2ad98c660d8ef50c98140e3f1e4390","results":100}

@@ -1,0 +1,325 @@
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling unicode-ident v1.0.24
+   Compiling cfg-if v1.0.4
+   Compiling find-msvc-tools v0.1.11
+   Compiling libc v0.2.189
+   Compiling shlex v2.0.1
+   Compiling cc v1.4.4
+   Compiling version_check v0.9.5
+   Compiling typenum v1.20.1
+   Compiling generic-array v0.14.7
+   Compiling serde_core v1.0.229
+   Compiling serde v1.0.229
+   Compiling zerocopy v0.8.56
+   Compiling crossbeam-utils v0.8.22
+   Compiling crossbeam-epoch v0.9.20
+   Compiling crypto-common v0.1.7
+   Compiling block-buffer v0.10.4
+   Compiling cpufeatures v0.2.17
+   Compiling digest v0.10.7
+   Compiling crossbeam-deque v0.8.7
+   Compiling semver v1.0.28
+   Compiling rayon-core v1.13.0
+   Compiling thiserror v2.0.20
+   Compiling syn v2.0.119
+   Compiling syn v3.0.3
+   Compiling rustc_version v0.4.1
+   Compiling sha2 v0.10.9
+   Compiling subtle v2.6.1
+   Compiling zmij v1.0.23
+   Compiling getrandom v0.2.17
+   Compiling curve25519-dalek v4.1.3
+   Compiling rand_core v0.6.4
+   Compiling serde_json v1.0.151
+   Compiling ff v0.13.1
+   Compiling either v1.18.0
+   Compiling group v0.13.0
+   Compiling itoa v1.0.18
+   Compiling memchr v2.8.3
+   Compiling rayon v1.12.0
+   Compiling clear_on_drop v0.2.5
+   Compiling keccak v0.1.6
+   Compiling thiserror v1.0.69
+   Compiling byteorder v1.5.0
+   Compiling sha3 v0.10.9
+   Compiling gem-qemd-lemon v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/gem-qemd-lemon)
+   Compiling signature v2.2.0
+   Compiling ed25519 v2.2.3
+   Compiling cfg_aliases v0.2.2
+   Compiling utf8parse v0.2.2
+   Compiling anstyle-parse v1.0.0
+   Compiling nix v0.31.3
+   Compiling bitflags v2.13.1
+   Compiling anstyle-query v1.1.5
+   Compiling colorchoice v1.0.5
+   Compiling is_terminal_polyfill v1.70.2
+   Compiling anstyle v1.0.14
+   Compiling strsim v0.11.1
+   Compiling anstream v1.0.0
+   Compiling heck v0.5.0
+   Compiling clap_lex v1.1.0
+   Compiling anyhow v1.0.104
+   Compiling clap_builder v4.6.6
+   Compiling same-file v1.0.6
+   Compiling walkdir v2.5.0
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v2.0.20
+   Compiling clap_derive v4.6.4
+   Compiling ctrlc v3.5.2
+   Compiling zerocopy-derive v0.8.56
+   Compiling zeroize_derive v1.5.0
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling zeroize v1.9.0
+   Compiling thiserror-impl v1.0.69
+   Compiling merlin v3.0.0 (/tmp/local/csyhzhou/auth-gem/third_party/merlin)
+   Compiling clap v4.6.6
+   Compiling hex v0.4.3
+   Compiling vcpkg v0.2.15
+   Compiling pkg-config v0.3.34
+   Compiling foreign-types-shared v0.1.1
+   Compiling openssl-sys v0.9.111
+   Compiling openssl v0.10.75
+   Compiling foreign-types v0.3.2
+   Compiling openssl-macros v0.1.1
+   Compiling once_cell v1.21.4
+   Compiling bincode v1.3.3
+   Compiling ed25519-dalek v2.2.0
+   Compiling half v2.7.1
+   Compiling ppv-lite86 v0.2.21
+   Compiling rand_chacha v0.3.1
+   Compiling gem-core v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/gem-core)
+   Compiling rand v0.8.8
+   Compiling ipa v5.0.0 (/tmp/local/csyhzhou/auth-gem/third_party/ipa)
+   Compiling gem-search v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/gem-search)
+   Compiling gem-matrix-proof v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/gem-matrix-proof)
+   Compiling gem-auth-v3 v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/gem-auth-v3)
+   Compiling gem-auth-scheme-v3 v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/gem-auth-scheme-v3)
+   Compiling gem-cli v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/gem-cli)
+warning: unused import: `decode_frame_v3`
+ --> crates/gem-cli/src/raw_auth.rs:7:48
+  |
+7 | use gem_core::{INDEX_MAGIC_V3, SearchParamsV3, decode_frame_v3, hash_bytes, sha256_file};
+  |                                                ^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+   Compiling gem-auth-scheme-block-multi-bench v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/authentication)
+warning: unused imports: `import_coarse_centroids`, `import_fine_centroids`, and `import_queries`
+ --> crates/authentication/src/block_bench.rs:8:18
+  |
+8 | use gem_search::{import_queries, import_fine_centroids, import_coarse_centroids};
+  |                  ^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `PathBuf`
+  --> crates/authentication/src/block_bench.rs:13:28
+   |
+13 | use std::{fs, path::{Path, PathBuf}, time::Instant};
+   |                            ^^^^^^^
+
+warning: unused import: `Write`
+ --> crates/authentication/src/first_visit.rs:1:59
+  |
+1 | use std::io::{BufRead as VisitBufRead, Read as VisitRead, Write as VisitWrite};
+  |                                                           ^^^^^
+
+warning: unused variable: `coordinates`
+   --> crates/authentication/src/compact_protocol.rs:194:10
+    |
+194 |     let (coordinates, cached, name) = match stage {
+    |          ^^^^^^^^^^^ help: if this is intentional, prefix it with an underscore: `_coordinates`
+    |
+    = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `cached`
+   --> crates/authentication/src/compact_protocol.rs:194:23
+    |
+194 |     let (coordinates, cached, name) = match stage {
+    |                       ^^^^^^ help: if this is intentional, prefix it with an underscore: `_cached`
+
+warning: unused variable: `r`
+   --> crates/authentication/src/compact_protocol.rs:735:5
+    |
+735 |     r: &SchemeRequestV3,
+    |     ^ help: if this is intentional, prefix it with an underscore: `_r`
+
+warning: function `metric_context` is never used
+   --> crates/authentication/src/compact_protocol.rs:209:4
+    |
+209 | fn metric_context(
+    |    ^^^^^^^^^^^^^^
+    |
+    = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: function `save` is never used
+  --> crates/authentication/src/block_bench.rs:16:4
+   |
+16 | fn save(path: &Path, value: &Value) -> Result<()> {
+   |    ^^^^
+
+warning: function `aggregate_doc_y` is never used
+  --> crates/authentication/src/block_bench.rs:63:4
+   |
+63 | fn aggregate_doc_y(y:&[i32],lens:&[usize],ws:&[Scalar],h:usize)->Vec<Scalar> {
+   |    ^^^^^^^^^^^^^^^
+
+warning: `gem-cli` (lib test) generated 1 warning (1 duplicate)
+warning: `gem-cli` (lib) generated 1 warning (run `cargo fix --lib -p gem-cli` to apply 1 suggestion)
+warning: `gem-auth-scheme-block-multi-bench` (lib) generated 9 warnings (run `cargo fix --lib -p gem-auth-scheme-block-multi-bench` to apply 2 suggestions)
+   Compiling gem-lotte-auth-pilot v0.1.0 (/tmp/local/csyhzhou/auth-gem/crates/e2e-benchmark)
+warning: function `load_legacy_offline_frame` is never used
+  --> crates/e2e-benchmark/offline.rs:28:8
+   |
+28 | pub fn load_legacy_offline_frame<T: serde::de::DeserializeOwned>(
+   |        ^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(dead_code)]` (part of `#[warn(unused)]`) on by default
+
+warning: struct `OwnerPhaseClock` is never constructed
+  --> crates/e2e-benchmark/offline.rs:68:8
+   |
+68 | struct OwnerPhaseClock {
+   |        ^^^^^^^^^^^^^^^
+
+warning: associated items `new` and `mark` are never used
+  --> crates/e2e-benchmark/offline.rs:75:8
+   |
+74 | impl OwnerPhaseClock {
+   | -------------------- associated items in this implementation
+75 |     fn new(run: &Path, kind: &str) -> Self {
+   |        ^^^
+...
+87 |     fn mark(&mut self, name: &str) -> Result<()> {
+   |        ^^^^
+
+warning: function `json_write` is never used
+   --> crates/e2e-benchmark/offline.rs:133:8
+    |
+133 | pub fn json_write(path: &Path, value: &impl Serialize) -> Result<()> {
+    |        ^^^^^^^^^^
+
+warning: function `atomic_bytes` is never used
+   --> crates/e2e-benchmark/offline.rs:137:8
+    |
+137 | pub fn atomic_bytes(path: &Path, bytes: &[u8]) -> Result<()> {
+    |        ^^^^^^^^^^^^
+
+warning: function `save_offline` is never used
+   --> crates/e2e-benchmark/offline.rs:148:8
+    |
+148 | pub fn save_offline<T: Serialize>(path: &Path, value: &T) -> Result<()> {
+    |        ^^^^^^^^^^^^
+
+warning: function `config` is never used
+   --> crates/e2e-benchmark/offline.rs:193:8
+    |
+193 | pub fn config(run: &Path) -> Result<PublishedConfig> {
+    |        ^^^^^^
+
+warning: function `u32s` is never used
+   --> crates/e2e-benchmark/offline.rs:198:8
+    |
+198 | pub fn u32s(path: &Path) -> Result<Vec<u32>> {
+    |        ^^^^
+
+warning: function `import_index` is never used
+   --> crates/e2e-benchmark/offline.rs:214:8
+    |
+214 | pub fn import_index(run: &Path) -> Result<()> {
+    |        ^^^^^^^^^^^^
+
+warning: function `index` is never used
+   --> crates/e2e-benchmark/offline.rs:317:8
+    |
+317 | pub fn index(run: &Path) -> Result<SearchIndexV3> {
+    |        ^^^^^
+
+warning: struct `DiskCorpus` is never constructed
+   --> crates/e2e-benchmark/offline.rs:322:12
+    |
+322 | pub struct DiskCorpus {
+    |            ^^^^^^^^^^
+
+warning: associated items `new`, `bits`, `fp32_candidates`, and `load_all` are never used
+   --> crates/e2e-benchmark/offline.rs:328:12
+    |
+327 | impl DiskCorpus {
+    | --------------- associated items in this implementation
+328 |     pub fn new(cfg: PublishedConfig) -> Result<Self> {
+    |            ^^^
+...
+341 |     pub fn bits(&self, id: u32) -> Result<Vec<u16>> {
+    |            ^^^^
+...
+358 |     pub fn fp32_candidates(&self, ids: &[u32]) -> Result<RawCandidates> {
+    |            ^^^^^^^^^^^^^^^
+...
+376 |     pub fn load_all(&self) -> Result<Vec<Vec<u16>>> {
+    |            ^^^^^^^^
+
+warning: struct `RawCandidates` is never constructed
+   --> crates/e2e-benchmark/offline.rs:404:12
+    |
+404 | pub struct RawCandidates(pub BTreeMap<u32, RawDocumentF32V3>);
+    |            ^^^^^^^^^^^^^
+
+warning: function `owner_key` is never used
+   --> crates/e2e-benchmark/offline.rs:410:8
+    |
+410 | pub fn owner_key(run: &Path) -> Result<SigningKey> {
+    |        ^^^^^^^^^
+
+warning: struct `OfflineRaw` is never constructed
+   --> crates/e2e-benchmark/offline.rs:434:8
+    |
+434 | struct OfflineRaw {
+    |        ^^^^^^^^^^
+
+warning: struct `OfflineCompact` is never constructed
+   --> crates/e2e-benchmark/offline.rs:441:8
+    |
+441 | struct OfflineCompact {
+    |        ^^^^^^^^^^^^^^
+
+warning: struct `RawShard` is never constructed
+   --> crates/e2e-benchmark/offline.rs:448:8
+    |
+448 | struct RawShard {
+    |        ^^^^^^^^
+
+warning: struct `CommitmentShard` is never constructed
+   --> crates/e2e-benchmark/offline.rs:455:8
+    |
+455 | struct CommitmentShard {
+    |        ^^^^^^^^^^^^^^^
+
+warning: function `prepare_raw` is never used
+   --> crates/e2e-benchmark/offline.rs:462:8
+    |
+462 | pub fn prepare_raw(run: &Path) -> Result<()> {
+    |        ^^^^^^^^^^^
+
+warning: function `load_raw` is never used
+   --> crates/e2e-benchmark/offline.rs:650:8
+    |
+650 | pub fn load_raw(run: &Path) -> Result<PreparedRawSnapshotV3> {
+    |        ^^^^^^^^
+
+warning: function `prepare_compact` is never used
+   --> crates/e2e-benchmark/offline.rs:668:8
+    |
+668 | pub fn prepare_compact(run: &Path) -> Result<()> {
+    |        ^^^^^^^^^^^^^^^
+
+warning: function `load_compact` is never used
+   --> crates/e2e-benchmark/offline.rs:881:8
+    |
+881 | pub fn load_compact(run: &Path) -> Result<compact::PreparedSchemeSnapshotV3> {
+    |        ^^^^^^^^^^^^
+
+warning: `gem-lotte-auth-pilot` (bin "first-visit" test) generated 22 warnings
+warning: `gem-lotte-auth-pilot` (bin "first-visit") generated 22 warnings (22 duplicates)
+warning: `gem-auth-scheme-block-multi-bench` (lib test) generated 9 warnings (9 duplicates)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 24.90s

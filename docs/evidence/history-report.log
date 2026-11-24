@@ -1,0 +1,6 @@
+[{"queries": 256, "records": 28672, "formal": 20480, "warmups": 8192, "integrated": 5120, "query_cells": 4096, "origin_receipts_matched": 28672, "distinct_origin_receipts_seen": 28721, "binary_sha256": "40011cba9cab18d92c3f17665dc35867cd45f995e09f806f1b73fa3007610589", "smoke_plan_sha256": "76299147f31564be41404b50f20a05fa16590cd85bbcd62a139dac5a813743e7"}, {"queries": 256, "records": 28672, "formal": 20480, "warmups": 8192, "integrated": 5120, "query_cells": 4096, "origin_receipts_matched": 28672, "distinct_origin_receipts_seen": 57403, "binary_sha256": "40011cba9cab18d92c3f17665dc35867cd45f995e09f806f1b73fa3007610589", "smoke_plan_sha256": "76299147f31564be41404b50f20a05fa16590cd85bbcd62a139dac5a813743e7"}]
+/tmp/local/csyhzhou/auth-gem-delivery/results/sample/sample-cupx2_hd/summary.csv
+drwxr-xr-x. 12 csyhzhou comp 235 Nov 24 13:29 /tmp/local/csyhzhou/auth-gem-delivery
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+False OpenSSL 3.5.7 9 Jun 2026
+3d4ceebbd332440fb2859b7ef4bbf9868d5939a28cfd86dff6506e0f639409d3  /tmp/local/csyhzhou/auth-gem-delivery/artifacts/acceptance/target/release/first-visit

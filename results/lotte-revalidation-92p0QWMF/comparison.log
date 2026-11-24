@@ -1,0 +1,5 @@
+/tmp/local/csyhzhou/auth-gem-delivery/results/lotte/prefix512-ssog3pze/summary.csv
+{"binary": "3d4ceebbd332440fb2859b7ef4bbf9868d5939a28cfd86dff6506e0f639409d3", "plan": "f05329472fcf39299571afadf1c92f3e6131908e9a0c41957d7c98ef2be8f571", "queries": 512, "requests": 2048, "full": 2048, "warmup": 0, "formal": 2048, "matched_receipts": 2048}
+{"native_queries": 2931, "runs": [{"plan": "prefix512", "queries": 512, "matched_records": 2048}]}
+{"queries": 512, "paired_cells": 2048, "formal_old_full_requests": 10240, "fresh_full_requests": 2048, "matched_fresh_receipts": 2048, "exact_field_mismatches": 0}
+exit=0

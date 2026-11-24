@@ -1,0 +1,95 @@
+{
+  "roots": [
+    "/tmp/local/csyhzhou/auth-gem-delivery/artifacts/tmp7x3i655c/empty-a",
+    "/tmp/local/csyhzhou/auth-gem-delivery/artifacts/tmp7x3i655c/empty-b"
+  ],
+  "identical_files": 45,
+  "sha256": {
+    "public/anchors.bin": "9af5246847006bb8893566014e54bfb9b72087e310924087008f32baf214b37f",
+    "public/raw.coarse.bin": "7942ac867c23e05214cd09fd2eb933d258ce692c83fb83e365681476bf5b47b1",
+    "public/raw.fine.bin": "428dd991c0b2353870ef89d3ebecfe88c7e2cdd68933a24d06cb1c8bb848a379",
+    "public/raw.rerank.bin": "48a5491b4949270c5d3811f7d7afb7a330d10f75e2e11c6642102fcab6e9910a",
+    "public/raw.all.bin": "057fe586847b0506d7b6568d491468c67a5cc43e690532d22f8db3bf83ec991f",
+    "public/vida_per_token.coarse.bin": "c398838f267e7cbec247786d947d87c636c843c7aba466a2bdc84d82bca7013d",
+    "public/vida_per_token.fine.bin": "87c4af0db7dbd7f45b83aae395059df6fb2fafc3fa868ba13e6d5f5cd600a997",
+    "public/vida_per_token.rerank.bin": "573fb27f32f47f0fa88f3a6fd69c73abbd3f70e2bf4f6fd416be45d9ce6d872c",
+    "public/vida_per_token.all.bin": "b7a07bf9f74884e6a29ed40834aacab6fa08e95d4dfaeced1748746422d95815",
+    "public/vida_batched.coarse.bin": "c398838f267e7cbec247786d947d87c636c843c7aba466a2bdc84d82bca7013d",
+    "public/vida_batched.fine.bin": "87c4af0db7dbd7f45b83aae395059df6fb2fafc3fa868ba13e6d5f5cd600a997",
+    "public/vida_batched.rerank.bin": "573fb27f32f47f0fa88f3a6fd69c73abbd3f70e2bf4f6fd416be45d9ce6d872c",
+    "public/vida_batched.all.bin": "b7a07bf9f74884e6a29ed40834aacab6fa08e95d4dfaeced1748746422d95815",
+    "public/block_fast.coarse.bin": "cf2178d4b53abc6a98d3ff406927bbe0dd9b380910eae6c420c436d015fa38ae",
+    "public/block_fast.fine.bin": "4c3a2ba2e35c970401458177bff1eab2ab1f0c1c35dab81ecfec29e7f039f651",
+    "public/block_fast.rerank.bin": "0190c23a341ee68cdbf68c82714c1e458a6c89b6871effe6e77c7ca4bf6a101b",
+    "public/block_fast.all.bin": "c4129430cf00c5898268f7ad41bfa51e25bdbd418ea0bf48b37bf94240f69d3f",
+    "bundles/anchors.bin": "9af5246847006bb8893566014e54bfb9b72087e310924087008f32baf214b37f",
+    "bundles/raw.pins": "462c8ea00359f4ffc021e96a771156eb8d4762fb71efcb249911197c4ff02da7",
+    "bundles/raw.bin": "a649cc4df7e52dae7cabcffb7a8318c04c808d58e88fff43d8c5e3bc9498f797",
+    "bundles/vida_per_token.pins": "9038c9a1c4ee15f7c92b0fc87b894f83361d04b81d4fd85e96990799c146ac37",
+    "bundles/vida_per_token.bin": "6d1a3ccfa8534223258f0f1582ca1854f02a9e9816b4683229776150d68e5b72",
+    "bundles/vida_batched.pins": "9038c9a1c4ee15f7c92b0fc87b894f83361d04b81d4fd85e96990799c146ac37",
+    "bundles/vida_batched.bin": "6d1a3ccfa8534223258f0f1582ca1854f02a9e9816b4683229776150d68e5b72",
+    "bundles/block_fast.pins": "6e6e014e81de39e15be3f03131894ac942dde92d2ed5988e35b1fdb810ac90af",
+    "bundles/block_fast.bin": "8b3737047f97de93ee0da75dbf3dc900395c4613dd2be22163018b25000e7f02",
+    "native-material/global-h1-r0.auth": "7754a3276e4effddea1fb00d8d081011d5f4bed71c19f7c7fc3cbd6707bd3467",
+    "native-material/global-h1-r0.tree": "740d6c2be2ea5f39d4ded916a45ffd7a0fe5141314debecf2911e03666b84e9f",
+    "native-material/global-h1-r0.json": "a544bc3977034ef4eef6e4822f7a639b898ca9cd92199ce482ca0b8d38a9e8d9",
+    "native-material/global-h128-r1.auth": "486517f8f63f53a9a1262be23e82a159acd9d2142bb297724680f0a4468dd5cd",
+    "native-material/global-h128-r1.tree": "1b03c176ed9d1c8d1584fcc7ade726c79b133476e3cd2761d52c8e1518efdf83",
+    "native-material/global-h128-r1.json": "31dc356dd34752c9c60b517dfe21c9073426d703aac617b4a8c149edc08915f6",
+    "native-material/global-h1-r1.auth": "f7ebf19bf3da241785f83e0286ab8c4db1a48465096789d545606ac6023ea3e0",
+    "native-material/global-h1-r1.tree": "c36503b755fdec37cf5b5c879ff447a99b3cee0071678eed5d56fa7b9c2a75cf",
+    "native-material/global-h1-r1.json": "507ed6ba570d727f6dfc4e05aa831d8c849179bdaaa4883ed85a52f59a1dd026",
+    "native-material/0000000/points-128.bin": "82f27919289cc6871237415a1f8bea27bcd25c3ce34850476b600d12aea407c7",
+    "native-material/0000000/leaves-128.bin": "f1b84dda9c68a98a445828f55cba326d1829e3607583be986c1182c3accd9401",
+    "native-material/0000000/fixed-i16.bin": "e5172f13765fbf3c6bea842241642146ea9d0bb756a97b60b3a1fee7789fff0b",
+    "native-material/0000000/leaves-raw.bin": "4c8659802d00c6394059a42ab7104f94eb5ca450f29a22138076a81a1c56b0c8",
+    "native-material/0000000/block.done": "811a4ee06dadb970f4bd4f87b8c042f6efad91877a86f4df1a4af2817c0553ae",
+    "native-material/0000000/points-1.bin": "d0e29f341233baf3c07102ef27856a65582f44c142381e644cb5fe9afad3e55f",
+    "native-material/0000000/leaves-1.bin": "c877353bfca3bdcf816ff3797dfa9374b78676d48ef74f5733f10d74de485bc1",
+    "native-material/0000000/row.done": "d6756217f95dd064307ddc92368c3cdbe6ee776b242aaf02507bd72cd889d914",
+    "inputs/trusted.json": "da3cab744ba5ef65ddbcfdf9e823f8f2b0b7999db59ce750189d14a961dd00bc",
+    "native-reference.jsonl": "67ba77d3c926d466e5b1da77983fc5ff2ca995bebdd8fd9ad73cd851aeaf371d"
+  },
+  "source_document_root": "5bd8d58ba7bc8b4e4b6b41d1591260b5fce166a4dfc29d7d6cb1822198457304",
+  "compact_document_root": "84d93cb0754992313ff15c842f7fc9a7fe7415c903075d0fd6fb9f92b0020dda",
+  "material_roots": {
+    "global-h1-r0.json": "f3561b1c28c9aa67d6a87e7cc1e513d53f2a1d9ffc4276039927ecd9c98e59dd",
+    "global-h128-r1.json": "f3bc163648a353f705c3828d3010eee08930f6daa455ee292ac1858b60afdcaa",
+    "global-h1-r1.json": "8b0e0ed31d93333bdb6996a4a08bdb87372853d79680b356f100dc931871fa7d"
+  },
+  "native": {
+    "candidate_ids": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "candidates": 4,
+    "execution_digest": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+    "query_id": 0,
+    "query_sha256": "e876d91b18dca5e85c1837cf1c60c99c638c66802a847e8e7a56b91ddeea0a3e",
+    "ranking": [
+      {
+        "distance": "25768755200",
+        "doc_id": 1
+      },
+      {
+        "distance": "25768755200",
+        "doc_id": 2
+      },
+      {
+        "distance": "27915976712",
+        "doc_id": 0
+      }
+    ],
+    "rerank_tokens": 135,
+    "result_count": 3,
+    "snapshot": "40481b90b3c6023ba73cbbf6ab65b16671620155a90982a33cf175b77a943b23",
+    "stage_digests": [
+      "52b96de7353d725231c34ca69ec1c23f512184de18a48f1a3e22695686df3d7d",
+      "2653130d2dd989b6ff85e912c49f2193d4dd60e849c0cfc5ff5cd5eae48fdb0c",
+      "d3b604e0400b49f6711957446c49fbe761a4bffc3394eef6e2a3c52d93369061"
+    ]
+  }
+}

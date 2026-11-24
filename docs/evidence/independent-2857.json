@@ -1,0 +1,45 @@
+{
+  "roots": {
+    "fine": "262589bd38d2f45ab3b2d5b772dd8ea1c841e901cee74f89b7c1bf74b24f8216",
+    "coarse": "d8281767be6aca94c69cd0eb339fa8660e5082d2920c1b4ee21f3fbfe40768ab"
+  },
+  "entry_hash": "dd156f46d7be8bc9320ed2af8fd030794dcb348c1602591114ab5d810ddd11da",
+  "clusters": 4096,
+  "missing": 0,
+  "distinct": 1911,
+  "stage_digests": [
+    "5a08daa435b9b4a7f8a31abbae122ddd8b775f439b3d8190d6addb548923bdf2",
+    "48f1a7e2eaaa4c3eddbde2152e8d180f8f04c42bec9ac3796bd779b16898fad7",
+    "34451a6f91700eabfda5c3a36b43145e670da0040b18ce4c68e36f03b5804986"
+  ],
+  "execution": "5ad4033f59654baf7eff89ad41c9b5e6bb2ad98c660d8ef50c98140e3f1e4390",
+  "selected": 35,
+  "queues": 33,
+  "comparisons": 9846,
+  "expanded": 1449,
+  "examined": 29899,
+  "stops": 33,
+  "new_smoke_cells_matched": 16,
+  "candidates": 1024,
+  "results": 100,
+  "source_tree": {
+    "root": "ce3ca6d1067fd77a41382ddde1e6eaa77df12a33a197fe1c5d026bbbeae3107c",
+    "documents": 22124,
+    "siblings": 93225
+  },
+  "fp32_fixed_candidates": {
+    "changed_positions": 0,
+    "fp32_first_distance": 0.3089578151702881,
+    "fixed_first_distance": 10618617452,
+    "fixed_first_id": 2413937
+  },
+  "coarse_comparison": {
+    "queries": 1,
+    "different_unions": []
+  },
+  "raw_rerank_tree": {
+    "root": "8ffa5d5edd68fd8f8ea05add8a7fc2128e96a1d68c4d1f3da53a09ea3bab67af",
+    "documents": 1024,
+    "siblings": 7118
+  }
+}

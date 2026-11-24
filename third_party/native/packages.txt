@@ -1,0 +1,4 @@
+openssl-1.1.1k-18.el8_6.x86_64
+openssl-devel-1.1.1k-18.el8_6.x86_64
+openssl-libs-1.1.1k-18.el8_6.x86_64
+zlib-1.2.11-25.el8.x86_64

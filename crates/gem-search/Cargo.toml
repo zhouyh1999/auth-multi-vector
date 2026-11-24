@@ -1,0 +1,21 @@
+[package]
+name = "gem-search"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[features]
+default = ["lemon-qemd"]
+lemon-qemd = ["dep:gem-qemd-lemon"]
+
+[dependencies]
+gem-core = { path = "../gem-core" }
+gem-qemd-lemon = { path = "../gem-qemd-lemon", optional = true }
+rayon.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+half.workspace = true
+serde_json.workspace = true

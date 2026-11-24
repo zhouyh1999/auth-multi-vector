@@ -1,0 +1,42 @@
+   Compiling libc v0.2.189
+   Compiling syn v3.0.3
+   Compiling getrandom v0.2.17
+   Compiling rand_core v0.6.4
+   Compiling ff v0.13.1
+   Compiling rand_chacha v0.3.1
+   Compiling merlin v3.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/merlin)
+   Compiling group v0.13.0
+   Compiling rand v0.8.8
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v2.0.20
+   Compiling thiserror v2.0.20
+   Compiling serde v1.0.229
+   Compiling half v2.7.1
+   Compiling bincode v1.3.3
+   Compiling curve25519-dalek v4.1.3
+   Compiling gem-core v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-core)
+   Compiling ed25519-dalek v2.2.0
+   Compiling ipa v5.0.0 (/tmp/local/csyhzhou/auth-gem-delivery/third_party/ipa)
+   Compiling gem-search v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-search)
+   Compiling gem-auth-v3 v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-auth-v3)
+   Compiling gem-matrix-proof v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-matrix-proof)
+   Compiling gem-auth-scheme-v3 v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-auth-scheme-v3)
+    Finished `release` profile [optimized] target(s) in 30.79s
+     Running unittests src/lib.rs (artifacts/acceptance/target/release/deps/gem_auth_scheme_v3-eadd78df9550500f)
+
+running 2 tests
+test compact::protocol::optimization_tests::batched_witness_matches_scalar_reference_and_preserves_padding ... ok
+test protocol::optimization_tests::batched_witness_matches_scalar_reference_and_preserves_padding ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 38 filtered out; finished in 0.41s
+
+   Compiling gem-matrix-proof v0.1.0 (/tmp/local/csyhzhou/auth-gem-delivery/crates/gem-matrix-proof)
+    Finished `release` profile [optimized] target(s) in 5.42s
+     Running unittests src/lib.rs (artifacts/acceptance/target/release/deps/gem_matrix_proof-fb7303e2466fcb38)
+
+running 1 test
+test parallel_tests::seeded_serial_and_parallel_arguments_are_identical has been running for over 60 seconds
+test parallel_tests::seeded_serial_and_parallel_arguments_are_identical ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 10 filtered out; finished in 205.93s
+

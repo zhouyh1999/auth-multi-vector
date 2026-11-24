@@ -1,0 +1,4 @@
+5588 distinct delivered files match their SHA-256 digests
+3d4ceebbd332440fb2859b7ef4bbf9868d5939a28cfd86dff6506e0f639409d3  /tmp/local/csyhzhou/auth-gem-delivery/artifacts/acceptance/target/release/first-visit
+6d9ddf4d6aea24186492d855b70303358c90ceed0d407d53c55e934c23d4daa8  /tmp/local/csyhzhou/auth-gem-delivery/artifacts/acceptance/target/release/check-historical
+{"candidates":1024,"execution":"5ad4033f59654baf7eff89ad41c9b5e6bb2ad98c660d8ef50c98140e3f1e4390","results":100}

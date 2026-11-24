@@ -1,0 +1,18 @@
+[package]
+name = "gem-auth-v3"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+gem-core = { path = "../gem-core" }
+gem-search = { path = "../gem-search" }
+bincode.workspace = true
+ed25519-dalek.workspace = true
+half.workspace = true
+rand.workspace = true
+rayon.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true

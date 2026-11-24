@@ -1,0 +1,149 @@
+rustc 1.91.0 (f8297e351 2025-10-28)
+binary: rustc
+commit-hash: f8297e351a40c1439a467bbbb6879088047f50b3
+commit-date: 2025-10-28
+host: x86_64-unknown-linux-gnu
+release: 1.91.0
+LLVM version: 21.1.2
+cargo 1.91.0 (ea2d97820 2025-10-10)
+cc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-30.0.1)
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+c++ (GCC) 8.5.0 20210514 (Red Hat 8.5.0-30.0.1)
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Python 3.10.21
+/tmp/local/csyhzhou/auth gem relocated
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+   Compiling proc-macro2 v1.0.107
+   Compiling unicode-ident v1.0.24
+   Compiling quote v1.0.47
+   Compiling cfg-if v1.0.4
+   Compiling libc v0.2.189
+   Compiling find-msvc-tools v0.1.11
+   Compiling shlex v2.0.1
+   Compiling version_check v0.9.5
+   Compiling typenum v1.20.1
+   Compiling serde_core v1.0.229
+   Compiling cc v1.4.4
+   Compiling serde v1.0.229
+   Compiling zerocopy v0.8.56
+   Compiling generic-array v0.14.7
+   Compiling crossbeam-utils v0.8.22
+   Compiling crossbeam-epoch v0.9.20
+   Compiling semver v1.0.28
+   Compiling crossbeam-deque v0.8.7
+   Compiling cpufeatures v0.2.17
+   Compiling syn v2.0.119
+   Compiling syn v3.0.3
+   Compiling rustc_version v0.4.1
+   Compiling crypto-common v0.1.7
+   Compiling block-buffer v0.10.4
+   Compiling rayon-core v1.13.0
+   Compiling subtle v2.6.1
+   Compiling digest v0.10.7
+   Compiling curve25519-dalek v4.1.3
+   Compiling thiserror v2.0.20
+   Compiling sha2 v0.10.9
+   Compiling zmij v1.0.23
+   Compiling getrandom v0.2.17
+   Compiling either v1.18.0
+   Compiling rand_core v0.6.4
+   Compiling clear_on_drop v0.2.5
+   Compiling ff v0.13.1
+   Compiling rayon v1.12.0
+   Compiling group v0.13.0
+   Compiling serde_json v1.0.151
+   Compiling thiserror v1.0.69
+   Compiling keccak v0.1.6
+   Compiling byteorder v1.5.0
+   Compiling itoa v1.0.18
+   Compiling memchr v2.8.3
+   Compiling sha3 v0.10.9
+   Compiling gem-qemd-lemon v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/gem-qemd-lemon)
+   Compiling utf8parse v0.2.2
+   Compiling cfg_aliases v0.2.2
+   Compiling signature v2.2.0
+   Compiling nix v0.31.3
+   Compiling ed25519 v2.2.3
+   Compiling anstyle-parse v1.0.0
+   Compiling anstyle v1.0.14
+   Compiling anstyle-query v1.1.5
+   Compiling bitflags v2.13.1
+   Compiling colorchoice v1.0.5
+   Compiling is_terminal_polyfill v1.70.2
+   Compiling clap_lex v1.1.0
+   Compiling anstream v1.0.0
+   Compiling heck v0.5.0
+   Compiling anyhow v1.0.104
+   Compiling strsim v0.11.1
+   Compiling clap_builder v4.6.6
+   Compiling vcpkg v0.2.15
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v2.0.20
+   Compiling clap_derive v4.6.4
+   Compiling pkg-config v0.3.34
+   Compiling same-file v1.0.6
+   Compiling walkdir v2.5.0
+   Compiling ctrlc v3.5.2
+   Compiling openssl-sys v0.9.111
+   Compiling zerocopy-derive v0.8.56
+   Compiling zeroize_derive v1.5.0
+   Compiling curve25519-dalek-derive v0.1.1
+   Compiling thiserror-impl v1.0.69
+   Compiling hex v0.4.3
+   Compiling zeroize v1.9.0
+   Compiling foreign-types-shared v0.1.1
+   Compiling openssl v0.10.75
+   Compiling merlin v3.0.0 (/tmp/local/csyhzhou/auth gem relocated/third_party/merlin)
+   Compiling foreign-types v0.3.2
+   Compiling openssl-macros v0.1.1
+   Compiling once_cell v1.21.4
+   Compiling clap v4.6.6
+   Compiling bincode v1.3.3
+   Compiling ed25519-dalek v2.2.0
+   Compiling ppv-lite86 v0.2.21
+   Compiling half v2.7.1
+   Compiling gem-core v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/gem-core)
+   Compiling rand_chacha v0.3.1
+   Compiling rand v0.8.8
+   Compiling gem-search v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/gem-search)
+   Compiling ipa v5.0.0 (/tmp/local/csyhzhou/auth gem relocated/third_party/ipa)
+   Compiling gem-auth-v3 v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/gem-auth-v3)
+   Compiling gem-matrix-proof v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/gem-matrix-proof)
+   Compiling gem-auth-scheme-v3 v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/gem-auth-scheme-v3)
+   Compiling gem-cli v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/gem-cli)
+   Compiling gem-auth-scheme-block-multi-bench v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/authentication)
+   Compiling gem-lotte-auth-pilot v0.1.0 (/tmp/local/csyhzhou/auth gem relocated/crates/e2e-benchmark)
+    Finished `release` profile [optimized] target(s) in 1m 04s
+Looking in links: third_party/python
+Processing ./third_party/python/contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./third_party/python/cycler-0.12.1-py3-none-any.whl
+Processing ./third_party/python/fonttools-4.65.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Processing ./third_party/python/kiwisolver-1.5.1-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Processing ./third_party/python/matplotlib-3.9.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./third_party/python/numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Processing ./third_party/python/packaging-26.4-py3-none-any.whl
+Processing ./third_party/python/pillow-12.2.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Processing ./third_party/python/pyparsing-3.3.3-py3-none-any.whl
+Processing ./third_party/python/python_dateutil-3.0.0-py2.py3-none-any.whl
+Processing ./third_party/python/six-1.17.0-py2.py3-none-any.whl
+Processing ./third_party/python/tomli-2.2.1-py3-none-any.whl
+Processing ./third_party/python/tzdata-2026.6-py2.py3-none-any.whl
+Installing collected packages: tzdata, tomli, six, pyparsing, pillow, packaging, numpy, kiwisolver, fonttools, cycler, python_dateutil, contourpy, matplotlib
+Successfully installed contourpy-1.3.2 cycler-0.12.1 fonttools-4.65.0 kiwisolver-1.5.1 matplotlib-3.9.4 numpy-1.26.4 packaging-26.4 pillow-12.2.0 pyparsing-3.3.3 python_dateutil-3.0.0 six-1.17.0 tomli-2.2.1 tzdata-2026.6
+OpenSSL 1.1.1k  FIPS 25 Mar 2021
+	linux-vdso.so.1 (0x00007ffc317fa000)
+	libssl.so.1.1 => /tmp/local/csyhzhou/auth gem relocated/third_party/native/lib/libssl.so.1.1 (0x00007f0a7c12d000)
+	libcrypto.so.1.1 => /tmp/local/csyhzhou/auth gem relocated/third_party/native/lib/libcrypto.so.1.1 (0x00007f0a7bc42000)
+	libgcc_s.so.1 => /lib64/libgcc_s.so.1 (0x00007f0a7ba29000)
+	libpthread.so.0 => /lib64/libpthread.so.0 (0x00007f0a7b809000)
+	libdl.so.2 => /lib64/libdl.so.2 (0x00007f0a7b605000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007f0a7b22f000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f0a7c622000)
+	libz.so.1 => /tmp/local/csyhzhou/auth gem relocated/third_party/native/lib/libz.so.1 (0x00007f0a7b017000)
+OpenSSL 3.5.7 9 Jun 2026 True

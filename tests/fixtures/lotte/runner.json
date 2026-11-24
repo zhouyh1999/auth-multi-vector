@@ -1,0 +1,801 @@
+{
+  "dataset": "lotte",
+  "documents": 2428854,
+  "tokens": 266205513,
+  "dimension": 128,
+  "max_doc_tokens": 180,
+  "queries": 2931,
+  "fine": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/cdata/centroids.npy",
+  "coarse": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/cdata/coarse_centroids.npy",
+  "queries_npy": "/tmp/local/csyhzhou/dataset/GEM_ColBERTv2_MultiVector_128D_FP16/lotte_pooled_dev_hf/queries.npy",
+  "shards": [
+    {
+      "doc_start": 0,
+      "doc_end": 25000,
+      "token_start": 0,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding0_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_0.npy"
+    },
+    {
+      "doc_start": 25000,
+      "doc_end": 50000,
+      "token_start": 2680495,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding1_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_1.npy"
+    },
+    {
+      "doc_start": 50000,
+      "doc_end": 75000,
+      "token_start": 5242390,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding2_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_2.npy"
+    },
+    {
+      "doc_start": 75000,
+      "doc_end": 100000,
+      "token_start": 7814639,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding3_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_3.npy"
+    },
+    {
+      "doc_start": 100000,
+      "doc_end": 125000,
+      "token_start": 10353669,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding4_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_4.npy"
+    },
+    {
+      "doc_start": 125000,
+      "doc_end": 150000,
+      "token_start": 13330184,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding5_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_5.npy"
+    },
+    {
+      "doc_start": 150000,
+      "doc_end": 175000,
+      "token_start": 16638545,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding6_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_6.npy"
+    },
+    {
+      "doc_start": 175000,
+      "doc_end": 200000,
+      "token_start": 20069775,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding7_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_7.npy"
+    },
+    {
+      "doc_start": 200000,
+      "doc_end": 225000,
+      "token_start": 23517859,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding8_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_8.npy"
+    },
+    {
+      "doc_start": 225000,
+      "doc_end": 250000,
+      "token_start": 26985474,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding9_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_9.npy"
+    },
+    {
+      "doc_start": 250000,
+      "doc_end": 275000,
+      "token_start": 30451234,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding10_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_10.npy"
+    },
+    {
+      "doc_start": 275000,
+      "doc_end": 300000,
+      "token_start": 33930095,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding11_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_11.npy"
+    },
+    {
+      "doc_start": 300000,
+      "doc_end": 325000,
+      "token_start": 37191184,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding12_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_12.npy"
+    },
+    {
+      "doc_start": 325000,
+      "doc_end": 350000,
+      "token_start": 40599803,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding13_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_13.npy"
+    },
+    {
+      "doc_start": 350000,
+      "doc_end": 375000,
+      "token_start": 44075344,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding14_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_14.npy"
+    },
+    {
+      "doc_start": 375000,
+      "doc_end": 400000,
+      "token_start": 47396694,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding15_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_15.npy"
+    },
+    {
+      "doc_start": 400000,
+      "doc_end": 425000,
+      "token_start": 50324404,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding16_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_16.npy"
+    },
+    {
+      "doc_start": 425000,
+      "doc_end": 450000,
+      "token_start": 53416590,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding17_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_17.npy"
+    },
+    {
+      "doc_start": 450000,
+      "doc_end": 475000,
+      "token_start": 56653655,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding18_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_18.npy"
+    },
+    {
+      "doc_start": 475000,
+      "doc_end": 500000,
+      "token_start": 59904936,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding19_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_19.npy"
+    },
+    {
+      "doc_start": 500000,
+      "doc_end": 525000,
+      "token_start": 62942266,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding20_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_20.npy"
+    },
+    {
+      "doc_start": 525000,
+      "doc_end": 550000,
+      "token_start": 66034278,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding21_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_21.npy"
+    },
+    {
+      "doc_start": 550000,
+      "doc_end": 575000,
+      "token_start": 69097292,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding22_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_22.npy"
+    },
+    {
+      "doc_start": 575000,
+      "doc_end": 600000,
+      "token_start": 72153684,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding23_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_23.npy"
+    },
+    {
+      "doc_start": 600000,
+      "doc_end": 625000,
+      "token_start": 74964760,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding24_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_24.npy"
+    },
+    {
+      "doc_start": 625000,
+      "doc_end": 650000,
+      "token_start": 77829672,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding25_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_25.npy"
+    },
+    {
+      "doc_start": 650000,
+      "doc_end": 675000,
+      "token_start": 80745036,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding26_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_26.npy"
+    },
+    {
+      "doc_start": 675000,
+      "doc_end": 700000,
+      "token_start": 83647589,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding27_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_27.npy"
+    },
+    {
+      "doc_start": 700000,
+      "doc_end": 725000,
+      "token_start": 86579825,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding28_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_28.npy"
+    },
+    {
+      "doc_start": 725000,
+      "doc_end": 750000,
+      "token_start": 89539258,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding29_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_29.npy"
+    },
+    {
+      "doc_start": 750000,
+      "doc_end": 775000,
+      "token_start": 92742296,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding30_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_30.npy"
+    },
+    {
+      "doc_start": 775000,
+      "doc_end": 800000,
+      "token_start": 95908768,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding31_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_31.npy"
+    },
+    {
+      "doc_start": 800000,
+      "doc_end": 825000,
+      "token_start": 99107394,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding32_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_32.npy"
+    },
+    {
+      "doc_start": 825000,
+      "doc_end": 850000,
+      "token_start": 102392767,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding33_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_33.npy"
+    },
+    {
+      "doc_start": 850000,
+      "doc_end": 875000,
+      "token_start": 105208628,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding34_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_34.npy"
+    },
+    {
+      "doc_start": 875000,
+      "doc_end": 900000,
+      "token_start": 108476520,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding35_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_35.npy"
+    },
+    {
+      "doc_start": 900000,
+      "doc_end": 925000,
+      "token_start": 110948453,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding36_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_36.npy"
+    },
+    {
+      "doc_start": 925000,
+      "doc_end": 950000,
+      "token_start": 112957010,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding37_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_37.npy"
+    },
+    {
+      "doc_start": 950000,
+      "doc_end": 975000,
+      "token_start": 114924820,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding38_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_38.npy"
+    },
+    {
+      "doc_start": 975000,
+      "doc_end": 1000000,
+      "token_start": 116935992,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding39_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_39.npy"
+    },
+    {
+      "doc_start": 1000000,
+      "doc_end": 1025000,
+      "token_start": 119072310,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding40_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_40.npy"
+    },
+    {
+      "doc_start": 1025000,
+      "doc_end": 1050000,
+      "token_start": 121288770,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding41_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_41.npy"
+    },
+    {
+      "doc_start": 1050000,
+      "doc_end": 1075000,
+      "token_start": 123565112,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding42_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_42.npy"
+    },
+    {
+      "doc_start": 1075000,
+      "doc_end": 1100000,
+      "token_start": 125815605,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding43_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_43.npy"
+    },
+    {
+      "doc_start": 1100000,
+      "doc_end": 1125000,
+      "token_start": 128162555,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding44_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_44.npy"
+    },
+    {
+      "doc_start": 1125000,
+      "doc_end": 1150000,
+      "token_start": 130575577,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding45_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_45.npy"
+    },
+    {
+      "doc_start": 1150000,
+      "doc_end": 1175000,
+      "token_start": 133029022,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding46_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_46.npy"
+    },
+    {
+      "doc_start": 1175000,
+      "doc_end": 1200000,
+      "token_start": 135526699,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding47_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_47.npy"
+    },
+    {
+      "doc_start": 1200000,
+      "doc_end": 1225000,
+      "token_start": 138051395,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding48_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_48.npy"
+    },
+    {
+      "doc_start": 1225000,
+      "doc_end": 1250000,
+      "token_start": 140584059,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding49_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_49.npy"
+    },
+    {
+      "doc_start": 1250000,
+      "doc_end": 1275000,
+      "token_start": 143145004,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding50_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_50.npy"
+    },
+    {
+      "doc_start": 1275000,
+      "doc_end": 1300000,
+      "token_start": 145711015,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding51_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_51.npy"
+    },
+    {
+      "doc_start": 1300000,
+      "doc_end": 1325000,
+      "token_start": 148284351,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding52_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_52.npy"
+    },
+    {
+      "doc_start": 1325000,
+      "doc_end": 1350000,
+      "token_start": 151124031,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding53_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_53.npy"
+    },
+    {
+      "doc_start": 1350000,
+      "doc_end": 1375000,
+      "token_start": 154130623,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding54_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_54.npy"
+    },
+    {
+      "doc_start": 1375000,
+      "doc_end": 1400000,
+      "token_start": 157108812,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding55_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_55.npy"
+    },
+    {
+      "doc_start": 1400000,
+      "doc_end": 1425000,
+      "token_start": 160111046,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding56_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_56.npy"
+    },
+    {
+      "doc_start": 1425000,
+      "doc_end": 1450000,
+      "token_start": 163137127,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding57_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_57.npy"
+    },
+    {
+      "doc_start": 1450000,
+      "doc_end": 1475000,
+      "token_start": 166139908,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding58_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_58.npy"
+    },
+    {
+      "doc_start": 1475000,
+      "doc_end": 1500000,
+      "token_start": 169106232,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding59_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_59.npy"
+    },
+    {
+      "doc_start": 1500000,
+      "doc_end": 1525000,
+      "token_start": 172037357,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding60_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_60.npy"
+    },
+    {
+      "doc_start": 1525000,
+      "doc_end": 1550000,
+      "token_start": 174415374,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding61_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_61.npy"
+    },
+    {
+      "doc_start": 1550000,
+      "doc_end": 1575000,
+      "token_start": 176626496,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding62_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_62.npy"
+    },
+    {
+      "doc_start": 1575000,
+      "doc_end": 1600000,
+      "token_start": 178924457,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding63_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_63.npy"
+    },
+    {
+      "doc_start": 1600000,
+      "doc_end": 1625000,
+      "token_start": 181269830,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding64_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_64.npy"
+    },
+    {
+      "doc_start": 1625000,
+      "doc_end": 1650000,
+      "token_start": 183614901,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding65_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_65.npy"
+    },
+    {
+      "doc_start": 1650000,
+      "doc_end": 1675000,
+      "token_start": 185979275,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding66_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_66.npy"
+    },
+    {
+      "doc_start": 1675000,
+      "doc_end": 1700000,
+      "token_start": 188377689,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding67_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_67.npy"
+    },
+    {
+      "doc_start": 1700000,
+      "doc_end": 1725000,
+      "token_start": 190795712,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding68_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_68.npy"
+    },
+    {
+      "doc_start": 1725000,
+      "doc_end": 1750000,
+      "token_start": 193292607,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding69_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_69.npy"
+    },
+    {
+      "doc_start": 1750000,
+      "doc_end": 1775000,
+      "token_start": 195763966,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding70_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_70.npy"
+    },
+    {
+      "doc_start": 1775000,
+      "doc_end": 1800000,
+      "token_start": 198237856,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding71_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_71.npy"
+    },
+    {
+      "doc_start": 1800000,
+      "doc_end": 1825000,
+      "token_start": 200685362,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding72_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_72.npy"
+    },
+    {
+      "doc_start": 1825000,
+      "doc_end": 1850000,
+      "token_start": 202919572,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding73_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_73.npy"
+    },
+    {
+      "doc_start": 1850000,
+      "doc_end": 1875000,
+      "token_start": 205125333,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding74_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_74.npy"
+    },
+    {
+      "doc_start": 1875000,
+      "doc_end": 1900000,
+      "token_start": 207293829,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding75_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_75.npy"
+    },
+    {
+      "doc_start": 1900000,
+      "doc_end": 1925000,
+      "token_start": 209481093,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding76_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_76.npy"
+    },
+    {
+      "doc_start": 1925000,
+      "doc_end": 1950000,
+      "token_start": 211726220,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding77_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_77.npy"
+    },
+    {
+      "doc_start": 1950000,
+      "doc_end": 1975000,
+      "token_start": 214023293,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding78_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_78.npy"
+    },
+    {
+      "doc_start": 1975000,
+      "doc_end": 2000000,
+      "token_start": 216342424,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding79_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_79.npy"
+    },
+    {
+      "doc_start": 2000000,
+      "doc_end": 2025000,
+      "token_start": 218702820,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding80_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_80.npy"
+    },
+    {
+      "doc_start": 2025000,
+      "doc_end": 2050000,
+      "token_start": 221162164,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding81_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_81.npy"
+    },
+    {
+      "doc_start": 2050000,
+      "doc_end": 2075000,
+      "token_start": 223686679,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding82_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_82.npy"
+    },
+    {
+      "doc_start": 2075000,
+      "doc_end": 2100000,
+      "token_start": 226183917,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding83_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_83.npy"
+    },
+    {
+      "doc_start": 2100000,
+      "doc_end": 2125000,
+      "token_start": 228706510,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding84_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_84.npy"
+    },
+    {
+      "doc_start": 2125000,
+      "doc_end": 2150000,
+      "token_start": 231280607,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding85_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_85.npy"
+    },
+    {
+      "doc_start": 2150000,
+      "doc_end": 2175000,
+      "token_start": 233347940,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding86_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_86.npy"
+    },
+    {
+      "doc_start": 2175000,
+      "doc_end": 2200000,
+      "token_start": 236009092,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding87_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_87.npy"
+    },
+    {
+      "doc_start": 2200000,
+      "doc_end": 2225000,
+      "token_start": 238911028,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding88_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_88.npy"
+    },
+    {
+      "doc_start": 2225000,
+      "doc_end": 2250000,
+      "token_start": 242254540,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding89_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_89.npy"
+    },
+    {
+      "doc_start": 2250000,
+      "doc_end": 2275000,
+      "token_start": 245398604,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding90_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_90.npy"
+    },
+    {
+      "doc_start": 2275000,
+      "doc_end": 2300000,
+      "token_start": 248489222,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding91_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_91.npy"
+    },
+    {
+      "doc_start": 2300000,
+      "doc_end": 2325000,
+      "token_start": 251343962,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding92_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_92.npy"
+    },
+    {
+      "doc_start": 2325000,
+      "doc_end": 2350000,
+      "token_start": 254127065,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding93_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_93.npy"
+    },
+    {
+      "doc_start": 2350000,
+      "doc_end": 2375000,
+      "token_start": 256988369,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding94_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_94.npy"
+    },
+    {
+      "doc_start": 2375000,
+      "doc_end": 2400000,
+      "token_start": 259886508,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding95_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_95.npy"
+    },
+    {
+      "doc_start": 2400000,
+      "doc_end": 2425000,
+      "token_start": 262946434,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding96_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_96.npy"
+    },
+    {
+      "doc_start": 2425000,
+      "doc_end": 2428854,
+      "token_start": 265792461,
+      "raw_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/encoding97_float16.npy",
+      "raw_offset": 128,
+      "codes_path": "/tmp/local/csyhzhou/test_rag/gem-full-colbertv2-compare-20261015T100800Z/prepared/lotte/docdata/doc_codes_97.npy"
+    }
+  ],
+  "graph_dir": "/tmp/local/csyhzhou/test_rag/gem-lotte-official-graph-auth-pilot-20261115/inputs",
+  "degree_cap": 48,
+  "query_ids": "/tmp/local/csyhzhou/test_rag/gem-lotte-official-graph-auth-pilot-20261115/inputs/query-ids.json",
+  "graph_origin": "GEM published LoTTE graph unchanged; alternate ColBERT document vectors and their existing 32768/4096 codebooks and memberships. Authentication benchmark only."
+}

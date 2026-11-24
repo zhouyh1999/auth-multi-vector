@@ -1,0 +1,122 @@
+{
+  "upstream_package": "merlin",
+  "upstream_version": "3.0.0",
+  "upstream_registry_checksum": "58c38e2799fc0978b65dfff8023ec7843e2330bb462f19198840b34b6582397d",
+  "upstream_files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1645,
+      "sha256": "c42b4fd36c0354c4ce55ebc197edfad68d86876c062e7fb1eca9b12f4f6dab96"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 1745,
+      "sha256": "0b5cc7216be5a320e6b618ef925df1111364775a001d9848bed8995f2825c5e5"
+    },
+    {
+      "path": "Cargo.toml.orig",
+      "bytes": 1286,
+      "sha256": "210dbc461a32a4e5bc0b5a873235b423692b60a27b1905e669ba1934d016d143"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1074,
+      "sha256": "a23decac74ff35091240ea623bdad2c867ca5054cd1b9e4a848e4628d0c92689"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2864,
+      "sha256": "7b184bfaa764e36cc7ea05bb7ee74e3fb270ea8d1e0a9aef50f35b5a1244b2bc"
+    },
+    {
+      "path": "src/constants.rs",
+      "bytes": 371,
+      "sha256": "306afea9fdb42642246b49a8c2e2fd59d3c0036d4e7c8ad80de34755dcb8ec43"
+    },
+    {
+      "path": "src/lib.rs",
+      "bytes": 799,
+      "sha256": "10c37c2528a91d920505f4ca0169b7519669545c01a6e7848a93fea2d5528f0a"
+    },
+    {
+      "path": "src/strobe.rs",
+      "bytes": 5953,
+      "sha256": "ff2ef7765ce1e96c87cdb0dfc32b9ba4a009af473b62a532300b4875d18369fd"
+    },
+    {
+      "path": "src/transcript.rs",
+      "bytes": 19724,
+      "sha256": "90b45e7378d6d098ef3512148279302c4899ed0a0d6cfb7f3b907e3583b69ad6"
+    }
+  ],
+  "local_changes": [
+    "src/strobe.rs: chunked XOR inside the unchanged STROBE rate block",
+    "src/lib.rs: differential test module registration",
+    "src/equivalence_tests.rs: differential tests against pristine upstream STROBE",
+    "reference/strobe.rs: pristine upstream STROBE used only by tests"
+  ],
+  "protocol_changes": false,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 1645,
+      "sha256": "c42b4fd36c0354c4ce55ebc197edfad68d86876c062e7fb1eca9b12f4f6dab96"
+    },
+    {
+      "path": "Cargo.toml",
+      "bytes": 1745,
+      "sha256": "0b5cc7216be5a320e6b618ef925df1111364775a001d9848bed8995f2825c5e5"
+    },
+    {
+      "path": "Cargo.toml.orig",
+      "bytes": 1286,
+      "sha256": "210dbc461a32a4e5bc0b5a873235b423692b60a27b1905e669ba1934d016d143"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 1074,
+      "sha256": "a23decac74ff35091240ea623bdad2c867ca5054cd1b9e4a848e4628d0c92689"
+    },
+    {
+      "path": "LOCAL_CHANGES.md",
+      "bytes": 1098,
+      "sha256": "640401d4794edde625828733d46c7b4bf572f0e623462eced3dfde15e2cba70c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2864,
+      "sha256": "7b184bfaa764e36cc7ea05bb7ee74e3fb270ea8d1e0a9aef50f35b5a1244b2bc"
+    },
+    {
+      "path": "reference/strobe.rs",
+      "bytes": 5953,
+      "sha256": "ff2ef7765ce1e96c87cdb0dfc32b9ba4a009af473b62a532300b4875d18369fd"
+    },
+    {
+      "path": "src/constants.rs",
+      "bytes": 371,
+      "sha256": "306afea9fdb42642246b49a8c2e2fd59d3c0036d4e7c8ad80de34755dcb8ec43"
+    },
+    {
+      "path": "src/equivalence_tests.rs",
+      "bytes": 2374,
+      "sha256": "2277c972139909f7e0ec44638fbe98e1103f4b8a5cc83711f86a50a8e2667475"
+    },
+    {
+      "path": "src/lib.rs",
+      "bytes": 906,
+      "sha256": "06b42419a2d541725828e22908e2da3876ce09ece20e00bacff610478686efba"
+    },
+    {
+      "path": "src/strobe.rs",
+      "bytes": 6483,
+      "sha256": "1a304bf10147150ecd6f2ba8bb93bc85b87c1c531046dfda6976833b4c0fb38e"
+    },
+    {
+      "path": "src/transcript.rs",
+      "bytes": 19724,
+      "sha256": "90b45e7378d6d098ef3512148279302c4899ed0a0d6cfb7f3b907e3583b69ad6"
+    }
+  ],
+  "source_tree_sha256": "9df4682e751e5328c216f7bab1a3f1bd81567c029aa5e3544351ae2c5d8b03c0"
+}

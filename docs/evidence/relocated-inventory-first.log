@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/tmp/local/csyhzhou/auth gem relocated/tools/check_package.py", line 33, in <module>
+    main()
+  File "/tmp/local/csyhzhou/auth gem relocated/tools/check_package.py", line 28, in main
+    raise ValueError(f'SHA-256 mismatch: {name}')
+ValueError: SHA-256 mismatch: tests/fixtures/reference/README.md

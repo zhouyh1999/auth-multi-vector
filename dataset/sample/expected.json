@@ -1,0 +1,22 @@
+{
+  "candidate_ids": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "ranking": [
+    {
+      "doc_id": 1,
+      "distance": 25768755200
+    },
+    {
+      "doc_id": 2,
+      "distance": 25768755200
+    },
+    {
+      "doc_id": 0,
+      "distance": 27915976712
+    }
+  ]
+}

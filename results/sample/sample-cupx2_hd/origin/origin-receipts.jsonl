@@ -1,0 +1,16 @@
+{"id": "88c2c17592fa09c2c66b565d96bae714", "method": "block_fast", "stage": "fine", "payload_bytes": 1788, "utc": 1795498830.9977658, "tls": "TLSv1.3", "reused": false}
+{"id": "73991a130b3788c483f6cdb425322da5", "method": "raw", "stage": "all", "payload_bytes": 2326, "utc": 1795498831.062472, "tls": "TLSv1.3", "reused": false}
+{"id": "e2d8178c752772445bc4c926ebc8c0c3", "method": "raw", "stage": "fine", "payload_bytes": 1788, "utc": 1795498831.0664766, "tls": "TLSv1.3", "reused": false}
+{"id": "fcbaea76021f7c0b5addc9145e61a28e", "method": "block_fast", "stage": "coarse", "payload_bytes": 1788, "utc": 1795498831.0683608, "tls": "TLSv1.3", "reused": false}
+{"id": "a77a8f9db5c09e70041b0f6cde669cfc", "method": "vida_batched", "stage": "all", "payload_bytes": 2326, "utc": 1795498831.0965126, "tls": "TLSv1.3", "reused": false}
+{"id": "7757b448f08d6148589ecdeacab30113", "method": "vida_per_token", "stage": "rerank", "payload_bytes": 1788, "utc": 1795498831.123383, "tls": "TLSv1.3", "reused": false}
+{"id": "71fa090afd6d1d488a61fbaaff865aa8", "method": "vida_per_token", "stage": "fine", "payload_bytes": 1788, "utc": 1795498831.189307, "tls": "TLSv1.3", "reused": false}
+{"id": "f918eb6ca2723e3b9905b879e3220158", "method": "block_fast", "stage": "all", "payload_bytes": 2326, "utc": 1795498831.244374, "tls": "TLSv1.3", "reused": false}
+{"id": "d8628e7e0586d42f285242cc34aff7ff", "method": "vida_per_token", "stage": "all", "payload_bytes": 2326, "utc": 1795498831.4884195, "tls": "TLSv1.3", "reused": false}
+{"id": "1b9786cdd69777de0daddc9e97cb212a", "method": "vida_batched", "stage": "coarse", "payload_bytes": 1788, "utc": 1795498831.659374, "tls": "TLSv1.3", "reused": false}
+{"id": "52c35f1114371acb69900bcc369d5dee", "method": "vida_batched", "stage": "rerank", "payload_bytes": 1788, "utc": 1795498831.6683667, "tls": "TLSv1.3", "reused": false}
+{"id": "7aaa467510c434265d6fd34433568335", "method": "block_fast", "stage": "rerank", "payload_bytes": 1788, "utc": 1795498831.6798513, "tls": "TLSv1.3", "reused": false}
+{"id": "960a4fd1fb988ff6a51a3e1a7796b8f1", "method": "raw", "stage": "coarse", "payload_bytes": 1788, "utc": 1795498831.779036, "tls": "TLSv1.3", "reused": false}
+{"id": "3dfaf0a6f0b696046fe739db209d3d85", "method": "vida_per_token", "stage": "coarse", "payload_bytes": 1788, "utc": 1795498831.7809262, "tls": "TLSv1.3", "reused": false}
+{"id": "241c6aa333cb8e0dd6e0b2fd81f41a26", "method": "vida_batched", "stage": "fine", "payload_bytes": 1788, "utc": 1795498831.8332868, "tls": "TLSv1.3", "reused": false}
+{"id": "82b0ccd4748effbfd067d9ee73908dbe", "method": "raw", "stage": "rerank", "payload_bytes": 1788, "utc": 1795498831.8426788, "tls": "TLSv1.3", "reused": false}

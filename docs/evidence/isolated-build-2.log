@@ -1,0 +1,21 @@
+rustc 1.91.0 (f8297e351 2025-10-28)
+binary: rustc
+commit-hash: f8297e351a40c1439a467bbbb6879088047f50b3
+commit-date: 2025-10-28
+host: x86_64-unknown-linux-gnu
+release: 1.91.0
+LLVM version: 21.1.2
+cargo 1.91.0 (ea2d97820 2025-10-10)
+cc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-30.0.1)
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+c++ (GCC) 8.5.0 20210514 (Red Hat 8.5.0-30.0.1)
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Python 3.10.21
+/tmp/local/csyhzhou/auth-gem-delivery
+scripts/acceptance.sh: line 13: ip: command not found

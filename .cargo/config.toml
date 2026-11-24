@@ -1,0 +1,10 @@
+[source.crates-io]
+replace-with = "vendored-sources"
+[source.vendored-sources]
+directory = "third_party/cargo"
+[net]
+offline = true
+[env]
+OPENSSL_DIR = { value = "third_party/native", relative = true, force = true }
+[build]
+target-dir = "artifacts/acceptance/target"

@@ -1,0 +1,94 @@
+[
+  {
+    "path": "/tmp/local/csyhzhou/auth-gem-delivery",
+    "preparation_binary": "14f500d52a6152a846ef8811c838a85d6e60088c82aa7ee433db1a98af4a1924",
+    "first_visit_binary": "3d4ceebbd332440fb2859b7ef4bbf9868d5939a28cfd86dff6506e0f639409d3",
+    "published_index": "40481b90b3c6023ba73cbbf6ab65b16671620155a90982a33cf175b77a943b23",
+    "source_document_root": "5bd8d58ba7bc8b4e4b6b41d1591260b5fce166a4dfc29d7d6cb1822198457304",
+    "compact_document_root": "84d93cb0754992313ff15c842f7fc9a7fe7415c903075d0fd6fb9f92b0020dda",
+    "native_semantics": {
+      "candidate_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "candidates": 4,
+      "execution_digest": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "query_id": 0,
+      "query_sha256": "e876d91b18dca5e85c1837cf1c60c99c638c66802a847e8e7a56b91ddeea0a3e",
+      "ranking": [
+        {
+          "distance": "25768755200",
+          "doc_id": 1
+        },
+        {
+          "distance": "25768755200",
+          "doc_id": 2
+        },
+        {
+          "distance": "27915976712",
+          "doc_id": 0
+        }
+      ],
+      "rerank_tokens": 135,
+      "result_count": 3,
+      "stage_digests": [
+        "52b96de7353d725231c34ca69ec1c23f512184de18a48f1a3e22695686df3d7d",
+        "2653130d2dd989b6ff85e912c49f2193d4dd60e849c0cfc5ff5cd5eae48fdb0c",
+        "d3b604e0400b49f6711957446c49fbe761a4bffc3394eef6e2a3c52d93369061"
+      ]
+    },
+    "material_roots": {
+      "global-h1-r0.json": "f3561b1c28c9aa67d6a87e7cc1e513d53f2a1d9ffc4276039927ecd9c98e59dd",
+      "global-h128-r1.json": "f3bc163648a353f705c3828d3010eee08930f6daa455ee292ac1858b60afdcaa",
+      "global-h1-r1.json": "8b0e0ed31d93333bdb6996a4a08bdb87372853d79680b356f100dc931871fa7d"
+    }
+  },
+  {
+    "path": "/tmp/local/csyhzhou/auth gem relocated",
+    "preparation_binary": "ec5fec8b55f23081c5cd6ea9938c9eff2cbef2c029eb998903fd8da215a75339",
+    "first_visit_binary": "e456be073c19152d5c19ef7ce13eb76e96a3769f0af48005ae189415ee961c1c",
+    "published_index": "bf9c741535fb2e7ca9920e267a246b7f0172da5edfb840f1c00d39b4b804c021",
+    "source_document_root": "5bd8d58ba7bc8b4e4b6b41d1591260b5fce166a4dfc29d7d6cb1822198457304",
+    "compact_document_root": "84d93cb0754992313ff15c842f7fc9a7fe7415c903075d0fd6fb9f92b0020dda",
+    "native_semantics": {
+      "candidate_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "candidates": 4,
+      "execution_digest": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "query_id": 0,
+      "query_sha256": "e876d91b18dca5e85c1837cf1c60c99c638c66802a847e8e7a56b91ddeea0a3e",
+      "ranking": [
+        {
+          "distance": "25768755200",
+          "doc_id": 1
+        },
+        {
+          "distance": "25768755200",
+          "doc_id": 2
+        },
+        {
+          "distance": "27915976712",
+          "doc_id": 0
+        }
+      ],
+      "rerank_tokens": 135,
+      "result_count": 3,
+      "stage_digests": [
+        "52b96de7353d725231c34ca69ec1c23f512184de18a48f1a3e22695686df3d7d",
+        "2653130d2dd989b6ff85e912c49f2193d4dd60e849c0cfc5ff5cd5eae48fdb0c",
+        "d3b604e0400b49f6711957446c49fbe761a4bffc3394eef6e2a3c52d93369061"
+      ]
+    },
+    "material_roots": {
+      "global-h1-r0.json": "f3561b1c28c9aa67d6a87e7cc1e513d53f2a1d9ffc4276039927ecd9c98e59dd",
+      "global-h128-r1.json": "f3bc163648a353f705c3828d3010eee08930f6daa455ee292ac1858b60afdcaa",
+      "global-h1-r1.json": "8b0e0ed31d93333bdb6996a4a08bdb87372853d79680b356f100dc931871fa7d"
+    }
+  }
+]

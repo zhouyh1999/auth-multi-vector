@@ -1,0 +1,17 @@
+[package]
+name = "gem-matrix-proof"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+gem-core = { path = "../gem-core" }
+serde.workspace = true
+rand.workspace = true
+rayon.workspace = true
+curve25519-dalek.workspace = true
+merlin.workspace = true
+bulletproofs = { package = "ipa", path = "../../third_party/ipa" }
+
+serde_json.workspace = true

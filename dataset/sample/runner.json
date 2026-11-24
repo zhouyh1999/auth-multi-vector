@@ -1,0 +1,25 @@
+{
+  "dataset": "sample",
+  "documents": 4,
+  "tokens": 135,
+  "dimension": 128,
+  "max_doc_tokens": 129,
+  "queries": 1,
+  "fine": "fine.npy",
+  "coarse": "coarse.npy",
+  "queries_npy": "queries.npy",
+  "shards": [
+    {
+      "doc_start": 0,
+      "doc_end": 4,
+      "token_start": 0,
+      "raw_path": "raw.npy",
+      "raw_offset": 128,
+      "codes_path": "codes.npy"
+    }
+  ],
+  "graph_dir": ".",
+  "degree_cap": 48,
+  "graph_origin": "CC0 synthetic directed graph",
+  "query_ids": "query_ids.json"
+}

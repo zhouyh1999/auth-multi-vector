@@ -1,0 +1,369 @@
+{
+  "binary": "3d4ceebbd332440fb2859b7ef4bbf9868d5939a28cfd86dff6506e0f639409d3",
+  "cases": [
+    {
+      "case": "version",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "publication",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "request",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "stage",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "merkle",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "invalid Merkle proof",
+      "rejected": true
+    },
+    {
+      "case": "missing_graph",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "invalid manifest",
+      "rejected": true
+    },
+    {
+      "case": "material_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "material_length",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "table",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "raw redundant proof/table",
+      "rejected": true
+    },
+    {
+      "case": "proof",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "result_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "distance",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "order",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "raw",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "version",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "publication",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "request",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "stage",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "merkle",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "invalid Merkle proof",
+      "rejected": true
+    },
+    {
+      "case": "missing_graph",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "invalid manifest",
+      "rejected": true
+    },
+    {
+      "case": "material_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "material_length",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "table",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "VIDA claimed scalar mismatch",
+      "rejected": true
+    },
+    {
+      "case": "proof",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "VIDA proof encoding: FormatError",
+      "rejected": true
+    },
+    {
+      "case": "result_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "distance",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "order",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_per_token",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "version",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "publication",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "request",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "stage",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "merkle",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "invalid Merkle proof",
+      "rejected": true
+    },
+    {
+      "case": "missing_graph",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "invalid manifest",
+      "rejected": true
+    },
+    {
+      "case": "material_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "material_length",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "table",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "VIDA claimed scalar mismatch",
+      "rejected": true
+    },
+    {
+      "case": "proof",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "VIDA proof encoding: FormatError",
+      "rejected": true
+    },
+    {
+      "case": "result_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "distance",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "order",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "vida_batched",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "version",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "publication",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "full envelope",
+      "rejected": true
+    },
+    {
+      "case": "request",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "stage",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "stage request mismatch",
+      "rejected": true
+    },
+    {
+      "case": "merkle",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "invalid Merkle proof",
+      "rejected": true
+    },
+    {
+      "case": "missing_graph",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "invalid manifest",
+      "rejected": true
+    },
+    {
+      "case": "material_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "material_length",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "Merkle root mismatch",
+      "rejected": true
+    },
+    {
+      "case": "table",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "invalid matrix proof: Proof verification failed.",
+      "rejected": true
+    },
+    {
+      "case": "proof",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "invalid matrix proof: Proof data could not be parsed.",
+      "rejected": true
+    },
+    {
+      "case": "result_id",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "distance",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "final results",
+      "rejected": true
+    },
+    {
+      "case": "order",
+      "honest_execution": "9def56139f7f944b5e02a78b901b436a0bcffa507cdac9230a2c68b463230ec8",
+      "policy": "block_fast",
+      "reason": "final results",
+      "rejected": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "path": "analysis/gem-auth-correctness-20261124/verify_frozen_sample.py",
+  "initial_read_sha256": "1c6ec6b2344984fdf6a639466bee64c51bf23f1bbfcb2a92b7c4c1d1982890a7",
+  "final_read_sha256": "f6e7fe31f83e4c339a73d6fe92d3dc98ff5be30bb3d786425d8f2cdcda542ea5",
+  "source_mtime_utc": "2026-11-24T05:23:20Z",
+  "scope": "Read-only local source gained source and raw rerank multiproof checks during the task. Reimported updated oracle and retained independent matrix comparisons. Measured Rust sources and binary are separately attested."
+}
